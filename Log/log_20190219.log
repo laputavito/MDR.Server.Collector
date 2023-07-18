@@ -1,0 +1,142 @@
+[2019-02-19 12:25:41] 배치 Thread 실행
+[2019-02-19 12:25:41] Collector Demon이 시작되었습니다...
+[2019-02-19 12:25:41] Collector Demon이 시작되었습니다...
+[2019-02-19 12:25:43] [ condition query ] qdatetime > $$condition_value$$ [ condition value ] '2019-02-17 11:14:49.0'
+[2019-02-19 12:25:43] [ collect_query ] select ldpa,qdatetime,sender,senderno,sendername,senderdept,act,adatetime,actemail,subj,rcpt,reason,attname from view_mlist WHERE qdatetime > '2019-02-17 11:14:49.0' ORDER BY qdatetime
+[2019-02-19 12:25:43] Data Parsing Start
+[2019-02-19 12:25:43] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:25:46] Collector Demon이 시작되었습니다...
+[2019-02-19 12:25:47] [ condition query ] last_detect_time > $$condition_value$$ [ condition value ] '2019-02-17 11:20:53.123'
+[2019-02-19 12:25:47] [ collect_query ] select info_employee_num,connip,mac,detect_date,first_detect_time,user_key,computer,login_account,maldtc_key,mal_loc,file_type,mal_name,mal_category,engine_type,treat_type,detect_count,dgr_type,file_count,is_changed,last_detect_time from maldtc_info WHERE last_detect_time > '2019-02-17 11:20:53.123' ORDER BY last_detect_time
+[2019-02-19 12:25:47] Data Parsing Start
+[2019-02-19 12:25:47] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:25:50] Collector Demon이 시작되었습니다...
+[2019-02-19 12:25:51] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2019-02-17 11:27:53.545'
+[2019-02-19 12:25:51] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2019-02-17 11:27:53.545' ORDER BY LASTUPDATETIME
+[2019-02-19 12:25:51] Data Parsing Start
+[2019-02-19 12:25:51] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:25:54] Collector Demon이 시작되었습니다...
+[2019-02-19 12:25:54] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2019-02-17 11:27:58.564'
+[2019-02-19 12:25:54] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2019-02-17 11:27:58.564' ORDER BY CLIENTTIME
+[2019-02-19 12:25:54] Data Parsing Start
+[2019-02-19 12:25:54] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:25:54] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2019-02-17 11:28:05.189'
+[2019-02-19 12:25:54] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3virusalertlog WHERE clienttime > '2019-02-17 11:28:05.189' ORDER BY CLIENTTIME
+[2019-02-19 12:25:54] Data Parsing Start
+[2019-02-19 12:25:55] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:25:58] Collector Demon이 시작되었습니다...
+[2019-02-19 12:25:58] [ condition query ] log_date > $$condition_value$$ [ condition value ] '2019-02-17 11:14:43.0'
+[2019-02-19 12:25:58] [ collect_query ] select user_code,log_date,ip,mac_address,user_id,owner_code,content_id,content_code,current_content_name,log_type,log_type_name,purpose,purpose_name,purpose_fail_reason,purpose_fail_reason_name,usage_result from fut_log WHERE log_date > '2019-02-17 11:14:43.0' ORDER BY log_date
+[2019-02-19 12:25:58] Data Parsing Start
+[2019-02-19 12:25:58] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:01] Collector Demon이 시작되었습니다...
+[2019-02-19 12:26:01] [ condition query ] senddate > $$condition_value$$ [ condition value ] '2019-02-17 11:14:52.0'
+[2019-02-19 12:26:01] [ collect_query ] select windowsapplicationseq,userid,processname,senddate,ip,mac,useyn from vwindowsapplicationlog WHERE senddate > '2019-02-17 11:14:52.0' ORDER BY senddate
+[2019-02-19 12:26:01] Data Parsing Start
+[2019-02-19 12:26:01] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:01] [ condition query ] logindate > $$condition_value$$ [ condition value ] '2019-02-17 11:14:51.0'
+[2019-02-19 12:26:01] [ collect_query ] select userid,assetid,username,ip,mac,logindate,installstatus from vuserinfoassetdevice WHERE logindate > '2019-02-17 11:14:51.0' ORDER BY logindate
+[2019-02-19 12:26:01] Data Parsing Start
+[2019-02-19 12:26:01] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:01] [ condition query ] senddate > $$condition_value$$ [ condition value ] '2019-02-17 11:14:48.0'
+[2019-02-19 12:26:01] [ collect_query ] select contentsoutflowlogseq,outflowtype,outflowname,userid,processname,filename,filesize,senddate,ip,mac,useyn from vcontentsoutflowlog WHERE senddate > '2019-02-17 11:14:48.0' ORDER BY senddate
+[2019-02-19 12:26:01] Data Parsing Start
+[2019-02-19 12:26:01] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:04] Collector Demon이 시작되었습니다...
+[2019-02-19 12:26:04] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-17 11:21:06.577'
+[2019-02-19 12:26:04] [ collect_query ] SELECT admin_login_seq, id, ip, login_yn, in_date, reg_dts FROM adminloginlog WHERE reg_dts > '2019-02-17 11:21:06.577' ORDER BY reg_dts
+[2019-02-19 12:26:04] Data Parsing Start
+[2019-02-19 12:26:05] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:05] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-17 11:21:21.543'
+[2019-02-19 12:26:05] [ collect_query ] SELECT cmseq, employeeseq, type, rundate, totalcnt, devicetotalcnt, deviceoriginalcnt, deviceoriginalsize, mailtotalcnt, mailoriginalcnt, mailoriginalsize, messengertotalcnt, messengeroriginalcnt, messengeroriginalsize, ftptotalcnt, ftporiginalcnt, ftporiginalsize, devicetotalcnt1, deviceoriginalcnt1, deviceoriginalsize1 FROM concentrationmonitoringtargetlog WHERE rundate > '2019-02-17 11:21:21.543' ORDER BY rundate
+[2019-02-19 12:26:05] Data Parsing Start
+[2019-02-19 12:26:05] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:05] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-17 11:21:37.81'
+[2019-02-19 12:26:05] [ collect_query ] SELECT logseq, devicecontrolcode, employeeseq, sendseq, processname, filename, filesize, runfile, rundate, integerip, ip, pysicaladdress, pattern, takeoutcode, action, policy, keyword, duplicatefilecnt, regdate FROM devicecontrollog WHERE rundate > '2019-02-17 11:21:37.81' ORDER BY rundate
+[2019-02-19 12:26:05] Data Parsing Start
+[2019-02-19 12:26:05] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:05] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-17 11:21:52.33'
+[2019-02-19 12:26:05] [ collect_query ] SELECT history_no, employee_seq, policy_no, requestseq, policy_string, start_day, end_day, allow_memo, use_yn, mod_dts, mod_no, reg_dts, reg_no, policy_history_no FROM employee_take_out_policy_history WHERE reg_dts > '2019-02-17 11:21:52.33' ORDER BY reg_dts
+[2019-02-19 12:26:05] Data Parsing Start
+[2019-02-19 12:26:05] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:05] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-17 11:22:18.497'
+[2019-02-19 12:26:05] [ collect_query ] SELECT employee_policy_history_no, employee_seq, policy_no, policy_string, use_yn, reg_dts, reg_no, mod_dts, mod_no, policy_history_no FROM employee_watermark_policy_history WHERE reg_dts > '2019-02-17 11:22:18.497' ORDER BY reg_dts
+[2019-02-19 12:26:05] Data Parsing Start
+[2019-02-19 12:26:05] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:05] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-17 11:22:43.803'
+[2019-02-19 12:26:05] [ collect_query ] SELECT logseq, etceteracode, employeeseq, sendseq, inoutcode, processname, sourceintegerip, destinationintegerip, sourceip, destinationip, sourceport, destinationport, rundate, pysicaladdress, sourcefilename, destinationfilename, filepath, filesize, summaryfile, pattern, takeoutcode, action, duplicatefile, keyword, regdate FROM ftplog WHERE rundate > '2019-02-17 11:22:43.803' ORDER BY rundate
+[2019-02-19 12:26:05] Data Parsing Start
+[2019-02-19 12:26:05] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:05] [ condition query ] regdate > $$condition_value$$ [ condition value ] '2019-02-17 11:22:59.657'
+[2019-02-19 12:26:05] [ collect_query ] SELECT logseq, mailcode, employeeseq, sendseq, inoutcode, fromemail, fromintegerip, fromip, mailserverintegerip, mailserverip, subject, currentstate, mailstate, sourceport, destinationport, senddate, filesize, filepath, filename, summaryfile, pysicaladdress, hostseq, attachnum, attachorbody, pattern, sumpattern, toemail, ccemail, bccemail, takeoutcode, keyword, filelogcnt, regdate FROM maillog WHERE regdate > '2019-02-17 11:22:59.657' ORDER BY regdate
+[2019-02-19 12:26:05] Data Parsing Start
+[2019-02-19 12:26:05] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:05] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-17 11:23:14.377'
+[2019-02-19 12:26:05] [ collect_query ] SELECT logseq, messengercode, employeeseq, sendseq, useraccount, buddyaccount, rundate, integerip, ip, pysicaladdress, pattern, takeoutcode, msglogtype, talklogcnt, filelogcnt, regdate FROM messengerlog WHERE rundate > '2019-02-17 11:23:14.377' ORDER BY rundate
+[2019-02-19 12:26:05] Data Parsing Start
+[2019-02-19 12:26:05] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:05] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-17 11:23:31.99'
+[2019-02-19 12:26:05] [ collect_query ] SELECT policy_history_no, history_tp, policy_no, policy_nm, policy_tp, dept_cd, network_process_policy, port_policy, mail_policy, messenger_policy, ftp_policy, ip_change_policy, proxy_server_policy, site_policy, access_point_policy, device_policy, program_policy, watermark_policy, pc_use_log_policy, web_mail_policy, filetakeout_policy, dochistory_policy, vpn_policy, screenshot_policy, alertmessenger_policy, httpmessenge_policy, https_mail_policy, multi_os_policy, vm_install_policy, xp_os_policy, comment, hierarchy, ip, reg_dts, reg_no, flag FROM policy_master_history WHERE reg_dts > '2019-02-17 11:23:31.99' ORDER BY reg_dts
+[2019-02-19 12:26:05] Data Parsing Start
+[2019-02-19 12:26:06] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:06] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-17 11:23:46.963'
+[2019-02-19 12:26:06] [ collect_query ] SELECT logseq, employeeseq, filename, filesize, rundate, integerip, ip, pysicaladdress FROM screenshotlog WHERE rundate > '2019-02-17 11:23:46.963' ORDER BY rundate
+[2019-02-19 12:26:06] Data Parsing Start
+[2019-02-19 12:26:06] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:06] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-17 11:24:00.747'
+[2019-02-19 12:26:06] [ collect_query ] SELECT logseq, policysendcode, employeeseq, ip, pysicaladdress, sendseq, processname, rundate, usbcertpolicycode, idvendor, idproduct, bcddevice, szserial, bloss FROM usbcertlog WHERE rundate > '2019-02-17 11:24:00.747' ORDER BY rundate
+[2019-02-19 12:26:06] Data Parsing Start
+[2019-02-19 12:26:06] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:06] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-17 11:24:14.967'
+[2019-02-19 12:26:06] [ collect_query ] SELECT logseq, employeeseq, sendseq, processname, filename, filesize, runfile, rundate, integerip, ip, pysicaladdress, sourceport, destinationport FROM whiteprocesslog WHERE rundate > '2019-02-17 11:24:14.967' ORDER BY rundate
+[2019-02-19 12:26:06] Data Parsing Start
+[2019-02-19 12:26:06] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:09] Collector Demon이 시작되었습니다...
+[2019-02-19 12:26:09] [ condition query ] event_time > $$condition_value$$ [ condition value ] '2019-02-17 11:14:56.0'
+[2019-02-19 12:26:09] [ collect_query ] select event_time,event_level,op_code,event_type,event_name,more_info,ip_address,mac_address,device_id,user_id,user_name,org_name,admin_id,admin_nm from vwlog_event_last WHERE event_time > '2019-02-17 11:14:56.0' ORDER BY event_time
+[2019-02-19 12:26:09] Data Parsing Start
+[2019-02-19 12:26:09] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:12] Collector Demon이 시작되었습니다...
+[2019-02-19 12:26:12] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-02-17 11:20:34.863'
+[2019-02-19 12:26:12] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-02-17 11:20:34.863' ORDER BY log_time
+[2019-02-19 12:26:12] Data Parsing Start
+[2019-02-19 12:26:12] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:12] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-02-17 11:20:00.907'
+[2019-02-19 12:26:12] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-02-17 11:20:00.907' ORDER BY log_time
+[2019-02-19 12:26:13] Data Parsing Start
+[2019-02-19 12:26:13] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:16] Collector Demon이 시작되었습니다...
+[2019-02-19 12:26:16] [ condition query ] inspectendtime > $$condition_value$$ [ condition value ] '2019-02-17 11:14:44'
+[2019-02-19 12:26:16] [ collect_query ] select userid,username,filename,durationdays,filepath,inspectendtime,encryptfiletype,agentip,computername,resident_no,foregin_no,account_no,credit_no,phone_no,mobile_no from incidentsdiscover WHERE inspectendtime > '2019-02-17 11:14:44' ORDER BY inspectendtime
+[2019-02-19 12:26:16] Data Parsing Start
+[2019-02-19 12:26:16] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:19] Collector Demon이 시작되었습니다...
+[2019-02-19 12:26:19] [ condition query ] regdate > $$condition_value$$ [ condition value ] '2019-02-17 11:14:41.0'
+[2019-02-19 12:26:19] [ collect_query ] select id,filename,regdate,virusdetect,extfakedetect from fileview WHERE regdate > '2019-02-17 11:14:41.0' ORDER BY regdate
+[2019-02-19 12:26:19] Data Parsing Start
+[2019-02-19 12:26:19] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:22] Collector Demon이 시작되었습니다...
+[2019-02-19 12:26:22] [ condition query ] qtime > $$condition_value$$ [ condition value ] '2019-02-17 11:14:46.0'
+[2019-02-19 12:26:22] [ collect_query ] select intno,qname,qtime,ipaddr,sender,rcpt,subj,type,reason,attname,dsize,slaved from v_spamfilter_log WHERE qtime > '2019-02-17 11:14:46.0' ORDER BY qtime
+[2019-02-19 12:26:22] Data Parsing Start
+[2019-02-19 12:26:22] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:25] Collector Demon이 시작되었습니다...
+[2019-02-19 12:26:26] [ condition query ] to_char(JOB_TIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-17 11:01:21'
+[2019-02-19 12:26:26] [ collect_query ] select user_id,user_name,job_type,job_time,usage,scan_to_email from v_job_log WHERE to_char(JOB_TIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-17 11:01:21' ORDER BY JOB_TIME
+[2019-02-19 12:26:26] Data Parsing Start
+[2019-02-19 12:26:26] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:29] Collector Demon이 시작되었습니다...
+[2019-02-19 12:26:29] [ condition query ] to_char(cmd_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-17 11:01:19'
+[2019-02-19 12:26:29] [ collect_query ] select yyyymmdd,hhmmss,connection_key,cmd_num,tnt_cmd,to_char(cmd_time, 'YYYY-MM-DD HH24:MI:SS') as cmd_time,valid_flg,normal_cmd_yn,user_id,user_ip from stg_tnt20 WHERE to_char(cmd_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-17 11:01:19' ORDER BY CMD_TIME
+[2019-02-19 12:26:29] Data Parsing Start
+[2019-02-19 12:26:29] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:29] [ condition query ] to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-17 11:01:17'
+[2019-02-19 12:26:29] [ collect_query ] select yyyymmdd,hhmmss,user_id,user_ip,user_port,to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') as end_time,client_key,client_type,product_type,login_yn,login_code from nad_user30 WHERE to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-17 11:01:17' ORDER BY END_TIME
+[2019-02-19 12:26:29] Data Parsing Start
+[2019-02-19 12:26:30] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:33] Collector Demon이 시작되었습니다...
+[2019-02-19 12:26:33] [ condition query ] logdt > $$condition_value$$ [ condition value ] '2019-02-17 11:20:14.16'
+[2019-02-19 12:26:33] [ collect_query ] select logseq,deviceno,mgmtkey,inouttype,sitekey,filemode,srcfile,filesize,destfile,agentuserid,pcip,pcmac,logdt,instdt from log_deviceuse WHERE logdt > '2019-02-17 11:20:14.16' ORDER BY logdt
+[2019-02-19 12:26:33] Data Parsing Start
+[2019-02-19 12:26:33] Data Insert Stop - Total Count : 1000
+[2019-02-19 12:26:33] Log data collect end.

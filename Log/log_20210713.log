@@ -1,0 +1,1139 @@
+[2021-07-13 13:49:37] 배치 Thread 실행
+[2021-07-13 13:49:37] Collector Demon이 시작되었습니다...
+[2021-07-13 13:49:38] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 13:49:38] Data Parsing Start
+[2021-07-13 13:49:38] Data Insert Stop - Total Count : 3
+[2021-07-13 13:49:38] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 13:49:38] Data Parsing Start
+[2021-07-13 13:49:38] Data Insert Stop - Total Count : 6
+[2021-07-13 13:49:38] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 13:49:38] Data Parsing Start
+[2021-07-13 13:49:38] Data Insert Stop - Total Count : 3
+[2021-07-13 13:49:41] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 13:49:41] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 13:49:41] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:49:45] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 13:49:45] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 13:49:45] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:49:48] Log data collect end.
+[2021-07-13 13:50:29] 배치 Thread 실행
+[2021-07-13 13:50:29] Collector Demon이 시작되었습니다...
+[2021-07-13 13:50:30] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM tgate_user
+[2021-07-13 13:50:30] java.lang.NullPointerException
+[2021-07-13 13:50:33] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 13:50:33] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 13:50:33] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:50:36] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 13:50:36] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 13:50:36] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:50:39] Log data collect end.
+[2021-07-13 13:50:42] 배치 Thread 실행
+[2021-07-13 13:50:42] Collector Demon이 시작되었습니다...
+[2021-07-13 13:50:43] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 13:50:43] Data Parsing Start
+[2021-07-13 13:50:43] Data Insert Stop - Total Count : 3
+[2021-07-13 13:50:43] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 13:50:43] Data Parsing Start
+[2021-07-13 13:50:43] Data Insert Stop - Total Count : 6
+[2021-07-13 13:50:43] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 13:50:43] Data Parsing Start
+[2021-07-13 13:50:43] Data Insert Stop - Total Count : 3
+[2021-07-13 13:50:46] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 13:50:46] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 13:50:46] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:50:49] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 13:50:49] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 13:50:49] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:50:52] Log data collect end.
+[2021-07-13 13:51:06] 배치 Thread 실행
+[2021-07-13 13:51:06] Collector Demon이 시작되었습니다...
+[2021-07-13 13:51:07] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 13:51:07] Data Parsing Start
+[2021-07-13 13:51:07] Data Insert Stop - Total Count : 3
+[2021-07-13 13:51:07] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 13:51:07] Data Parsing Start
+[2021-07-13 13:51:07] Data Insert Stop - Total Count : 6
+[2021-07-13 13:51:07] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 13:51:07] Data Parsing Start
+[2021-07-13 13:51:07] Data Insert Stop - Total Count : 3
+[2021-07-13 13:51:10] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 13:51:10] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 13:51:10] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:51:13] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 13:51:13] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 13:51:13] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:51:16] Log data collect end.
+[2021-07-13 13:51:16] 배치 Thread 실행
+[2021-07-13 13:51:16] Collector Demon이 시작되었습니다...
+[2021-07-13 13:51:17] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 13:51:17] Data Parsing Start
+[2021-07-13 13:51:17] Data Insert Stop - Total Count : 3
+[2021-07-13 13:51:17] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 13:51:17] Data Parsing Start
+[2021-07-13 13:51:17] Data Insert Stop - Total Count : 6
+[2021-07-13 13:51:17] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 13:51:17] Data Parsing Start
+[2021-07-13 13:51:17] Data Insert Stop - Total Count : 3
+[2021-07-13 13:51:20] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 13:51:20] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 13:51:20] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:51:23] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 13:51:23] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 13:51:23] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:51:26] Log data collect end.
+[2021-07-13 13:51:33] 배치 Thread 실행
+[2021-07-13 13:51:33] Collector Demon이 시작되었습니다...
+[2021-07-13 13:51:34] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 13:51:34] Data Parsing Start
+[2021-07-13 13:51:34] Data Insert Stop - Total Count : 3
+[2021-07-13 13:51:34] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 13:51:34] Data Parsing Start
+[2021-07-13 13:51:34] Data Insert Stop - Total Count : 6
+[2021-07-13 13:51:34] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 13:51:34] Data Parsing Start
+[2021-07-13 13:51:34] Data Insert Stop - Total Count : 3
+[2021-07-13 13:51:37] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 13:51:37] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 13:51:37] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:51:40] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 13:51:40] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 13:51:40] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:51:43] Log data collect end.
+[2021-07-13 13:51:44] 배치 Thread 실행
+[2021-07-13 13:51:44] Collector Demon이 시작되었습니다...
+[2021-07-13 13:51:45] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 13:51:45] Data Parsing Start
+[2021-07-13 13:51:45] Data Insert Stop - Total Count : 3
+[2021-07-13 13:51:45] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 13:51:45] Data Parsing Start
+[2021-07-13 13:51:45] Data Insert Stop - Total Count : 6
+[2021-07-13 13:51:45] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 13:51:45] Data Parsing Start
+[2021-07-13 13:51:45] Data Insert Stop - Total Count : 3
+[2021-07-13 13:51:48] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 13:51:48] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 13:51:48] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:51:51] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 13:51:51] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 13:51:51] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:51:54] Log data collect end.
+[2021-07-13 13:52:09] 배치 Thread 실행
+[2021-07-13 13:52:09] Collector Demon이 시작되었습니다...
+[2021-07-13 13:52:10] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 13:52:10] Data Parsing Start
+[2021-07-13 13:52:10] Data Insert Stop - Total Count : 3
+[2021-07-13 13:52:10] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 13:52:10] Data Parsing Start
+[2021-07-13 13:52:10] Data Insert Stop - Total Count : 6
+[2021-07-13 13:52:10] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 13:52:10] Data Parsing Start
+[2021-07-13 13:52:10] Data Insert Stop - Total Count : 3
+[2021-07-13 13:52:13] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 13:52:13] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 13:52:13] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:52:16] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 13:52:16] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 13:52:16] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 13:52:19] Log data collect end.
+[2021-07-13 14:16:23] 배치 Thread 실행
+[2021-07-13 14:16:23] Collector Demon이 시작되었습니다...
+[2021-07-13 14:16:25] sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.Util.getInstance(Util.java:387)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2330)
+com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:16:28] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:16:28] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:16:28] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:16:31] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:16:31] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:16:31] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:16:34] Log data collect end.
+[2021-07-13 14:16:38] 배치 Thread 실행
+[2021-07-13 14:16:38] Collector Demon이 시작되었습니다...
+[2021-07-13 14:16:38] sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.Util.getInstance(Util.java:387)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2330)
+com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:16:41] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:16:41] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:16:41] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:16:45] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:16:45] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:16:45] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:16:48] Log data collect end.
+[2021-07-13 14:17:08] 배치 Thread 실행
+[2021-07-13 14:17:08] Collector Demon이 시작되었습니다...
+[2021-07-13 14:17:09] sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.Util.getInstance(Util.java:387)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2330)
+com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:17:12] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:17:12] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:17:12] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:17:15] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:17:15] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:17:15] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:17:18] Log data collect end.
+[2021-07-13 14:17:41] 배치 Thread 실행
+[2021-07-13 14:17:41] Collector Demon이 시작되었습니다...
+[2021-07-13 14:17:41] sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.Util.getInstance(Util.java:387)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2330)
+com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:17:45] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:17:45] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:17:45] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:17:48] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:17:48] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:17:48] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:17:51] Log data collect end.
+[2021-07-13 14:18:11] 배치 Thread 실행
+[2021-07-13 14:18:11] Collector Demon이 시작되었습니다...
+[2021-07-13 14:18:11] sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.Util.getInstance(Util.java:387)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2330)
+com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:18:14] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:18:14] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:18:14] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:18:18] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:18:18] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:18:18] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:18:21] Log data collect end.
+[2021-07-13 14:20:17] 배치 Thread 실행
+[2021-07-13 14:20:17] Collector Demon이 시작되었습니다...
+[2021-07-13 14:20:17] sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.Util.getInstance(Util.java:387)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2330)
+com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:20:20] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:20:20] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:20:20] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:20:24] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:20:24] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:20:24] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:20:27] Log data collect end.
+[2021-07-13 14:20:42] 배치 Thread 실행
+[2021-07-13 14:20:42] Collector Demon이 시작되었습니다...
+[2021-07-13 14:20:43] sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.Util.getInstance(Util.java:387)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2330)
+com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:20:46] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:20:46] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:20:46] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:20:49] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:20:49] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:20:49] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:20:52] Log data collect end.
+[2021-07-13 14:23:20] 배치 Thread 실행
+[2021-07-13 14:23:20] Collector Demon이 시작되었습니다...
+[2021-07-13 14:23:21] sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.Util.getInstance(Util.java:387)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2330)
+com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:23:24] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:23:24] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:23:24] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:23:27] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:23:27] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:23:27] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:23:30] Log data collect end.
+[2021-07-13 14:25:04] 배치 Thread 실행
+[2021-07-13 14:25:04] Collector Demon이 시작되었습니다...
+[2021-07-13 14:25:06] sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.Util.getInstance(Util.java:387)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2330)
+com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:25:09] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:25:09] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:25:09] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:25:11] 배치 Thread 실행
+[2021-07-13 14:25:11] Collector Demon이 시작되었습니다...
+[2021-07-13 14:25:12] sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.Util.getInstance(Util.java:387)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2330)
+com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:25:12] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:25:12] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:25:12] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:25:15] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:25:15] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:25:15] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:25:15] Log data collect end.
+[2021-07-13 14:25:18] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:25:18] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:25:18] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:25:21] Log data collect end.
+[2021-07-13 14:28:41] 배치 Thread 실행
+[2021-07-13 14:28:41] Collector Demon이 시작되었습니다...
+[2021-07-13 14:28:41] com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:28:44] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:28:44] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:28:44] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:28:48] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:28:48] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:28:48] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:28:51] Log data collect end.
+[2021-07-13 14:29:32] 배치 Thread 실행
+[2021-07-13 14:29:32] Collector Demon이 시작되었습니다...
+[2021-07-13 14:29:33] com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:29:36] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:29:36] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:29:36] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:29:39] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:29:39] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:29:39] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:29:42] Log data collect end.
+[2021-07-13 14:34:35] 배치 Thread 실행
+[2021-07-13 14:34:35] Collector Demon이 시작되었습니다...
+[2021-07-13 14:34:35] com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:34:38] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:34:38] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:34:38] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:34:41] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:34:41] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:34:41] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:34:44] Log data collect end.
+[2021-07-13 14:35:34] 배치 Thread 실행
+[2021-07-13 14:35:34] Collector Demon이 시작되었습니다...
+[2021-07-13 14:35:35] com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 14:35:38] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:35:38] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:35:38] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:35:41] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:35:41] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:35:41] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:35:44] Log data collect end.
+[2021-07-13 14:37:00] 배치 Thread 실행
+[2021-07-13 14:37:00] Collector Demon이 시작되었습니다...
+[2021-07-13 14:37:01] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 14:37:01] Data Parsing Start
+[2021-07-13 14:37:01] Data Insert Stop - Total Count : 3
+[2021-07-13 14:37:01] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 14:37:01] Data Parsing Start
+[2021-07-13 14:37:01] Data Insert Stop - Total Count : 6
+[2021-07-13 14:37:01] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 14:37:01] Data Parsing Start
+[2021-07-13 14:37:01] Data Insert Stop - Total Count : 3
+[2021-07-13 14:37:04] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 14:37:04] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-13 14:37:04] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:37:07] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 14:37:07] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-13 14:37:07] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 14:37:10] Log data collect end.
+[2021-07-13 15:52:09] 배치 Thread 실행
+[2021-07-13 15:52:09] Collector Demon이 시작되었습니다...
+[2021-07-13 15:52:10] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 15:52:10] Data Parsing Start
+[2021-07-13 15:52:10] Data Insert Stop - Total Count : 3
+[2021-07-13 15:52:10] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 15:52:10] Data Parsing Start
+[2021-07-13 15:52:10] Data Insert Stop - Total Count : 6
+[2021-07-13 15:52:10] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 15:52:10] Data Parsing Start
+[2021-07-13 15:52:10] Data Insert Stop - Total Count : 3
+[2021-07-13 15:52:14] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 15:52:14] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 15:52:14] java.lang.NullPointerException
+[2021-07-13 15:52:17] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:463)
+com.ibm.db2.jcc.t4.z.u(z.java:1942)
+com.ibm.db2.jcc.t4.z.n(z.java:667)
+com.ibm.db2.jcc.t4.z.a(z.java:474)
+com.ibm.db2.jcc.t4.z.a(z.java:123)
+com.ibm.db2.jcc.t4.b.c(b.java:1427)
+com.ibm.db2.jcc.t4.b.b(b.java:1298)
+com.ibm.db2.jcc.t4.b.b(b.java:849)
+com.ibm.db2.jcc.t4.b.a(b.java:820)
+com.ibm.db2.jcc.t4.b.a(b.java:441)
+com.ibm.db2.jcc.t4.b.a(b.java:414)
+com.ibm.db2.jcc.t4.b.<init>(b.java:352)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:81)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 15:52:20] Log data collect end.
+[2021-07-13 15:53:43] 배치 Thread 실행
+[2021-07-13 15:53:43] Collector Demon이 시작되었습니다...
+[2021-07-13 15:53:44] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 15:53:44] Data Parsing Start
+[2021-07-13 15:53:44] Data Insert Stop - Total Count : 3
+[2021-07-13 15:53:44] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 15:53:44] Data Parsing Start
+[2021-07-13 15:53:44] Data Insert Stop - Total Count : 6
+[2021-07-13 15:53:44] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 15:53:44] Data Parsing Start
+[2021-07-13 15:53:44] Data Insert Stop - Total Count : 3
+[2021-07-13 15:53:48] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 15:53:48] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 15:53:48] java.lang.NullPointerException
+[2021-07-13 15:53:51] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:463)
+com.ibm.db2.jcc.t4.z.u(z.java:1942)
+com.ibm.db2.jcc.t4.z.n(z.java:667)
+com.ibm.db2.jcc.t4.z.a(z.java:474)
+com.ibm.db2.jcc.t4.z.a(z.java:123)
+com.ibm.db2.jcc.t4.b.c(b.java:1427)
+com.ibm.db2.jcc.t4.b.b(b.java:1298)
+com.ibm.db2.jcc.t4.b.b(b.java:849)
+com.ibm.db2.jcc.t4.b.a(b.java:820)
+com.ibm.db2.jcc.t4.b.a(b.java:441)
+com.ibm.db2.jcc.t4.b.a(b.java:414)
+com.ibm.db2.jcc.t4.b.<init>(b.java:352)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:81)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 15:53:54] Log data collect end.
+[2021-07-13 15:54:39] 배치 Thread 실행
+[2021-07-13 15:54:39] Collector Demon이 시작되었습니다...
+[2021-07-13 15:54:39] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 15:54:39] Data Parsing Start
+[2021-07-13 15:54:39] Data Insert Stop - Total Count : 3
+[2021-07-13 15:54:39] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 15:54:39] Data Parsing Start
+[2021-07-13 15:54:39] Data Insert Stop - Total Count : 6
+[2021-07-13 15:54:39] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 15:54:39] Data Parsing Start
+[2021-07-13 15:54:39] Data Insert Stop - Total Count : 3
+[2021-07-13 15:54:43] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 15:54:43] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 15:54:43] java.lang.NullPointerException
+[2021-07-13 15:54:46] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:463)
+com.ibm.db2.jcc.t4.z.u(z.java:1942)
+com.ibm.db2.jcc.t4.z.n(z.java:667)
+com.ibm.db2.jcc.t4.z.a(z.java:474)
+com.ibm.db2.jcc.t4.z.a(z.java:123)
+com.ibm.db2.jcc.t4.b.c(b.java:1427)
+com.ibm.db2.jcc.t4.b.b(b.java:1298)
+com.ibm.db2.jcc.t4.b.b(b.java:849)
+com.ibm.db2.jcc.t4.b.a(b.java:820)
+com.ibm.db2.jcc.t4.b.a(b.java:441)
+com.ibm.db2.jcc.t4.b.a(b.java:414)
+com.ibm.db2.jcc.t4.b.<init>(b.java:352)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:81)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 15:54:49] Log data collect end.
+[2021-07-13 16:02:47] 배치 Thread 실행
+[2021-07-13 16:02:47] Collector Demon이 시작되었습니다...
+[2021-07-13 16:02:48] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:02:48] Data Parsing Start
+[2021-07-13 16:02:48] Data Insert Stop - Total Count : 3
+[2021-07-13 16:02:48] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:02:48] Data Parsing Start
+[2021-07-13 16:02:48] Data Insert Stop - Total Count : 6
+[2021-07-13 16:02:48] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:02:48] Data Parsing Start
+[2021-07-13 16:02:48] Data Insert Stop - Total Count : 3
+[2021-07-13 16:02:52] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 16:02:52] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 16:02:52] java.lang.NullPointerException
+[2021-07-13 16:02:55] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:463)
+com.ibm.db2.jcc.t4.z.u(z.java:1942)
+com.ibm.db2.jcc.t4.z.n(z.java:667)
+com.ibm.db2.jcc.t4.z.a(z.java:474)
+com.ibm.db2.jcc.t4.z.a(z.java:123)
+com.ibm.db2.jcc.t4.b.c(b.java:1427)
+com.ibm.db2.jcc.t4.b.b(b.java:1298)
+com.ibm.db2.jcc.t4.b.b(b.java:849)
+com.ibm.db2.jcc.t4.b.a(b.java:820)
+com.ibm.db2.jcc.t4.b.a(b.java:441)
+com.ibm.db2.jcc.t4.b.a(b.java:414)
+com.ibm.db2.jcc.t4.b.<init>(b.java:352)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:81)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 16:02:58] Log data collect end.
+[2021-07-13 16:04:17] 배치 Thread 실행
+[2021-07-13 16:04:17] Collector Demon이 시작되었습니다...
+[2021-07-13 16:04:18] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:04:18] Data Parsing Start
+[2021-07-13 16:04:18] Data Insert Stop - Total Count : 3
+[2021-07-13 16:04:18] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:04:18] Data Parsing Start
+[2021-07-13 16:04:18] Data Insert Stop - Total Count : 6
+[2021-07-13 16:04:18] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:04:18] Data Parsing Start
+[2021-07-13 16:04:18] Data Insert Stop - Total Count : 3
+[2021-07-13 16:04:22] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 16:04:22] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 16:04:22] java.lang.NullPointerException
+[2021-07-13 16:04:25] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:463)
+com.ibm.db2.jcc.t4.z.u(z.java:1942)
+com.ibm.db2.jcc.t4.z.n(z.java:667)
+com.ibm.db2.jcc.t4.z.a(z.java:474)
+com.ibm.db2.jcc.t4.z.a(z.java:123)
+com.ibm.db2.jcc.t4.b.c(b.java:1427)
+com.ibm.db2.jcc.t4.b.b(b.java:1298)
+com.ibm.db2.jcc.t4.b.b(b.java:849)
+com.ibm.db2.jcc.t4.b.a(b.java:820)
+com.ibm.db2.jcc.t4.b.a(b.java:441)
+com.ibm.db2.jcc.t4.b.a(b.java:414)
+com.ibm.db2.jcc.t4.b.<init>(b.java:352)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:81)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 16:04:28] Log data collect end.
+[2021-07-13 16:05:29] 배치 Thread 실행
+[2021-07-13 16:05:29] Collector Demon이 시작되었습니다...
+[2021-07-13 16:05:29] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:05:29] Data Parsing Start
+[2021-07-13 16:05:29] Data Insert Stop - Total Count : 3
+[2021-07-13 16:05:29] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:05:29] Data Parsing Start
+[2021-07-13 16:05:29] Data Insert Stop - Total Count : 6
+[2021-07-13 16:05:29] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:05:29] Data Parsing Start
+[2021-07-13 16:05:29] Data Insert Stop - Total Count : 3
+[2021-07-13 16:05:33] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 16:05:33] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 16:05:33] java.lang.NullPointerException
+[2021-07-13 16:05:36] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:463)
+com.ibm.db2.jcc.t4.z.u(z.java:1942)
+com.ibm.db2.jcc.t4.z.n(z.java:667)
+com.ibm.db2.jcc.t4.z.a(z.java:474)
+com.ibm.db2.jcc.t4.z.a(z.java:123)
+com.ibm.db2.jcc.t4.b.c(b.java:1427)
+com.ibm.db2.jcc.t4.b.b(b.java:1298)
+com.ibm.db2.jcc.t4.b.b(b.java:849)
+com.ibm.db2.jcc.t4.b.a(b.java:820)
+com.ibm.db2.jcc.t4.b.a(b.java:441)
+com.ibm.db2.jcc.t4.b.a(b.java:414)
+com.ibm.db2.jcc.t4.b.<init>(b.java:352)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(DriverManager.java:664)
+java.sql.DriverManager.getConnection(DriverManager.java:247)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:81)
+java.lang.Thread.run(Thread.java:748)
+
+[2021-07-13 16:05:39] Log data collect end.
+[2021-07-13 16:06:20] 배치 Thread 실행
+[2021-07-13 16:06:20] Collector Demon이 시작되었습니다...
+[2021-07-13 16:06:21] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:06:21] Data Parsing Start
+[2021-07-13 16:06:21] Data Insert Stop - Total Count : 3
+[2021-07-13 16:06:21] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:06:21] Data Parsing Start
+[2021-07-13 16:06:21] Data Insert Stop - Total Count : 6
+[2021-07-13 16:06:21] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:06:21] Data Parsing Start
+[2021-07-13 16:06:21] Data Insert Stop - Total Count : 3
+[2021-07-13 16:06:25] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 16:06:25] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 16:06:25] java.lang.NullPointerException
+[2021-07-13 16:06:28] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-07-12'
+[2021-07-13 16:06:28] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2021-07-12' ORDER BY CLIENTTIME
+[2021-07-13 16:06:28] java.lang.NullPointerException
+[2021-07-13 16:06:31] Log data collect end.
+[2021-07-13 16:14:09] 배치 Thread 실행
+[2021-07-13 16:14:09] Collector Demon이 시작되었습니다...
+[2021-07-13 16:14:09] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:14:09] Data Parsing Start
+[2021-07-13 16:14:09] Data Insert Stop - Total Count : 3
+[2021-07-13 16:14:09] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:14:09] Data Parsing Start
+[2021-07-13 16:14:09] Data Insert Stop - Total Count : 6
+[2021-07-13 16:14:09] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:14:09] Data Parsing Start
+[2021-07-13 16:14:10] Data Insert Stop - Total Count : 3
+[2021-07-13 16:14:13] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 16:14:13] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 16:14:13] java.lang.NullPointerException
+[2021-07-13 16:14:16] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-07-12'
+[2021-07-13 16:14:16] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2021-07-12' ORDER BY CLIENTTIME
+[2021-07-13 16:14:16] java.lang.NullPointerException
+[2021-07-13 16:14:19] Log data collect end.
+[2021-07-13 16:18:44] 배치 Thread 실행
+[2021-07-13 16:18:45] Collector Demon이 시작되었습니다...
+[2021-07-13 16:18:45] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:18:45] Data Parsing Start
+[2021-07-13 16:18:45] Data Insert Stop - Total Count : 3
+[2021-07-13 16:18:45] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:18:45] Data Parsing Start
+[2021-07-13 16:18:45] Data Insert Stop - Total Count : 6
+[2021-07-13 16:18:45] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:18:45] Data Parsing Start
+[2021-07-13 16:18:45] Data Insert Stop - Total Count : 3
+[2021-07-13 16:18:49] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 16:18:49] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 16:18:49] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 16:18:52] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-07-12'
+[2021-07-13 16:18:52] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2021-07-12' ORDER BY CLIENTTIME
+[2021-07-13 16:18:52] java.lang.NullPointerException
+[2021-07-13 16:18:55] Log data collect end.
+[2021-07-13 16:19:53] 배치 Thread 실행
+[2021-07-13 16:19:53] Collector Demon이 시작되었습니다...
+[2021-07-13 16:19:54] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:19:54] Data Parsing Start
+[2021-07-13 16:19:54] Data Insert Stop - Total Count : 3
+[2021-07-13 16:19:54] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:19:54] Data Parsing Start
+[2021-07-13 16:19:54] Data Insert Stop - Total Count : 6
+[2021-07-13 16:19:54] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:19:54] Data Parsing Start
+[2021-07-13 16:19:54] Data Insert Stop - Total Count : 3
+[2021-07-13 16:19:58] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 16:19:58] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 16:19:58] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 16:20:01] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-07-12'
+[2021-07-13 16:20:01] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2021-07-12' ORDER BY CLIENTTIME
+[2021-07-13 16:20:01] java.lang.NullPointerException
+[2021-07-13 16:20:04] Log data collect end.
+[2021-07-13 16:21:57] 배치 Thread 실행
+[2021-07-13 16:21:57] Collector Demon이 시작되었습니다...
+[2021-07-13 16:21:58] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:21:58] Data Parsing Start
+[2021-07-13 16:21:58] Data Insert Stop - Total Count : 3
+[2021-07-13 16:21:58] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:21:58] Data Parsing Start
+[2021-07-13 16:21:58] Data Insert Stop - Total Count : 6
+[2021-07-13 16:21:58] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:21:58] Data Parsing Start
+[2021-07-13 16:21:58] Data Insert Stop - Total Count : 3
+[2021-07-13 16:22:01] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-13 16:22:01] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-06-13 14:22:06' ORDER BY LASTUPDATETIME
+[2021-07-13 16:22:01] Data Parsing Start
+[2021-07-13 16:22:01] Data Insert Stop - Total Count : 2
+[2021-07-13 16:22:05] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-07-12'
+[2021-07-13 16:22:05] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2021-07-12' ORDER BY CLIENTTIME
+[2021-07-13 16:22:05] java.lang.NullPointerException
+[2021-07-13 16:22:08] Log data collect end.
+[2021-07-13 16:23:27] 배치 Thread 실행
+[2021-07-13 16:23:27] Collector Demon이 시작되었습니다...
+[2021-07-13 16:23:28] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:23:28] Data Parsing Start
+[2021-07-13 16:23:28] Data Insert Stop - Total Count : 3
+[2021-07-13 16:23:28] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:23:28] Data Parsing Start
+[2021-07-13 16:23:28] Data Insert Stop - Total Count : 6
+[2021-07-13 16:23:28] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:23:28] Data Parsing Start
+[2021-07-13 16:23:28] Data Insert Stop - Total Count : 3
+[2021-07-13 16:23:32] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-07-12 14:22:06.0'
+[2021-07-13 16:23:32] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-07-12 14:22:06.0' ORDER BY LASTUPDATETIME
+[2021-07-13 16:23:32] java.lang.NullPointerException
+[2021-07-13 16:23:35] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-07-12'
+[2021-07-13 16:23:35] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2021-07-12' ORDER BY CLIENTTIME
+[2021-07-13 16:23:35] java.lang.NullPointerException
+[2021-07-13 16:23:38] Log data collect end.
+[2021-07-13 16:26:00] 배치 Thread 실행
+[2021-07-13 16:26:00] Collector Demon이 시작되었습니다...
+[2021-07-13 16:26:00] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:26:00] Data Parsing Start
+[2021-07-13 16:26:01] Data Insert Stop - Total Count : 3
+[2021-07-13 16:26:01] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:26:01] Data Parsing Start
+[2021-07-13 16:26:01] Data Insert Stop - Total Count : 6
+[2021-07-13 16:26:01] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:26:01] Data Parsing Start
+[2021-07-13 16:26:01] Data Insert Stop - Total Count : 3
+[2021-07-13 16:26:04] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-07-12 14:22:06.0'
+[2021-07-13 16:26:04] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-07-12 14:22:06.0' ORDER BY LASTUPDATETIME
+[2021-07-13 16:26:04] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 16:26:07] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-07-12'
+[2021-07-13 16:26:07] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2021-07-12' ORDER BY CLIENTTIME
+[2021-07-13 16:26:07] java.lang.NullPointerException
+[2021-07-13 16:26:10] Log data collect end.
+[2021-07-13 16:26:52] 배치 Thread 실행
+[2021-07-13 16:26:52] Collector Demon이 시작되었습니다...
+[2021-07-13 16:26:53] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:26:53] Data Parsing Start
+[2021-07-13 16:26:53] Data Insert Stop - Total Count : 3
+[2021-07-13 16:26:53] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:26:53] Data Parsing Start
+[2021-07-13 16:26:53] Data Insert Stop - Total Count : 6
+[2021-07-13 16:26:53] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:26:53] Data Parsing Start
+[2021-07-13 16:26:53] Data Insert Stop - Total Count : 3
+[2021-07-13 16:26:57] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-07-12 14:22:06.0'
+[2021-07-13 16:26:57] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-07-12 14:22:06.0' ORDER BY LASTUPDATETIME
+[2021-07-13 16:26:57] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 16:27:00] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 16:27:00] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY CLIENTTIME
+[2021-07-13 16:27:00] java.lang.NullPointerException
+[2021-07-13 16:27:03] Log data collect end.
+[2021-07-13 16:27:48] 배치 Thread 실행
+[2021-07-13 16:27:48] Collector Demon이 시작되었습니다...
+[2021-07-13 16:27:49] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:27:49] Data Parsing Start
+[2021-07-13 16:27:49] Data Insert Stop - Total Count : 3
+[2021-07-13 16:27:49] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:27:49] Data Parsing Start
+[2021-07-13 16:27:49] Data Insert Stop - Total Count : 6
+[2021-07-13 16:27:49] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:27:49] Data Parsing Start
+[2021-07-13 16:27:49] Data Insert Stop - Total Count : 3
+[2021-07-13 16:27:53] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-07-12 14:22:06.0'
+[2021-07-13 16:27:53] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-07-12 14:22:06.0' ORDER BY LASTUPDATETIME
+[2021-07-13 16:27:53] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 16:27:56] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 16:27:56] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY CLIENTTIME
+[2021-07-13 16:27:56] java.lang.NullPointerException
+[2021-07-13 16:27:59] Log data collect end.
+[2021-07-13 16:29:06] 배치 Thread 실행
+[2021-07-13 16:29:06] Collector Demon이 시작되었습니다...
+[2021-07-13 16:29:07] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:29:07] Data Parsing Start
+[2021-07-13 16:29:07] Data Insert Stop - Total Count : 3
+[2021-07-13 16:29:07] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:29:07] Data Parsing Start
+[2021-07-13 16:29:07] Data Insert Stop - Total Count : 6
+[2021-07-13 16:29:07] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:29:07] Data Parsing Start
+[2021-07-13 16:29:07] Data Insert Stop - Total Count : 3
+[2021-07-13 16:29:11] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-07-12 14:22:06.0'
+[2021-07-13 16:29:11] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-07-12 14:22:06.0' ORDER BY LASTUPDATETIME
+[2021-07-13 16:29:11] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 16:29:14] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 16:29:14] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY CLIENTTIME
+[2021-07-13 16:29:14] java.lang.NullPointerException
+[2021-07-13 16:29:17] Log data collect end.
+[2021-07-13 16:30:59] 배치 Thread 실행
+[2021-07-13 16:30:59] Collector Demon이 시작되었습니다...
+[2021-07-13 16:31:00] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:31:00] Data Parsing Start
+[2021-07-13 16:31:00] Data Insert Stop - Total Count : 3
+[2021-07-13 16:31:00] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:31:00] Data Parsing Start
+[2021-07-13 16:31:00] Data Insert Stop - Total Count : 6
+[2021-07-13 16:31:00] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:31:00] Data Parsing Start
+[2021-07-13 16:31:00] Data Insert Stop - Total Count : 3
+[2021-07-13 16:31:04] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-07-12 14:22:06.0'
+[2021-07-13 16:31:04] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-07-12 14:22:06.0' ORDER BY LASTUPDATETIME
+[2021-07-13 16:31:04] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 16:31:07] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 16:31:07] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY CLIENTTIME
+[2021-07-13 16:31:07] java.lang.NullPointerException
+[2021-07-13 16:31:10] Log data collect end.
+[2021-07-13 16:31:42] 배치 Thread 실행
+[2021-07-13 16:31:42] Collector Demon이 시작되었습니다...
+[2021-07-13 16:31:43] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:31:43] Data Parsing Start
+[2021-07-13 16:31:43] Data Insert Stop - Total Count : 3
+[2021-07-13 16:31:43] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:31:43] Data Parsing Start
+[2021-07-13 16:31:43] Data Insert Stop - Total Count : 6
+[2021-07-13 16:31:43] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:31:43] Data Parsing Start
+[2021-07-13 16:31:43] Data Insert Stop - Total Count : 3
+[2021-07-13 16:31:46] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-07-12 14:22:06.0'
+[2021-07-13 16:31:46] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-07-12 14:22:06.0' ORDER BY LASTUPDATETIME
+[2021-07-13 16:31:46] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 16:31:50] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-13 16:31:50] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY CLIENTTIME
+[2021-07-13 16:31:50] Data Parsing Start
+[2021-07-13 16:31:50] Data Insert Stop - Total Count : 2
+[2021-07-13 16:31:53] Log data collect end.
+[2021-07-13 16:39:30] 배치 Thread 실행
+[2021-07-13 16:39:30] Collector Demon이 시작되었습니다...
+[2021-07-13 16:39:31] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-13 16:39:31] Data Parsing Start
+[2021-07-13 16:39:31] Data Insert Stop - Total Count : 3
+[2021-07-13 16:39:31] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-13 16:39:31] Data Parsing Start
+[2021-07-13 16:39:31] Data Insert Stop - Total Count : 6
+[2021-07-13 16:39:31] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-13 16:39:31] Data Parsing Start
+[2021-07-13 16:39:31] Data Insert Stop - Total Count : 3
+[2021-07-13 16:39:34] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2021-07-12 14:22:06.0'
+[2021-07-13 16:39:34] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2021-07-12 14:22:06.0' ORDER BY LASTUPDATETIME
+[2021-07-13 16:39:34] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 16:39:38] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-07-12 18:04:26.0'
+[2021-07-13 16:39:38] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-07-12 18:04:26.0' ORDER BY CLIENTTIME
+[2021-07-13 16:39:38] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-13 16:39:41] Log data collect end.

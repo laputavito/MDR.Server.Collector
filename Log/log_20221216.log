@@ -1,0 +1,25 @@
+[2022-12-16 18:09:28] 배치 Thread 실행
+[2022-12-16 18:09:28] Collector Demon이 시작되었습니다...
+[2022-12-16 18:09:29] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-16 18:09:29] Data Parsing Start
+[2022-12-16 18:09:29] Data Insert Stop - Total Count : 3
+[2022-12-16 18:09:29] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-16 18:09:29] Data Parsing Start
+[2022-12-16 18:09:29] Data Insert Stop - Total Count : 6
+[2022-12-16 18:09:29] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-16 18:09:29] Data Parsing Start
+[2022-12-16 18:09:29] Data Insert Stop - Total Count : 3
+[2022-12-16 18:09:35] org.postgresql.util.PSQLException: 오류: "org_group_1" 이름의 릴레이션(relation)이 없습니다
+  Position: 22
+[2022-12-16 18:10:07] 배치 Thread 실행
+[2022-12-16 18:10:07] Collector Demon이 시작되었습니다...
+[2022-12-16 18:10:08] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-16 18:10:08] Data Parsing Start
+[2022-12-16 18:10:08] Data Insert Stop - Total Count : 3
+[2022-12-16 18:10:08] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-16 18:10:08] Data Parsing Start
+[2022-12-16 18:10:08] Data Insert Stop - Total Count : 6
+[2022-12-16 18:10:08] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-16 18:10:08] Data Parsing Start
+[2022-12-16 18:10:08] Data Insert Stop - Total Count : 3
+[2022-12-16 18:10:11] Log data collect end.

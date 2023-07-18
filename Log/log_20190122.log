@@ -1,0 +1,123 @@
+[2019-01-22 19:35:46] 배치 Thread 실행
+[2019-01-22 19:37:11] 배치 Thread 실행
+[2019-01-22 19:37:11] Collector Demon이 시작되었습니다...
+[2019-01-22 19:37:12] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 19:37:12] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-01-21' ORDER BY log_time
+[2019-01-22 19:37:17] Data Parsing Start
+[2019-01-22 19:37:29] Data Insert Stop - Total Count : 103000
+[2019-01-22 19:37:29] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 19:37:29] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-01-21' ORDER BY log_time
+[2019-01-22 19:37:29] Data Parsing Start
+[2019-01-22 19:37:30] Data Insert Stop - Total Count : 3000
+[2019-01-22 19:44:58] 배치 Thread 실행
+[2019-01-22 19:44:58] Collector Demon이 시작되었습니다...
+[2019-01-22 19:44:59] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 19:44:59] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-01-21' ORDER BY log_time
+[2019-01-22 19:45:05] Data Parsing Start
+[2019-01-22 19:45:17] Data Insert Stop - Total Count : 103000
+[2019-01-22 19:45:17] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 19:45:17] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-01-21' ORDER BY log_time
+[2019-01-22 19:45:17] Data Parsing Start
+[2019-01-22 19:45:17] Data Insert Stop - Total Count : 3000
+[2019-01-22 19:47:51] 배치 Thread 실행
+[2019-01-22 19:47:51] Collector Demon이 시작되었습니다...
+[2019-01-22 19:47:52] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 19:47:52] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-01-21' ORDER BY log_time
+[2019-01-22 19:47:57] Data Parsing Start
+[2019-01-22 19:48:12] Data Insert Stop - Total Count : 103000
+[2019-01-22 19:48:12] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 19:48:12] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-01-21' ORDER BY log_time
+[2019-01-22 19:48:12] Data Parsing Start
+[2019-01-22 19:48:12] Data Insert Stop - Total Count : 3000
+[2019-01-22 20:02:18] 배치 Thread 실행
+[2019-01-22 20:02:18] Collector Demon이 시작되었습니다...
+[2019-01-22 20:02:19] java.lang.NumberFormatException: null
+[2019-01-22 20:05:06] 배치 Thread 실행
+[2019-01-22 20:05:06] Collector Demon이 시작되었습니다...
+[2019-01-22 20:05:07] [ condition query ] to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:05:07] [ collect_query ] select yyyymmdd,hhmmss,user_id,user_ip,user_port,to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') as end_time,client_key,client_type,product_type,login_yn,login_code from nad_user30 WHERE to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-01-21' ORDER BY end_time
+[2019-01-22 20:05:07] Data Parsing Start
+[2019-01-22 20:05:07] Data Insert Stop - Total Count : 2000
+[2019-01-22 20:06:12] 배치 Thread 실행
+[2019-01-22 20:06:14] Collector Demon이 시작되었습니다...
+[2019-01-22 20:06:15] [ condition query ] to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:06:15] [ collect_query ] select yyyymmdd,hhmmss,user_id,user_ip,user_port,to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') as end_time,client_key,client_type,product_type,login_yn,login_code from nad_user30 WHERE to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-01-21' ORDER BY end_time
+[2019-01-22 20:06:16] Data Parsing Start
+[2019-01-22 20:13:10] 배치 Thread 실행
+[2019-01-22 20:13:10] Collector Demon이 시작되었습니다...
+[2019-01-22 20:13:25] [ condition query ] to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:13:26] [ collect_query ] select yyyymmdd,hhmmss,user_id,user_ip,user_port,to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') as end_time,client_key,client_type,product_type,login_yn,login_code from nad_user30 WHERE to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-01-21' ORDER BY end_time
+[2019-01-22 20:13:30] Data Parsing Start
+[2019-01-22 20:15:15] 배치 Thread 실행
+[2019-01-22 20:15:15] Collector Demon이 시작되었습니다...
+[2019-01-22 20:15:16] [ condition query ] to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:15:16] [ collect_query ] select yyyymmdd,hhmmss,user_id,user_ip,user_port,to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') as end_time,client_key,client_type,product_type,login_yn,login_code from nad_user30 WHERE to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-01-21' ORDER BY end_time
+[2019-01-22 20:15:16] Data Parsing Start
+[2019-01-22 20:15:16] Data Insert Stop - Total Count : 2000
+[2019-01-22 20:15:16] java.lang.NullPointerException
+[2019-01-22 20:16:43] 배치 Thread 실행
+[2019-01-22 20:16:43] Collector Demon이 시작되었습니다...
+[2019-01-22 20:16:47] [ condition query ] to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:16:47] [ collect_query ] select yyyymmdd,hhmmss,user_id,user_ip,user_port,to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') as end_time,client_key,client_type,product_type,login_yn,login_code from nad_user30 WHERE to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-01-21' ORDER BY end_time
+[2019-01-22 20:16:47] Data Parsing Start
+[2019-01-22 20:17:25] 배치 Thread 실행
+[2019-01-22 20:17:25] Collector Demon이 시작되었습니다...
+[2019-01-22 20:17:25] [ condition query ] to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:17:25] [ collect_query ] select yyyymmdd,hhmmss,user_id,user_ip,user_port,to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') as end_time,client_key,client_type,product_type,login_yn,login_code from nad_user30 WHERE to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-01-21' ORDER BY END_TIME
+[2019-01-22 20:17:26] Data Parsing Start
+[2019-01-22 20:17:26] Data Insert Stop - Total Count : 2000
+[2019-01-22 20:18:43] 배치 Thread 실행
+[2019-01-22 20:18:43] Collector Demon이 시작되었습니다...
+[2019-01-22 20:18:44] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:18:44] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-01-21' ORDER BY log_time
+[2019-01-22 20:18:49] Data Parsing Start
+[2019-01-22 20:19:03] Data Insert Stop - Total Count : 103000
+[2019-01-22 20:19:03] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:19:03] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-01-21' ORDER BY log_time
+[2019-01-22 20:19:04] Data Parsing Start
+[2019-01-22 20:19:04] Data Insert Stop - Total Count : 3000
+[2019-01-22 20:20:19] 배치 Thread 실행
+[2019-01-22 20:20:19] Collector Demon이 시작되었습니다...
+[2019-01-22 20:20:20] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-22 19:29:28.947'
+[2019-01-22 20:20:20] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-01-22 19:29:28.947' ORDER BY log_time
+[2019-01-22 20:20:20] [ vsdlog_info ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-01-22 20:20:20] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-22 19:01:16.01'
+[2019-01-22 20:20:20] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-01-22 19:01:16.01' ORDER BY log_time
+[2019-01-22 20:20:20] [ dslog_info ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-01-22 20:40:27] 배치 Thread 실행
+[2019-01-22 20:40:27] Collector Demon이 시작되었습니다...
+[2019-01-22 20:40:28] [ condition query ] last_detect_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:40:28] [ collect_query ] select info_employee_num,connip,mac,detect_date,first_detect_time,user_key,computer,login_account,maldtc_key,mal_loc,file_type,mal_name,mal_category,engine_type,treat_type,detect_count,dgr_type,file_count,is_changed,last_detect_time from maldtc_info WHERE last_detect_time > '2019-01-21' ORDER BY last_detect_time
+[2019-01-22 20:40:28] Data Parsing Start
+[2019-01-22 20:40:28] Data Insert Stop - Total Count : 1000
+[2019-01-22 20:41:23] 배치 Thread 실행
+[2019-01-22 20:41:23] Collector Demon이 시작되었습니다...
+[2019-01-22 20:41:24] [ condition query ] last_detect_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:41:24] [ collect_query ] select info_employee_num,connip,mac,detect_date,first_detect_time,user_key,computer,login_account,maldtc_key,mal_loc,file_type,mal_name,mal_category,engine_type,treat_type,detect_count,dgr_type,file_count,is_changed,last_detect_time from maldtc_info WHERE last_detect_time > '2019-01-21' ORDER BY last_detect_time
+[2019-01-22 20:41:24] Data Parsing Start
+[2019-01-22 20:41:24] Data Insert Stop - Total Count : 1000
+[2019-01-22 20:45:04] 배치 Thread 실행
+[2019-01-22 20:45:04] Collector Demon이 시작되었습니다...
+[2019-01-22 20:45:05] [ condition query ] last_detect_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:45:05] [ collect_query ] select info_employee_num,connip,mac,detect_date,first_detect_time,user_key,computer,login_account,maldtc_key,mal_loc,file_type,mal_name,mal_category,engine_type,treat_type,detect_count,dgr_type,file_count,is_changed,last_detect_time from maldtc_info WHERE last_detect_time > '2019-01-21' ORDER BY last_detect_time
+[2019-01-22 20:45:05] Data Parsing Start
+[2019-01-22 20:45:05] Data Insert Stop - Total Count : 1000
+[2019-01-22 20:59:25] 배치 Thread 실행
+[2019-01-22 20:59:25] Collector Demon이 시작되었습니다...
+[2019-01-22 20:59:26] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-21'
+[2019-01-22 20:59:26] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-01-21' ORDER BY log_time
+[2019-01-22 20:59:26] java.lang.NullPointerException
+[2019-01-22 21:00:08] 배치 Thread 실행
+[2019-01-22 21:00:08] Collector Demon이 시작되었습니다...
+[2019-01-22 21:00:09] [ condition query ] senddate > $$condition_value$$ [ condition value ] '2018-07-02 23:43:15.0'
+[2019-01-22 21:00:09] [ collect_query ] select windowsapplicationseq,userid,processname,senddate,ip,mac,useyn from vwindowsapplicationlog WHERE senddate > '2018-07-02 23:43:15.0' ORDER BY senddate
+[2019-01-22 21:00:09] Data Parsing Start
+[2019-01-22 21:00:09] Data Insert Stop - Total Count : 1000
+[2019-01-22 21:00:09] [ condition query ] logindate > $$condition_value$$ [ condition value ] '2018-07-02'
+[2019-01-22 21:00:09] [ collect_query ] select userid,assetid,username,ip,mac,DATE_FORMAT(logindate, '%Y-%m-%d') AS logindate,installstatus from vuserinfoassetdevice WHERE logindate > '2018-07-02' ORDER BY logindate
+[2019-01-22 21:00:09] Data Parsing Start
+[2019-01-22 21:00:09] Data Insert Stop - Total Count : 1000
+[2019-01-22 21:00:09] [ condition query ] senddate > $$condition_value$$ [ condition value ] '2018-07-02'
+[2019-01-22 21:00:09] [ collect_query ] select contentsoutflowlogseq,outflowtype,outflowname,userid,processname,filename,filesize,DATE_FORMAT(senddate, '%Y-%m-%d') AS senddate,ip,mac,useyn from vcontentsoutflowlog WHERE senddate > '2018-07-02' ORDER BY senddate
+[2019-01-22 21:00:09] Data Parsing Start
+[2019-01-22 21:00:10] Data Insert Stop - Total Count : 1000

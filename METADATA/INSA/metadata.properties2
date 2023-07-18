@@ -1,0 +1,93 @@
+#JDBC ADF Config Setting
+#Wed Jul 04 11:50:27 KST 2018
+
+
+#****************************************
+## JDBC Config Setting
+## PostgreSQL Connection
+PLDMdriverClassName=org.postgresql.Driver
+PLDMurl=jdbc:postgresql://192.168.100.187:5243/mdrdb
+PLDMid=mdr
+PLDMpw=pldm12#$
+## MSSQL Connection
+driverClassName=com.mysql.cj.jdbc.Driver
+url=jdbc\:mysql\://192.168.100.186\:3306/tgate?serverTimezone=UTC&useSSL=false
+id=root
+pw=s2info12#$
+
+## Water
+#driverClassName=com.mysql.cj.jdbc.Driver
+#url=jdbc\:mysql\://172.20.100.145\:33306/mysql?serverTimezone=UTC&useSSL=false
+#id=tgateview
+#pw=tgateview
+
+#****************************************
+
+#****************************************
+## \ubcf4\uc548\ub85c\uadf8 \uc218\uc9d1 \uc815\ubcf4
+collect_count=3
+collect_tablename1=tgate_user
+collect_query1=select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+condition_column1=
+condition_query1=
+copy_query1=COPY public.org_user (emp_no, emp_nm, password, org_code, posn_nm, email, rgdt_date, comp_code, stat)
+emp_no1=
+emp_ip1=
+emp_mac1=
+log_org_date1=
+
+collect_tablename2=tgate_dept
+collect_query2=SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept WHERE ORG_ID <> '0'
+condition_column2=
+condition_query2=
+copy_query2=COPY public.org_group ( org_code, upper_org_code, org_nm, org_level, org_order, use_indc, rgdt_date, comp_code )
+emp_no2=
+emp_ip2=
+emp_mac2=
+log_org_date2=
+
+collect_tablename3=tgate_device
+collect_query3=SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+condition_column3=
+condition_query3=
+copy_query3=COPY public.user_mstr ( sldm_ip, sldm_mac, sldm_empno, sldm_email, pcg_logindate, rgdt_date )
+emp_no3=
+emp_ip3=
+emp_mac3=
+log_org_date3=
+
+#****************************************
+## SFTP SERVER \uc815\ubcf4
+shost=192.168.100.41
+sid=cldm
+spw=manager
+sport=22
+suploadpath=/data/upload/AC
+#****************************************
+
+#****************************************
+
+#****************************************
+## \ub85c\uadf8\uc800\uc7a5 \uad6c\ubd84\uc790
+delimiter=$$
+#****************************************
+
+#****************************************
+## Agent \uc124\uc815 \uc815\ubcf4
+## Agent \uc911\ubcf5 \uc2e4\ud589 \ubc29\uc9c0 \uccb4\ud06c \ud3ec\ud2b8
+exec_port=19945
+## \uc218\uc9d1 Interval : \ucd08\ub2e8\uc704
+collect_interval=0
+## Agent\uc0c1\ud0dc \uc804\uc1a1 Interval : \ucd08\ub2e8\uc704
+status_interval=19945
+## Agent \uc885\ub8cc
+isRun=true
+## \uc218\uc9d1\uc5ec\ubd80 - true:\uc218\uc9d1, false:\ubbf8\uc218\uc9d1
+isCollect=true
+## \uc0c1\ud0dc\uc804\uc1a1\uc5ec\ubd80
+isStatusSend=false
+## Debug \ubaa8\ub4dc
+isDebug=true
+## \ubc30\uce58\ub4f1\ub85d \uac74\uc218
+loglimit=100000
+#****************************************

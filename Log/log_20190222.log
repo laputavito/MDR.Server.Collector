@@ -1,0 +1,393 @@
+[2019-02-22 16:27:59] 배치 Thread 실행
+[2019-02-22 16:27:59] Collector Demon이 시작되었습니다...
+[2019-02-22 16:28:00] [ condition query ] to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:28:00] [ collect_query ] SELECT abnormalguid, dblogguid, abnormaldataname, abnormaldatacount, dblogtype, netlogguid, abnormaluid, abnormalrownumber, abnormaltime FROM abnormaldata WHERE to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY ABNORMALTIME
+[2019-02-22 16:28:00] Data Parsing Start
+[2019-02-22 16:28:00] Data Insert Stop - Total Count : 1000
+[2019-02-22 16:28:00] [ condition query ] to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:28:00] [ collect_query ] SELECT captureguid, capturerownumber, capturecontent, capturesize, capturetime, capturetype, dblogguid, captureuserid FROM capturedata WHERE to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY CAPTURETIME
+[2019-02-22 16:28:01] Data Parsing Start
+[2019-02-22 16:28:01] Data Insert Stop - Total Count : 1000
+[2019-02-22 16:28:01] [ condition query ] to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:28:01] [ collect_query ] SELECT dbguid, rownumber, rcvid, dbtype, dbdatasize, dbipfrom, dbipto, dbtimereceived, dbtimerequest, dbtimeresponse, dbacctimereceived, dbacctimerequest, dbacctimeresponse, dbsubject, dbcontent, dbcategory, dbquerytype, dbdurationtime, dbrowsaffect, dbsqlcode, dbsqlmessage, dbpacketcount, dbpacketsize, dbtable, dbcolumn, dbcommand, filtername, dbalert, dbsessionguid, dbpid, dbuid, dbmid, realclientip, dblogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, iscaptured FROM logdata WHERE to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY DBTIMERECEIVED
+[2019-02-22 16:28:01] Data Parsing Start
+[2019-02-22 16:28:01] Data Insert Stop - Total Count : 1000
+[2019-02-22 16:28:01] [ condition query ] to_char(NETSESSACCTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:28:01] [ collect_query ] SELECT netsessionguid, rownumber, rcvid, netsesstype, netsessclientip, netsessclientport, netsessclientmac, netsessserverip, netsessserverport, netsessservermac, netsesssubject, netsesscategory, netsesstimereceived, netsesstimestart, netsessacctimereceived, netsessacctimestart, netsessuserid, netsesspid, netsessuid, netsessmid FROM netsessiondata WHERE to_char(NETSESSACCTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY NETSESSACCTIMERECEIVED
+[2019-02-22 16:28:01] java.lang.NullPointerException
+[2019-02-22 16:28:01] Log data collect end.
+[2019-02-22 16:34:14] 배치 Thread 실행
+[2019-02-22 16:34:14] Collector Demon이 시작되었습니다...
+[2019-02-22 16:34:22] [ condition query ] to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:19'
+[2019-02-22 16:34:22] [ collect_query ] SELECT abnormalguid, dblogguid, abnormaldataname, abnormaldatacount, dblogtype, netlogguid, abnormaluid, abnormalrownumber, abnormaltime FROM abnormaldata WHERE to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:19' ORDER BY ABNORMALTIME
+[2019-02-22 16:34:26] [ abnormaldata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:34:26] [ condition query ] to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:21'
+[2019-02-22 16:34:26] [ collect_query ] SELECT captureguid, capturerownumber, capturecontent, capturesize, capturetime, capturetype, dblogguid, captureuserid FROM capturedata WHERE to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:21' ORDER BY CAPTURETIME
+[2019-02-22 16:34:27] [ capturedata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:34:27] [ condition query ] to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:25'
+[2019-02-22 16:34:27] [ collect_query ] SELECT dbguid, rownumber, rcvid, dbtype, dbdatasize, dbipfrom, dbipto, dbtimereceived, dbtimerequest, dbtimeresponse, dbacctimereceived, dbacctimerequest, dbacctimeresponse, dbsubject, dbcontent, dbcategory, dbquerytype, dbdurationtime, dbrowsaffect, dbsqlcode, dbsqlmessage, dbpacketcount, dbpacketsize, dbtable, dbcolumn, dbcommand, filtername, dbalert, dbsessionguid, dbpid, dbuid, dbmid, realclientip, dblogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, iscaptured FROM logdata WHERE to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:25' ORDER BY DBTIMERECEIVED
+[2019-02-22 16:34:28] [ logdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:34:28] [ condition query ] to_char(NETSESSACCTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:34:28] [ collect_query ] SELECT netsessionguid, rownumber, rcvid, netsesstype, netsessclientip, netsessclientport, netsessclientmac, netsessserverip, netsessserverport, netsessservermac, netsesssubject, netsesscategory, netsesstimereceived, netsesstimestart, netsessacctimereceived, netsessacctimestart, netsessuserid, netsesspid, netsessuid, netsessmid FROM netsessiondata WHERE to_char(NETSESSACCTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY NETSESSACCTIMERECEIVED
+[2019-02-22 16:34:33] java.lang.NullPointerException
+[2019-02-22 16:34:33] Log data collect end.
+[2019-02-22 16:34:47] 배치 Thread 실행
+[2019-02-22 16:34:47] Collector Demon이 시작되었습니다...
+[2019-02-22 16:34:53] [ condition query ] to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:19'
+[2019-02-22 16:34:53] [ collect_query ] SELECT abnormalguid, dblogguid, abnormaldataname, abnormaldatacount, dblogtype, netlogguid, abnormaluid, abnormalrownumber, abnormaltime FROM abnormaldata WHERE to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:19' ORDER BY ABNORMALTIME
+[2019-02-22 16:34:55] [ abnormaldata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:34:55] [ condition query ] to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:21'
+[2019-02-22 16:34:55] [ collect_query ] SELECT captureguid, capturerownumber, capturecontent, capturesize, capturetime, capturetype, dblogguid, captureuserid FROM capturedata WHERE to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:21' ORDER BY CAPTURETIME
+[2019-02-22 16:34:57] [ capturedata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:34:57] [ condition query ] to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:25'
+[2019-02-22 16:34:57] [ collect_query ] SELECT dbguid, rownumber, rcvid, dbtype, dbdatasize, dbipfrom, dbipto, dbtimereceived, dbtimerequest, dbtimeresponse, dbacctimereceived, dbacctimerequest, dbacctimeresponse, dbsubject, dbcontent, dbcategory, dbquerytype, dbdurationtime, dbrowsaffect, dbsqlcode, dbsqlmessage, dbpacketcount, dbpacketsize, dbtable, dbcolumn, dbcommand, filtername, dbalert, dbsessionguid, dbpid, dbuid, dbmid, realclientip, dblogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, iscaptured FROM logdata WHERE to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:25' ORDER BY DBTIMERECEIVED
+[2019-02-22 16:35:00] [ logdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:35:00] [ condition query ] to_char(NETSESSACCTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:35:00] [ collect_query ] SELECT netsessionguid, rownumber, rcvid, netsesstype, netsessclientip, netsessclientport, netsessclientmac, netsessserverip, netsessserverport, netsessservermac, netsesssubject, netsesscategory, netsesstimereceived, netsesstimestart, netsessacctimereceived, netsessacctimestart, netsessuserid, netsesspid, netsessuid, netsessmid FROM netsessiondata WHERE to_char(NETSESSACCTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY NETSESSACCTIMERECEIVED
+[2019-02-22 16:36:46] 배치 Thread 실행
+[2019-02-22 16:36:46] Collector Demon이 시작되었습니다...
+[2019-02-22 16:36:47] [ condition query ] to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:19'
+[2019-02-22 16:36:47] [ collect_query ] SELECT abnormalguid, dblogguid, abnormaldataname, abnormaldatacount, dblogtype, netlogguid, abnormaluid, abnormalrownumber, abnormaltime FROM abnormaldata WHERE to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:19' ORDER BY ABNORMALTIME
+[2019-02-22 16:36:47] [ abnormaldata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:36:47] [ condition query ] to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:21'
+[2019-02-22 16:36:47] [ collect_query ] SELECT captureguid, capturerownumber, capturecontent, capturesize, capturetime, capturetype, dblogguid, captureuserid FROM capturedata WHERE to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:21' ORDER BY CAPTURETIME
+[2019-02-22 16:36:47] [ capturedata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:36:47] [ condition query ] to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:25'
+[2019-02-22 16:36:47] [ collect_query ] SELECT dbguid, rownumber, rcvid, dbtype, dbdatasize, dbipfrom, dbipto, dbtimereceived, dbtimerequest, dbtimeresponse, dbacctimereceived, dbacctimerequest, dbacctimeresponse, dbsubject, dbcontent, dbcategory, dbquerytype, dbdurationtime, dbrowsaffect, dbsqlcode, dbsqlmessage, dbpacketcount, dbpacketsize, dbtable, dbcolumn, dbcommand, filtername, dbalert, dbsessionguid, dbpid, dbuid, dbmid, realclientip, dblogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, iscaptured FROM logdata WHERE to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:25' ORDER BY DBTIMERECEIVED
+[2019-02-22 16:36:47] [ logdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:36:47] [ condition query ] to_char(NETSESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:36:47] [ collect_query ] SELECT netsessionguid, rownumber, rcvid, netsesstype, netsessclientip, netsessclientport, netsessclientmac, netsessserverip, netsessserverport, netsessservermac, netsesssubject, netsesscategory, netsesstimereceived, netsesstimestart, netsessacctimereceived, netsessacctimestart, netsessuserid, netsesspid, netsessuid, netsessmid FROM netsessiondata WHERE to_char(NETSESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY NETSESSTIMERECEIVED
+[2019-02-22 16:36:48] Data Parsing Start
+[2019-02-22 16:36:48] Data Insert Stop - Total Count : 1000
+[2019-02-22 16:36:48] [ condition query ] to_char(NETTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:36:48] [ collect_query ] SELECT netguid, rownumber, rcvid, nettype, netclientsize, netserversize, netipfrom, netipto, nettimereceived, netacctimereceived, netclientcontent, netservercontent, netfilesize, netfilename, netfilecontent, netpacketcount, netpacketsize, netsessionguid, netalert, netpid, netuid, netmid, netlogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, netiscaptured, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid FROM networkdata WHERE to_char(NETTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY NETTIMERECEIVED
+[2019-02-22 16:36:48] Data Parsing Start
+[2019-02-22 16:36:48] Data Insert Stop - Total Count : 1000
+[2019-02-22 16:36:48] [ condition query ] to_char(ROWCONTENT, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:36:48] [ collect_query ] SELECT rowlogguid, rownumber, rcvid, rowtype, rowcontent, rowdbguid, rowresulttype FROM rowdata WHERE to_char(ROWCONTENT, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY ROWCONTENT
+[2019-02-22 16:36:48] Data Parsing Start
+[2019-02-22 16:36:48] Data Insert Stop - Total Count : 1000
+[2019-02-22 16:36:48] [ condition query ] to_char(SESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:36:48] [ collect_query ] SELECT sessionguid, rownumber, rcvid, sessiondbtype, dbsubtype, clientip, clientport, clientmac, serverip, serverport, servermac, sesstimereceived, sesstimelogin, sessaccreceived, sessacctimelogin, userid, dbname, programname, localid, instancename, logondata, dbpid, dbuid, dbmid FROM sessiondata WHERE to_char(SESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY SESSTIMERECEIVED
+[2019-02-22 16:36:48] Data Parsing Start
+[2019-02-22 16:36:49] Data Insert Stop - Total Count : 1000
+[2019-02-22 16:36:49] [ condition query ] to_char(SESSIONTIMELOGOUT, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 16:36:49] [ collect_query ] SELECT sessstatguid, rownumber, rcvid, sessionrowcount, sessiontimelogout, sessionacctimelogout, sessiontimeduration, sessionmaxduration, sessionavgduration, column1, column2 FROM sessionstatistics WHERE to_char(SESSIONTIMELOGOUT, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY SESSIONTIMELOGOUT
+[2019-02-22 16:36:49] Data Parsing Start
+[2019-02-22 16:36:49] Data Insert Stop - Total Count : 1000
+[2019-02-22 16:36:49] Log data collect end.
+[2019-02-22 16:37:31] 배치 Thread 실행
+[2019-02-22 16:37:31] Collector Demon이 시작되었습니다...
+[2019-02-22 16:37:33] [ condition query ] to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:19'
+[2019-02-22 16:37:33] [ collect_query ] SELECT abnormalguid, dblogguid, abnormaldataname, abnormaldatacount, dblogtype, netlogguid, abnormaluid, abnormalrownumber, abnormaltime FROM abnormaldata WHERE to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:19' ORDER BY ABNORMALTIME
+[2019-02-22 16:37:33] [ abnormaldata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:37:33] [ condition query ] to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:21'
+[2019-02-22 16:37:33] [ collect_query ] SELECT captureguid, capturerownumber, capturecontent, capturesize, capturetime, capturetype, dblogguid, captureuserid FROM capturedata WHERE to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:21' ORDER BY CAPTURETIME
+[2019-02-22 16:37:33] [ capturedata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:37:33] [ condition query ] to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:25'
+[2019-02-22 16:37:33] [ collect_query ] SELECT dbguid, rownumber, rcvid, dbtype, dbdatasize, dbipfrom, dbipto, dbtimereceived, dbtimerequest, dbtimeresponse, dbacctimereceived, dbacctimerequest, dbacctimeresponse, dbsubject, dbcontent, dbcategory, dbquerytype, dbdurationtime, dbrowsaffect, dbsqlcode, dbsqlmessage, dbpacketcount, dbpacketsize, dbtable, dbcolumn, dbcommand, filtername, dbalert, dbsessionguid, dbpid, dbuid, dbmid, realclientip, dblogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, iscaptured FROM logdata WHERE to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:25' ORDER BY DBTIMERECEIVED
+[2019-02-22 16:37:33] [ logdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:37:33] [ condition query ] to_char(NETSESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:27'
+[2019-02-22 16:37:33] [ collect_query ] SELECT netsessionguid, rownumber, rcvid, netsesstype, netsessclientip, netsessclientport, netsessclientmac, netsessserverip, netsessserverport, netsessservermac, netsesssubject, netsesscategory, netsesstimereceived, netsesstimestart, netsessacctimereceived, netsessacctimestart, netsessuserid, netsesspid, netsessuid, netsessmid FROM netsessiondata WHERE to_char(NETSESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:27' ORDER BY NETSESSTIMERECEIVED
+[2019-02-22 16:37:33] [ netsessiondata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:37:33] [ condition query ] to_char(NETTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:29'
+[2019-02-22 16:37:33] [ collect_query ] SELECT netguid, rownumber, rcvid, nettype, netclientsize, netserversize, netipfrom, netipto, nettimereceived, netacctimereceived, netclientcontent, netservercontent, netfilesize, netfilename, netfilecontent, netpacketcount, netpacketsize, netsessionguid, netalert, netpid, netuid, netmid, netlogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, netiscaptured, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid FROM networkdata WHERE to_char(NETTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:29' ORDER BY NETTIMERECEIVED
+[2019-02-22 16:37:33] [ networkdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:37:33] [ condition query ] to_char(ROWCONTENT, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:31'
+[2019-02-22 16:37:33] [ collect_query ] SELECT rowlogguid, rownumber, rcvid, rowtype, rowcontent, rowdbguid, rowresulttype FROM rowdata WHERE to_char(ROWCONTENT, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:31' ORDER BY ROWCONTENT
+[2019-02-22 16:37:33] [ rowdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:37:33] [ condition query ] to_char(SESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:34'
+[2019-02-22 16:37:33] [ collect_query ] SELECT sessionguid, rownumber, rcvid, sessiondbtype, dbsubtype, clientip, clientport, clientmac, serverip, serverport, servermac, sesstimereceived, sesstimelogin, sessaccreceived, sessacctimelogin, userid, dbname, programname, localid, instancename, logondata, dbpid, dbuid, dbmid FROM sessiondata WHERE to_char(SESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:34' ORDER BY SESSTIMERECEIVED
+[2019-02-22 16:37:33] [ sessiondata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:37:33] [ condition query ] to_char(SESSIONTIMELOGOUT, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:35'
+[2019-02-22 16:37:33] [ collect_query ] SELECT sessstatguid, rownumber, rcvid, sessionrowcount, sessiontimelogout, sessionacctimelogout, sessiontimeduration, sessionmaxduration, sessionavgduration, column1, column2 FROM sessionstatistics WHERE to_char(SESSIONTIMELOGOUT, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:35' ORDER BY SESSIONTIMELOGOUT
+[2019-02-22 16:37:33] [ sessionstatistics ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 16:37:33] Log data collect end.
+[2019-02-22 16:57:11] 배치 Thread 실행
+[2019-02-22 16:57:11] Collector Demon이 시작되었습니다...
+[2019-02-22 16:57:11] java.lang.NullPointerException
+[2019-02-22 16:58:16] 배치 Thread 실행
+[2019-02-22 16:58:16] Collector Demon이 시작되었습니다...
+[2019-02-22 16:58:17] java.lang.NullPointerException
+[2019-02-22 16:59:44] 배치 Thread 실행
+[2019-02-22 16:59:44] Collector Demon이 시작되었습니다...
+[2019-02-22 16:59:45] java.lang.NullPointerException
+[2019-02-22 17:00:03] 배치 Thread 실행
+[2019-02-22 17:00:03] Collector Demon이 시작되었습니다...
+[2019-02-22 17:00:04] [ condition query ] qdatetime > $$condition_value$$ [ condition value ] '2019-02-20 15:20:04.0'
+[2019-02-22 17:00:04] [ collect_query ] select ldpa,qdatetime,sender,senderno,sendername,senderdept,act,adatetime,actemail,subj,rcpt,reason,attname from view_mlist WHERE qdatetime > '2019-02-20 15:20:04.0' ORDER BY qdatetime
+[2019-02-22 17:00:09] Data Parsing Start
+[2019-02-22 17:00:09] Data Insert Stop - Total Count : 2000
+[2019-02-22 17:00:13] [ condition query ] last_detect_time > $$condition_value$$ [ condition value ] '2019-02-20 15:21:25.047'
+[2019-02-22 17:00:13] [ collect_query ] select info_employee_num,connip,mac,detect_date,first_detect_time,user_key,computer,login_account,maldtc_key,mal_loc,file_type,mal_name,mal_category,engine_type,treat_type,detect_count,dgr_type,file_count,is_changed,last_detect_time from maldtc_info WHERE last_detect_time > '2019-02-20 15:21:25.047' ORDER BY last_detect_time
+[2019-02-22 17:00:13] Data Parsing Start
+[2019-02-22 17:00:13] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:17] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2019-02-20 15:52:41.292'
+[2019-02-22 17:00:17] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2019-02-20 15:52:41.292' ORDER BY LASTUPDATETIME
+[2019-02-22 17:00:17] Data Parsing Start
+[2019-02-22 17:00:17] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:20] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2019-02-20 15:52:45.587'
+[2019-02-22 17:00:20] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2019-02-20 15:52:45.587' ORDER BY CLIENTTIME
+[2019-02-22 17:00:21] Data Parsing Start
+[2019-02-22 17:00:21] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:21] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2019-02-20 15:52:49.864'
+[2019-02-22 17:00:21] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3virusalertlog WHERE clienttime > '2019-02-20 15:52:49.864' ORDER BY CLIENTTIME
+[2019-02-22 17:00:21] Data Parsing Start
+[2019-02-22 17:00:21] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:24] [ condition query ] to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:19'
+[2019-02-22 17:00:24] [ collect_query ] SELECT abnormalguid, dblogguid, abnormaldataname, abnormaldatacount, dblogtype, netlogguid, abnormaluid, abnormalrownumber, abnormaltime FROM abnormaldata WHERE to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:19' ORDER BY ABNORMALTIME
+[2019-02-22 17:00:24] [ abnormaldata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:00:24] [ condition query ] to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:21'
+[2019-02-22 17:00:24] [ collect_query ] SELECT captureguid, capturerownumber, capturecontent, capturesize, capturetime, capturetype, dblogguid, captureuserid FROM capturedata WHERE to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:21' ORDER BY CAPTURETIME
+[2019-02-22 17:00:24] [ capturedata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:00:24] [ condition query ] to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:25'
+[2019-02-22 17:00:24] [ collect_query ] SELECT dbguid, rownumber, rcvid, dbtype, dbdatasize, dbipfrom, dbipto, dbtimereceived, dbtimerequest, dbtimeresponse, dbacctimereceived, dbacctimerequest, dbacctimeresponse, dbsubject, dbcontent, dbcategory, dbquerytype, dbdurationtime, dbrowsaffect, dbsqlcode, dbsqlmessage, dbpacketcount, dbpacketsize, dbtable, dbcolumn, dbcommand, filtername, dbalert, dbsessionguid, dbpid, dbuid, dbmid, realclientip, dblogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, iscaptured FROM logdata WHERE to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:25' ORDER BY DBTIMERECEIVED
+[2019-02-22 17:00:24] [ logdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:00:24] [ condition query ] to_char(NETSESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:27'
+[2019-02-22 17:00:24] [ collect_query ] SELECT netsessionguid, rownumber, rcvid, netsesstype, netsessclientip, netsessclientport, netsessclientmac, netsessserverip, netsessserverport, netsessservermac, netsesssubject, netsesscategory, netsesstimereceived, netsesstimestart, netsessacctimereceived, netsessacctimestart, netsessuserid, netsesspid, netsessuid, netsessmid FROM netsessiondata WHERE to_char(NETSESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:27' ORDER BY NETSESSTIMERECEIVED
+[2019-02-22 17:00:24] [ netsessiondata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:00:24] [ condition query ] to_char(NETTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:29'
+[2019-02-22 17:00:24] [ collect_query ] SELECT netguid, rownumber, rcvid, nettype, netclientsize, netserversize, netipfrom, netipto, nettimereceived, netacctimereceived, netclientcontent, netservercontent, netfilesize, netfilename, netfilecontent, netpacketcount, netpacketsize, netsessionguid, netalert, netpid, netuid, netmid, netlogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, netiscaptured, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid FROM networkdata WHERE to_char(NETTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:29' ORDER BY NETTIMERECEIVED
+[2019-02-22 17:00:24] [ networkdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:00:24] [ condition query ] to_char(ROWCONTENT, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:31'
+[2019-02-22 17:00:24] [ collect_query ] SELECT rowlogguid, rownumber, rcvid, rowtype, rowcontent, rowdbguid, rowresulttype FROM rowdata WHERE to_char(ROWCONTENT, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:31' ORDER BY ROWCONTENT
+[2019-02-22 17:00:24] [ rowdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:00:24] [ condition query ] to_char(SESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:34'
+[2019-02-22 17:00:24] [ collect_query ] SELECT sessionguid, rownumber, rcvid, sessiondbtype, dbsubtype, clientip, clientport, clientmac, serverip, serverport, servermac, sesstimereceived, sesstimelogin, sessaccreceived, sessacctimelogin, userid, dbname, programname, localid, instancename, logondata, dbpid, dbuid, dbmid FROM sessiondata WHERE to_char(SESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:34' ORDER BY SESSTIMERECEIVED
+[2019-02-22 17:00:24] [ sessiondata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:00:24] [ condition query ] to_char(SESSIONTIMELOGOUT, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:35'
+[2019-02-22 17:00:24] [ collect_query ] SELECT sessstatguid, rownumber, rcvid, sessionrowcount, sessiontimelogout, sessionacctimelogout, sessiontimeduration, sessionmaxduration, sessionavgduration, column1, column2 FROM sessionstatistics WHERE to_char(SESSIONTIMELOGOUT, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:35' ORDER BY SESSIONTIMELOGOUT
+[2019-02-22 17:00:24] [ sessionstatistics ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:00:28] [ condition query ] log_date > $$condition_value$$ [ condition value ] '2019-02-20 15:19:58.0'
+[2019-02-22 17:00:28] [ collect_query ] select user_code,log_date,ip,mac_address,user_id,owner_code,content_id,content_code,current_content_name,log_type,log_type_name,purpose,purpose_name,purpose_fail_reason,purpose_fail_reason_name,usage_result from fut_log WHERE log_date > '2019-02-20 15:19:58.0' ORDER BY log_date
+[2019-02-22 17:00:28] Data Parsing Start
+[2019-02-22 17:00:28] Data Insert Stop - Total Count : 2000
+[2019-02-22 17:00:31] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-20 15:21:38.067'
+[2019-02-22 17:00:31] [ collect_query ] SELECT admin_login_seq, id, ip, login_yn, in_date, reg_dts FROM adminloginlog WHERE reg_dts > '2019-02-20 15:21:38.067' ORDER BY reg_dts
+[2019-02-22 17:00:31] Data Parsing Start
+[2019-02-22 17:00:31] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:31] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-20 15:21:52.527'
+[2019-02-22 17:00:31] [ collect_query ] SELECT cmseq, employeeseq, type, rundate, totalcnt, devicetotalcnt, deviceoriginalcnt, deviceoriginalsize, mailtotalcnt, mailoriginalcnt, mailoriginalsize, messengertotalcnt, messengeroriginalcnt, messengeroriginalsize, ftptotalcnt, ftporiginalcnt, ftporiginalsize, devicetotalcnt1, deviceoriginalcnt1, deviceoriginalsize1 FROM concentrationmonitoringtargetlog WHERE rundate > '2019-02-20 15:21:52.527' ORDER BY rundate
+[2019-02-22 17:00:31] Data Parsing Start
+[2019-02-22 17:00:31] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:31] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-20 15:22:06.843'
+[2019-02-22 17:00:31] [ collect_query ] SELECT logseq, devicecontrolcode, employeeseq, sendseq, processname, filename, filesize, runfile, rundate, integerip, ip, pysicaladdress, pattern, takeoutcode, action, policy, keyword, duplicatefilecnt, regdate FROM devicecontrollog WHERE rundate > '2019-02-20 15:22:06.843' ORDER BY rundate
+[2019-02-22 17:00:31] Data Parsing Start
+[2019-02-22 17:00:31] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:31] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-20 15:22:20.367'
+[2019-02-22 17:00:31] [ collect_query ] SELECT history_no, employee_seq, policy_no, requestseq, policy_string, start_day, end_day, allow_memo, use_yn, mod_dts, mod_no, reg_dts, reg_no, policy_history_no FROM employee_take_out_policy_history WHERE reg_dts > '2019-02-20 15:22:20.367' ORDER BY reg_dts
+[2019-02-22 17:00:31] Data Parsing Start
+[2019-02-22 17:00:31] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:31] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-20 15:22:33.13'
+[2019-02-22 17:00:31] [ collect_query ] SELECT employee_policy_history_no, employee_seq, policy_no, policy_string, use_yn, reg_dts, reg_no, mod_dts, mod_no, policy_history_no FROM employee_watermark_policy_history WHERE reg_dts > '2019-02-20 15:22:33.13' ORDER BY reg_dts
+[2019-02-22 17:00:31] Data Parsing Start
+[2019-02-22 17:00:31] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:31] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-20 15:22:48.24'
+[2019-02-22 17:00:31] [ collect_query ] SELECT logseq, etceteracode, employeeseq, sendseq, inoutcode, processname, sourceintegerip, destinationintegerip, sourceip, destinationip, sourceport, destinationport, rundate, pysicaladdress, sourcefilename, destinationfilename, filepath, filesize, summaryfile, pattern, takeoutcode, action, duplicatefile, keyword, regdate FROM ftplog WHERE rundate > '2019-02-20 15:22:48.24' ORDER BY rundate
+[2019-02-22 17:00:31] Data Parsing Start
+[2019-02-22 17:00:32] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:32] [ condition query ] regdate > $$condition_value$$ [ condition value ] '2019-02-20 15:23:04.17'
+[2019-02-22 17:00:32] [ collect_query ] SELECT logseq, mailcode, employeeseq, sendseq, inoutcode, fromemail, fromintegerip, fromip, mailserverintegerip, mailserverip, subject, currentstate, mailstate, sourceport, destinationport, senddate, filesize, filepath, filename, summaryfile, pysicaladdress, hostseq, attachnum, attachorbody, pattern, sumpattern, toemail, ccemail, bccemail, takeoutcode, keyword, filelogcnt, regdate FROM maillog WHERE regdate > '2019-02-20 15:23:04.17' ORDER BY regdate
+[2019-02-22 17:00:32] Data Parsing Start
+[2019-02-22 17:00:32] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-20 15:23:18.187'
+[2019-02-22 17:00:32] [ collect_query ] SELECT logseq, messengercode, employeeseq, sendseq, useraccount, buddyaccount, rundate, integerip, ip, pysicaladdress, pattern, takeoutcode, msglogtype, talklogcnt, filelogcnt, regdate FROM messengerlog WHERE rundate > '2019-02-20 15:23:18.187' ORDER BY rundate
+[2019-02-22 17:00:32] Data Parsing Start
+[2019-02-22 17:00:32] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:32] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-20 15:23:34.527'
+[2019-02-22 17:00:32] [ collect_query ] SELECT policy_history_no, history_tp, policy_no, policy_nm, policy_tp, dept_cd, network_process_policy, port_policy, mail_policy, messenger_policy, ftp_policy, ip_change_policy, proxy_server_policy, site_policy, access_point_policy, device_policy, program_policy, watermark_policy, pc_use_log_policy, web_mail_policy, filetakeout_policy, dochistory_policy, vpn_policy, screenshot_policy, alertmessenger_policy, httpmessenge_policy, https_mail_policy, multi_os_policy, vm_install_policy, xp_os_policy, comment, hierarchy, ip, reg_dts, reg_no, flag FROM policy_master_history WHERE reg_dts > '2019-02-20 15:23:34.527' ORDER BY reg_dts
+[2019-02-22 17:00:32] Data Parsing Start
+[2019-02-22 17:00:32] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-20 15:23:47.383'
+[2019-02-22 17:00:32] [ collect_query ] SELECT logseq, employeeseq, filename, filesize, rundate, integerip, ip, pysicaladdress FROM screenshotlog WHERE rundate > '2019-02-20 15:23:47.383' ORDER BY rundate
+[2019-02-22 17:00:32] Data Parsing Start
+[2019-02-22 17:00:32] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-20 15:24:00.523'
+[2019-02-22 17:00:32] [ collect_query ] SELECT logseq, policysendcode, employeeseq, ip, pysicaladdress, sendseq, processname, rundate, usbcertpolicycode, idvendor, idproduct, bcddevice, szserial, bloss FROM usbcertlog WHERE rundate > '2019-02-20 15:24:00.523' ORDER BY rundate
+[2019-02-22 17:00:32] Data Parsing Start
+[2019-02-22 17:00:32] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-20 15:24:14.143'
+[2019-02-22 17:00:32] [ collect_query ] SELECT logseq, employeeseq, sendseq, processname, filename, filesize, runfile, rundate, integerip, ip, pysicaladdress, sourceport, destinationport FROM whiteprocesslog WHERE rundate > '2019-02-20 15:24:14.143' ORDER BY rundate
+[2019-02-22 17:00:32] Data Parsing Start
+[2019-02-22 17:00:32] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:35] [ condition query ] senddate > $$condition_value$$ [ condition value ] '2019-02-20 15:20:07.0'
+[2019-02-22 17:00:35] [ collect_query ] select windowsapplicationseq,userid,processname,senddate,ip,mac,useyn from vwindowsapplicationlog WHERE senddate > '2019-02-20 15:20:07.0' ORDER BY senddate
+[2019-02-22 17:00:35] Data Parsing Start
+[2019-02-22 17:00:35] Data Insert Stop - Total Count : 2000
+[2019-02-22 17:00:35] [ condition query ] logindate > $$condition_value$$ [ condition value ] '2019-02-20 15:20:06.0'
+[2019-02-22 17:00:35] [ collect_query ] select userid,assetid,username,ip,mac,logindate,installstatus from vuserinfoassetdevice WHERE logindate > '2019-02-20 15:20:06.0' ORDER BY logindate
+[2019-02-22 17:00:36] Data Parsing Start
+[2019-02-22 17:00:36] Data Insert Stop - Total Count : 2000
+[2019-02-22 17:00:36] [ condition query ] senddate > $$condition_value$$ [ condition value ] '2019-02-20 15:20:03.0'
+[2019-02-22 17:00:36] [ collect_query ] select contentsoutflowlogseq,outflowtype,outflowname,userid,processname,filename,filesize,senddate,ip,mac,useyn from vcontentsoutflowlog WHERE senddate > '2019-02-20 15:20:03.0' ORDER BY senddate
+[2019-02-22 17:00:36] Data Parsing Start
+[2019-02-22 17:00:36] Data Insert Stop - Total Count : 2000
+[2019-02-22 17:00:39] [ condition query ] event_time > $$condition_value$$ [ condition value ] '2019-02-20 15:20:11.0'
+[2019-02-22 17:00:39] [ collect_query ] select event_time,event_level,op_code,event_type,event_name,more_info,ip_address,mac_address,device_id,user_id,user_name,org_name,admin_id,admin_nm from vwlog_event_last WHERE event_time > '2019-02-20 15:20:11.0' ORDER BY event_time
+[2019-02-22 17:00:39] Data Parsing Start
+[2019-02-22 17:00:39] Data Insert Stop - Total Count : 2000
+[2019-02-22 17:00:42] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-02-20 15:21:10.36'
+[2019-02-22 17:00:42] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-02-20 15:21:10.36' ORDER BY log_time
+[2019-02-22 17:00:42] Data Parsing Start
+[2019-02-22 17:00:43] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:43] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-02-20 15:20:39.673'
+[2019-02-22 17:00:43] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-02-20 15:20:39.673' ORDER BY log_time
+[2019-02-22 17:00:43] Data Parsing Start
+[2019-02-22 17:00:43] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:46] [ condition query ] inspectendtime > $$condition_value$$ [ condition value ] '2019-02-20 15:19:59'
+[2019-02-22 17:00:46] [ collect_query ] select userid,username,filename,durationdays,filepath,inspectendtime,encryptfiletype,agentip,computername,resident_no,foregin_no,account_no,credit_no,phone_no,mobile_no from incidentsdiscover WHERE inspectendtime > '2019-02-20 15:19:59' ORDER BY inspectendtime
+[2019-02-22 17:00:46] Data Parsing Start
+[2019-02-22 17:00:46] Data Insert Stop - Total Count : 2000
+[2019-02-22 17:00:49] [ condition query ] regdate > $$condition_value$$ [ condition value ] '2019-02-20 15:19:56.0'
+[2019-02-22 17:00:49] [ collect_query ] select id,filename,regdate,virusdetect,extfakedetect from fileview WHERE regdate > '2019-02-20 15:19:56.0' ORDER BY regdate
+[2019-02-22 17:00:49] Data Parsing Start
+[2019-02-22 17:00:49] Data Insert Stop - Total Count : 2000
+[2019-02-22 17:00:52] [ condition query ] qtime > $$condition_value$$ [ condition value ] '2019-02-20 15:20:01.0'
+[2019-02-22 17:00:52] [ collect_query ] select intno,qname,qtime,ipaddr,sender,rcpt,subj,type,reason,attname,dsize,slaved from v_spamfilter_log WHERE qtime > '2019-02-20 15:20:01.0' ORDER BY qtime
+[2019-02-22 17:00:52] Data Parsing Start
+[2019-02-22 17:00:53] Data Insert Stop - Total Count : 2000
+[2019-02-22 17:00:56] [ condition query ] to_char(JOB_TIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-20 15:04:18'
+[2019-02-22 17:00:56] [ collect_query ] select user_id,user_name,job_type,job_time,usage,scan_to_email from v_job_log WHERE to_char(JOB_TIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-20 15:04:18' ORDER BY JOB_TIME
+[2019-02-22 17:00:56] Data Parsing Start
+[2019-02-22 17:00:56] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:00:59] [ condition query ] to_char(cmd_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-20 15:04:16'
+[2019-02-22 17:00:59] [ collect_query ] select yyyymmdd,hhmmss,connection_key,cmd_num,tnt_cmd,to_char(cmd_time, 'YYYY-MM-DD HH24:MI:SS') as cmd_time,valid_flg,normal_cmd_yn,user_id,user_ip from stg_tnt20 WHERE to_char(cmd_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-20 15:04:16' ORDER BY CMD_TIME
+[2019-02-22 17:01:00] Data Parsing Start
+[2019-02-22 17:01:00] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:01:00] [ condition query ] to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-20 15:04:14'
+[2019-02-22 17:01:00] [ collect_query ] select yyyymmdd,hhmmss,user_id,user_ip,user_port,to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') as end_time,client_key,client_type,product_type,login_yn,login_code from nad_user30 WHERE to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-20 15:04:14' ORDER BY END_TIME
+[2019-02-22 17:01:00] Data Parsing Start
+[2019-02-22 17:01:00] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:01:03] [ condition query ] logdt > $$condition_value$$ [ condition value ] '2019-02-20 15:20:52.967'
+[2019-02-22 17:01:03] [ collect_query ] select logseq,deviceno,mgmtkey,inouttype,sitekey,filemode,srcfile,filesize,destfile,agentuserid,pcip,pcmac,logdt,instdt from log_deviceuse WHERE logdt > '2019-02-20 15:20:52.967' ORDER BY logdt
+[2019-02-22 17:01:03] Data Parsing Start
+[2019-02-22 17:01:03] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:01:06] Log data collect end.
+[2019-02-22 17:16:07] 배치 Thread 실행
+[2019-02-22 17:16:07] Collector Demon이 시작되었습니다...
+[2019-02-22 17:16:08] [ condition query ] qdatetime > $$condition_value$$ [ condition value ] '2019-02-21 19:54:19.0'
+[2019-02-22 17:16:08] [ collect_query ] select ldpa,qdatetime,sender,senderno,sendername,senderdept,act,adatetime,actemail,subj,rcpt,reason,attname from view_mlist WHERE qdatetime > '2019-02-21 19:54:19.0' ORDER BY qdatetime
+[2019-02-22 17:16:08] [ view_mlist ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:12] [ condition query ] last_detect_time > $$condition_value$$ [ condition value ] '2019-02-21 19:55:38.477'
+[2019-02-22 17:16:12] [ collect_query ] select info_employee_num,connip,mac,detect_date,first_detect_time,user_key,computer,login_account,maldtc_key,mal_loc,file_type,mal_name,mal_category,engine_type,treat_type,detect_count,dgr_type,file_count,is_changed,last_detect_time from maldtc_info WHERE last_detect_time > '2019-02-21 19:55:38.477' ORDER BY last_detect_time
+[2019-02-22 17:16:12] [ maldtc_info ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:15] [ condition query ] LASTUPDATETIME > $$condition_value$$ [ condition value ] '2019-02-21 19:58:54.018'
+[2019-02-22 17:16:15] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE LASTUPDATETIME > '2019-02-21 19:58:54.018' ORDER BY LASTUPDATETIME
+[2019-02-22 17:16:15] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:18] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2019-02-21 19:58:58.411'
+[2019-02-22 17:16:18] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3szalertlog WHERE clienttime > '2019-02-21 19:58:58.411' ORDER BY CLIENTTIME
+[2019-02-22 17:16:18] [ v3_atbrawv3szalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:18] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2019-02-21 19:59:02.815'
+[2019-02-22 17:16:18] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_atbrawv3virusalertlog WHERE clienttime > '2019-02-21 19:59:02.815' ORDER BY CLIENTTIME
+[2019-02-22 17:16:18] [ v3_atbrawv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:22] [ condition query ] to_char(LOCAL_TIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 17:16:22] [ collect_query ] SELECT local_time, time_taken, c_ip, x_exception_id, sc_filter_result, cs_categories, sc_status, s_action, sc_bytes, cs_bytes, cs_method, cs_uri_scheme, cs_host, cs_uri_port, cs_uri_path, cs_uri_query, cs_username, cs_auth_qroup, s_supplier_name, rs_content_type, cs_user_agent, x_virus_id, x_rs_certificate_observed_err, x_cs_ocsp_error, x_rs_connection_negotiated, x_rs_certificate_hostname, x_rs_certificate_hostname_cag, x_rs_ocsp_error, s_ip, r_ip FROM proxy_accesslog WHERE to_char(LOCAL_TIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY LOCAL_TIME
+[2019-02-22 17:16:22] Data Parsing Start
+[2019-02-22 17:16:22] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:16:25] [ condition query ] to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:19'
+[2019-02-22 17:16:25] [ collect_query ] SELECT abnormalguid, dblogguid, abnormaldataname, abnormaldatacount, dblogtype, netlogguid, abnormaluid, abnormalrownumber, abnormaltime FROM abnormaldata WHERE to_char(ABNORMALTIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:19' ORDER BY ABNORMALTIME
+[2019-02-22 17:16:25] [ abnormaldata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:25] [ condition query ] to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:21'
+[2019-02-22 17:16:25] [ collect_query ] SELECT captureguid, capturerownumber, capturecontent, capturesize, capturetime, capturetype, dblogguid, captureuserid FROM capturedata WHERE to_char(CAPTURETIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:21' ORDER BY CAPTURETIME
+[2019-02-22 17:16:25] [ capturedata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:25] [ condition query ] to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:25'
+[2019-02-22 17:16:25] [ collect_query ] SELECT dbguid, rownumber, rcvid, dbtype, dbdatasize, dbipfrom, dbipto, dbtimereceived, dbtimerequest, dbtimeresponse, dbacctimereceived, dbacctimerequest, dbacctimeresponse, dbsubject, dbcontent, dbcategory, dbquerytype, dbdurationtime, dbrowsaffect, dbsqlcode, dbsqlmessage, dbpacketcount, dbpacketsize, dbtable, dbcolumn, dbcommand, filtername, dbalert, dbsessionguid, dbpid, dbuid, dbmid, realclientip, dblogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, iscaptured FROM logdata WHERE to_char(DBTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:25' ORDER BY DBTIMERECEIVED
+[2019-02-22 17:16:25] [ logdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:25] [ condition query ] to_char(NETSESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:27'
+[2019-02-22 17:16:25] [ collect_query ] SELECT netsessionguid, rownumber, rcvid, netsesstype, netsessclientip, netsessclientport, netsessclientmac, netsessserverip, netsessserverport, netsessservermac, netsesssubject, netsesscategory, netsesstimereceived, netsesstimestart, netsessacctimereceived, netsessacctimestart, netsessuserid, netsesspid, netsessuid, netsessmid FROM netsessiondata WHERE to_char(NETSESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:27' ORDER BY NETSESSTIMERECEIVED
+[2019-02-22 17:16:25] [ netsessiondata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:25] [ condition query ] to_char(NETTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:29'
+[2019-02-22 17:16:25] [ collect_query ] SELECT netguid, rownumber, rcvid, nettype, netclientsize, netserversize, netipfrom, netipto, nettimereceived, netacctimereceived, netclientcontent, netservercontent, netfilesize, netfilename, netfilecontent, netpacketcount, netpacketsize, netsessionguid, netalert, netpid, netuid, netmid, netlogtype, policyname, policyusergroupname, policyusergrouptargetname, policytimename, policyrulename, policyruledesc, alertpolicyname, alertpolicyusergroupname, alertpolicyusergrouptargetname, alertpolicytimename, alertpolicyrulename, alertpolicyruledesc, abnormaldatadesc, netiscaptured, deciderequesttime, decideresponsetime, decideresponsetype, decideofficeruid FROM networkdata WHERE to_char(NETTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:29' ORDER BY NETTIMERECEIVED
+[2019-02-22 17:16:25] [ networkdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:25] [ condition query ] to_char(ROWCONTENT, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:31'
+[2019-02-22 17:16:25] [ collect_query ] SELECT rowlogguid, rownumber, rcvid, rowtype, rowcontent, rowdbguid, rowresulttype FROM rowdata WHERE to_char(ROWCONTENT, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:31' ORDER BY ROWCONTENT
+[2019-02-22 17:16:25] [ rowdata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:25] [ condition query ] to_char(SESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:34'
+[2019-02-22 17:16:25] [ collect_query ] SELECT sessionguid, rownumber, rcvid, sessiondbtype, dbsubtype, clientip, clientport, clientmac, serverip, serverport, servermac, sesstimereceived, sesstimelogin, sessaccreceived, sessacctimelogin, userid, dbname, programname, localid, instancename, logondata, dbpid, dbuid, dbmid FROM sessiondata WHERE to_char(SESSTIMERECEIVED, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:34' ORDER BY SESSTIMERECEIVED
+[2019-02-22 17:16:26] [ sessiondata ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:26] [ condition query ] to_char(SESSIONTIMELOGOUT, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:35'
+[2019-02-22 17:16:26] [ collect_query ] SELECT sessstatguid, rownumber, rcvid, sessionrowcount, sessiontimelogout, sessionacctimelogout, sessiontimeduration, sessionmaxduration, sessionavgduration, column1, column2 FROM sessionstatistics WHERE to_char(SESSIONTIMELOGOUT, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:35' ORDER BY SESSIONTIMELOGOUT
+[2019-02-22 17:16:26] [ sessionstatistics ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:29] [ condition query ] log_date > $$condition_value$$ [ condition value ] '2019-02-21 19:54:13.0'
+[2019-02-22 17:16:29] [ collect_query ] select user_code,log_date,ip,mac_address,user_id,owner_code,content_id,content_code,current_content_name,log_type,log_type_name,purpose,purpose_name,purpose_fail_reason,purpose_fail_reason_name,usage_result from fut_log WHERE log_date > '2019-02-21 19:54:13.0' ORDER BY log_date
+[2019-02-22 17:16:29] [ fut_log ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-21 19:55:51.327'
+[2019-02-22 17:16:32] [ collect_query ] SELECT admin_login_seq, id, ip, login_yn, in_date, reg_dts FROM adminloginlog WHERE reg_dts > '2019-02-21 19:55:51.327' ORDER BY reg_dts
+[2019-02-22 17:16:32] [ adminloginlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-21 19:56:05.733'
+[2019-02-22 17:16:32] [ collect_query ] SELECT cmseq, employeeseq, type, rundate, totalcnt, devicetotalcnt, deviceoriginalcnt, deviceoriginalsize, mailtotalcnt, mailoriginalcnt, mailoriginalsize, messengertotalcnt, messengeroriginalcnt, messengeroriginalsize, ftptotalcnt, ftporiginalcnt, ftporiginalsize, devicetotalcnt1, deviceoriginalcnt1, deviceoriginalsize1 FROM concentrationmonitoringtargetlog WHERE rundate > '2019-02-21 19:56:05.733' ORDER BY rundate
+[2019-02-22 17:16:32] [ concentrationmonitoringtargetlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-21 19:56:20.27'
+[2019-02-22 17:16:32] [ collect_query ] SELECT logseq, devicecontrolcode, employeeseq, sendseq, processname, filename, filesize, runfile, rundate, integerip, ip, pysicaladdress, pattern, takeoutcode, action, policy, keyword, duplicatefilecnt, regdate FROM devicecontrollog WHERE rundate > '2019-02-21 19:56:20.27' ORDER BY rundate
+[2019-02-22 17:16:32] [ devicecontrollog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-21 19:56:34.24'
+[2019-02-22 17:16:32] [ collect_query ] SELECT history_no, employee_seq, policy_no, requestseq, policy_string, start_day, end_day, allow_memo, use_yn, mod_dts, mod_no, reg_dts, reg_no, policy_history_no FROM employee_take_out_policy_history WHERE reg_dts > '2019-02-21 19:56:34.24' ORDER BY reg_dts
+[2019-02-22 17:16:32] [ employee_take_out_policy_history ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-21 19:56:47.477'
+[2019-02-22 17:16:32] [ collect_query ] SELECT employee_policy_history_no, employee_seq, policy_no, policy_string, use_yn, reg_dts, reg_no, mod_dts, mod_no, policy_history_no FROM employee_watermark_policy_history WHERE reg_dts > '2019-02-21 19:56:47.477' ORDER BY reg_dts
+[2019-02-22 17:16:32] [ employee_watermark_policy_history ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-21 19:57:02.59'
+[2019-02-22 17:16:32] [ collect_query ] SELECT logseq, etceteracode, employeeseq, sendseq, inoutcode, processname, sourceintegerip, destinationintegerip, sourceip, destinationip, sourceport, destinationport, rundate, pysicaladdress, sourcefilename, destinationfilename, filepath, filesize, summaryfile, pattern, takeoutcode, action, duplicatefile, keyword, regdate FROM ftplog WHERE rundate > '2019-02-21 19:57:02.59' ORDER BY rundate
+[2019-02-22 17:16:32] [ ftplog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] regdate > $$condition_value$$ [ condition value ] '2019-02-21 19:57:18.497'
+[2019-02-22 17:16:32] [ collect_query ] SELECT logseq, mailcode, employeeseq, sendseq, inoutcode, fromemail, fromintegerip, fromip, mailserverintegerip, mailserverip, subject, currentstate, mailstate, sourceport, destinationport, senddate, filesize, filepath, filename, summaryfile, pysicaladdress, hostseq, attachnum, attachorbody, pattern, sumpattern, toemail, ccemail, bccemail, takeoutcode, keyword, filelogcnt, regdate FROM maillog WHERE regdate > '2019-02-21 19:57:18.497' ORDER BY regdate
+[2019-02-22 17:16:32] [ maillog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-21 19:57:32.343'
+[2019-02-22 17:16:32] [ collect_query ] SELECT logseq, messengercode, employeeseq, sendseq, useraccount, buddyaccount, rundate, integerip, ip, pysicaladdress, pattern, takeoutcode, msglogtype, talklogcnt, filelogcnt, regdate FROM messengerlog WHERE rundate > '2019-02-21 19:57:32.343' ORDER BY rundate
+[2019-02-22 17:16:32] [ messengerlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] reg_dts > $$condition_value$$ [ condition value ] '2019-02-21 19:57:48.257'
+[2019-02-22 17:16:32] [ collect_query ] SELECT policy_history_no, history_tp, policy_no, policy_nm, policy_tp, dept_cd, network_process_policy, port_policy, mail_policy, messenger_policy, ftp_policy, ip_change_policy, proxy_server_policy, site_policy, access_point_policy, device_policy, program_policy, watermark_policy, pc_use_log_policy, web_mail_policy, filetakeout_policy, dochistory_policy, vpn_policy, screenshot_policy, alertmessenger_policy, httpmessenge_policy, https_mail_policy, multi_os_policy, vm_install_policy, xp_os_policy, comment, hierarchy, ip, reg_dts, reg_no, flag FROM policy_master_history WHERE reg_dts > '2019-02-21 19:57:48.257' ORDER BY reg_dts
+[2019-02-22 17:16:32] [ policy_master_history ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-21 19:58:01.523'
+[2019-02-22 17:16:32] [ collect_query ] SELECT logseq, employeeseq, filename, filesize, rundate, integerip, ip, pysicaladdress FROM screenshotlog WHERE rundate > '2019-02-21 19:58:01.523' ORDER BY rundate
+[2019-02-22 17:16:32] [ screenshotlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-21 19:58:15.007'
+[2019-02-22 17:16:32] [ collect_query ] SELECT logseq, policysendcode, employeeseq, ip, pysicaladdress, sendseq, processname, rundate, usbcertpolicycode, idvendor, idproduct, bcddevice, szserial, bloss FROM usbcertlog WHERE rundate > '2019-02-21 19:58:15.007' ORDER BY rundate
+[2019-02-22 17:16:32] [ usbcertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:32] [ condition query ] rundate > $$condition_value$$ [ condition value ] '2019-02-21 19:58:29.117'
+[2019-02-22 17:16:32] [ collect_query ] SELECT logseq, employeeseq, sendseq, processname, filename, filesize, runfile, rundate, integerip, ip, pysicaladdress, sourceport, destinationport FROM whiteprocesslog WHERE rundate > '2019-02-21 19:58:29.117' ORDER BY rundate
+[2019-02-22 17:16:32] [ whiteprocesslog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:35] [ condition query ] senddate > $$condition_value$$ [ condition value ] '2019-02-21 19:54:22.0'
+[2019-02-22 17:16:35] [ collect_query ] select windowsapplicationseq,userid,processname,senddate,ip,mac,useyn from vwindowsapplicationlog WHERE senddate > '2019-02-21 19:54:22.0' ORDER BY senddate
+[2019-02-22 17:16:35] [ vwindowsapplicationlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:35] [ condition query ] logindate > $$condition_value$$ [ condition value ] '2019-02-21 19:54:21.0'
+[2019-02-22 17:16:35] [ collect_query ] select userid,assetid,username,ip,mac,logindate,installstatus from vuserinfoassetdevice WHERE logindate > '2019-02-21 19:54:21.0' ORDER BY logindate
+[2019-02-22 17:16:35] [ vuserinfoassetdevice ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:35] [ condition query ] senddate > $$condition_value$$ [ condition value ] '2019-02-21 19:54:18.0'
+[2019-02-22 17:16:35] [ collect_query ] select contentsoutflowlogseq,outflowtype,outflowname,userid,processname,filename,filesize,senddate,ip,mac,useyn from vcontentsoutflowlog WHERE senddate > '2019-02-21 19:54:18.0' ORDER BY senddate
+[2019-02-22 17:16:35] [ vcontentsoutflowlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:38] [ condition query ] event_time > $$condition_value$$ [ condition value ] '2019-02-21 19:54:26.0'
+[2019-02-22 17:16:38] [ collect_query ] select event_time,event_level,op_code,event_type,event_name,more_info,ip_address,mac_address,device_id,user_id,user_name,org_name,admin_id,admin_nm from vwlog_event_last WHERE event_time > '2019-02-21 19:54:26.0' ORDER BY event_time
+[2019-02-22 17:16:38] [ vwlog_event_last ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:41] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-02-21 19:55:22.537'
+[2019-02-22 17:16:41] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-02-21 19:55:22.537' ORDER BY log_time
+[2019-02-22 17:16:41] [ vsdlog_info ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:41] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-02-21 19:54:50.243'
+[2019-02-22 17:16:41] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-02-21 19:54:50.243' ORDER BY log_time
+[2019-02-22 17:16:41] [ dslog_info ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:44] [ condition query ] inspectendtime > $$condition_value$$ [ condition value ] '2019-02-21 19:54:15'
+[2019-02-22 17:16:44] [ collect_query ] select userid,username,filename,durationdays,filepath,inspectendtime,encryptfiletype,agentip,computername,resident_no,foregin_no,account_no,credit_no,phone_no,mobile_no from incidentsdiscover WHERE inspectendtime > '2019-02-21 19:54:15' ORDER BY inspectendtime
+[2019-02-22 17:16:44] [ incidentsdiscover ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:47] [ condition query ] regdate > $$condition_value$$ [ condition value ] '2019-02-21 19:54:11.0'
+[2019-02-22 17:16:47] [ collect_query ] select id,filename,regdate,virusdetect,extfakedetect from fileview WHERE regdate > '2019-02-21 19:54:11.0' ORDER BY regdate
+[2019-02-22 17:16:47] [ fileview ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:50] [ condition query ] qtime > $$condition_value$$ [ condition value ] '2019-02-21 19:54:16.0'
+[2019-02-22 17:16:50] [ collect_query ] select intno,qname,qtime,ipaddr,sender,rcpt,subj,type,reason,attname,dsize,slaved from v_spamfilter_log WHERE qtime > '2019-02-21 19:54:16.0' ORDER BY qtime
+[2019-02-22 17:16:50] [ v_spamfilter_log ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:54] [ condition query ] to_char(JOB_TIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:13'
+[2019-02-22 17:16:54] [ collect_query ] select user_id,user_name,job_type,job_time,usage,scan_to_email from v_job_log WHERE to_char(JOB_TIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:13' ORDER BY JOB_TIME
+[2019-02-22 17:16:54] [ v_job_log ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:57] [ condition query ] to_char(cmd_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:11'
+[2019-02-22 17:16:57] [ collect_query ] select yyyymmdd,hhmmss,connection_key,cmd_num,tnt_cmd,to_char(cmd_time, 'YYYY-MM-DD HH24:MI:SS') as cmd_time,valid_flg,normal_cmd_yn,user_id,user_ip from stg_tnt20 WHERE to_char(cmd_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:11' ORDER BY CMD_TIME
+[2019-02-22 17:16:57] [ stg_tnt20 ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:16:57] [ condition query ] to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21 19:33:09'
+[2019-02-22 17:16:57] [ collect_query ] select yyyymmdd,hhmmss,user_id,user_ip,user_port,to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') as end_time,client_key,client_type,product_type,login_yn,login_code from nad_user30 WHERE to_char(end_time, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21 19:33:09' ORDER BY END_TIME
+[2019-02-22 17:16:57] [ nad_user30 ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:17:00] [ condition query ] to_char(ACCESSTIME, 'YYYY-MM-DD HH24:MI:SS') > $$condition_value$$ [ condition value ] '2019-02-21'
+[2019-02-22 17:17:00] [ collect_query ] SELECT guid, memguid, userid, type, accesstime, userip FROM webhistory WHERE to_char(ACCESSTIME, 'YYYY-MM-DD HH24:MI:SS') > '2019-02-21' ORDER BY ACCESSTIME
+[2019-02-22 17:17:00] Data Parsing Start
+[2019-02-22 17:17:00] Data Insert Stop - Total Count : 1000
+[2019-02-22 17:17:03] [ condition query ] logdt > $$condition_value$$ [ condition value ] '2019-02-21 19:55:03.95'
+[2019-02-22 17:17:03] [ collect_query ] select logseq,deviceno,mgmtkey,inouttype,sitekey,filemode,srcfile,filesize,destfile,agentuserid,pcip,pcmac,logdt,instdt from log_deviceuse WHERE logdt > '2019-02-21 19:55:03.95' ORDER BY logdt
+[2019-02-22 17:17:03] [ log_deviceuse ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-22 17:17:06] Log data collect end.

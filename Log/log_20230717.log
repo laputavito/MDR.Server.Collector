@@ -1,0 +1,62 @@
+[2023-07-17 18:05:13] 배치 Thread 실행
+[2023-07-17 18:05:13] Collector Demon이 시작되었습니다...
+[2023-07-17 18:05:35] java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+java.net.PlainSocketImpl.connect(Unknown Source)
+java.net.SocksSocketImpl.connect(Unknown Source)
+java.net.Socket.connect(Unknown Source)
+cubrid.jdbc.net.BrokerHandler.connectBroker(BrokerHandler.java:47)
+cubrid.jdbc.jci.UConnection.reconnectWorker(UConnection.java:1912)
+cubrid.jdbc.jci.UConnection.reconnect(UConnection.java:2016)
+cubrid.jdbc.jci.UConnection.checkReconnect(UConnection.java:2199)
+cubrid.jdbc.jci.UConnection.tryConnect(UConnection.java:359)
+cubrid.jdbc.driver.CUBRIDDriver.connect(CUBRIDDriver.java:220)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:75)
+java.lang.Thread.run(Unknown Source)
+
+[2023-07-17 18:05:38] [ condition query ] detected_date > $$condition_value$$ [ condition value ] '2023-06-11 08:57:58.005000000'
+[2023-07-17 18:05:38] [ collect_query ] SELECT id, agent_agent_key, agent_name, conn_ip, department_full_patch, detected_date, detected_method, hash, local_detected_date, malware_id, name, `path`, treat_type FROM view_malware_log WHERE detected_date > '2023-06-11 08:57:58.005000000' ORDER BY detected_date
+[2023-07-17 18:05:39] [ view_malware_log ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2023-07-17 18:05:39] [ condition query ] blocked_date > $$condition_value$$ [ condition value ] '2023-06-11 08:57:58.005000000'
+[2023-07-17 18:05:39] [ collect_query ] SELECT id, agent_agent_key, agent_name, blocked_date, blocked_program_path, conn_ip, department_full_path, now(), target_file_path FROM view_ransomware_block_log WHERE blocked_date > '2023-06-11 08:57:58.005000000' ORDER BY blocked_date
+[2023-07-17 18:05:39] [ view_ransomware_block_log ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2023-07-17 18:06:03] com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:46)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:93)
+java.lang.Thread.run(Unknown Source)
+
+[2023-07-17 18:06:27] com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:46)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:93)
+java.lang.Thread.run(Unknown Source)
+
+[2023-07-17 18:06:30] Log data collect end.

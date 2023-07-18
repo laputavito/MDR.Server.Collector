@@ -1,0 +1,62 @@
+[2022-12-13 18:00:11] 배치 Thread 실행
+[2022-12-13 18:00:11] Collector Demon이 시작되었습니다...
+[2022-12-13 18:02:02] 배치 Thread 실행
+[2022-12-13 18:02:02] Collector Demon이 시작되었습니다...
+[2022-12-13 18:02:08] java.net.URLClassLoader.findClass(Unknown Source)
+java.lang.ClassLoader.loadClass(Unknown Source)
+sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+java.lang.ClassLoader.loadClass(Unknown Source)
+java.lang.Class.forName0(Native Method)
+java.lang.Class.forName(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:43)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:70)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-13 18:03:33] 배치 Thread 실행
+[2022-12-13 18:03:33] Collector Demon이 시작되었습니다...
+[2022-12-13 18:03:38] java.net.URLClassLoader.findClass(Unknown Source)
+java.lang.ClassLoader.loadClass(Unknown Source)
+sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+java.lang.ClassLoader.loadClass(Unknown Source)
+java.lang.Class.forName0(Native Method)
+java.lang.Class.forName(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:43)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:70)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-13 18:06:02] 배치 Thread 실행
+[2022-12-13 18:06:02] Collector Demon이 시작되었습니다...
+[2022-12-13 18:06:06] java.net.URLClassLoader.findClass(Unknown Source)
+java.lang.ClassLoader.loadClass(Unknown Source)
+sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+java.lang.ClassLoader.loadClass(Unknown Source)
+java.lang.Class.forName0(Native Method)
+java.lang.Class.forName(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:43)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:70)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-13 18:06:44] 배치 Thread 실행
+[2022-12-13 18:06:44] Collector Demon이 시작되었습니다...
+[2022-12-13 18:06:48] java.net.URLClassLoader.findClass(Unknown Source)
+java.lang.ClassLoader.loadClass(Unknown Source)
+sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+java.lang.ClassLoader.loadClass(Unknown Source)
+java.lang.Class.forName0(Native Method)
+java.lang.Class.forName(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:43)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:70)
+java.lang.Thread.run(Unknown Source)
+

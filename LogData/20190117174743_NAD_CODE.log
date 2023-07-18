@@ -1,0 +1,1396 @@
+$$Log_Begin$$
+CODE_KIND$$CODE_ID$$CODE_VAL1$$CODE_VAL2$$CODE_DESC$$PRODUCT_TYPE$$USE_FLG
+MODULE_VERSION$$SGSDriverSetup.exe$$0.0.0.0$$0$$null$$1$$1
+PWD_CONTINU_CHAR$$PWD_KEYBOARD_CONTINU_UPPERCASE$$ASDFGHJKLQWERTYUIOPZXCVBNM$$null$$패스워드 주기성 문제 제한 -키보드상의 연속된 문자(대문자)$$1$$1
+PWD_CONTINU_CHAR$$PWD_KEYBOARD_CONTINU_LOWERCASE$$asdfghjklqwertyuiopzxcvbnm$$null$$패스워드 주기성 문제 제한 -키보드상의 연속된 문자(소문자)$$1$$1
+REALTIME_TYPE$$PREV_DAY$$전주$$7$$실시간접속현황/전체운영현황 기준일 설정 (code_val1 : 타이틀, code_val2 : 이전일수)$$1$$1
+USER_CERT_TIME$$SMS$$180$$null$$SMS 인증 시간(단위: 초)$$1$$1
+DEV_VENDOR$$Cisco$$Cisco$$null$$null$$1$$1
+DEV_VENDOR$$DASAN$$DASAN$$null$$null$$1$$1
+DEV_VENDOR$$DIgital Link$$DIgital Link$$null$$null$$1$$1
+DEV_VENDOR$$Dell$$Dell$$null$$null$$1$$1
+SGS_PROTOCOL$$4$$ORACLE$$null$$null$$1$$0
+DEV_VENDOR$$EMC$$EMC$$null$$null$$1$$1
+DEV_VENDOR$$ETC$$ETC$$null$$null$$1$$1
+DEV_VENDOR$$Eslim$$Eslim$$null$$null$$1$$1
+DEV_VENDOR$$Extreme$$Extreme$$null$$null$$1$$1
+DEV_VENDOR$$F5 Networks$$F5 Networks$$null$$null$$1$$1
+DEV_VENDOR$$Fujitsu$$Fujitsu$$null$$null$$1$$1
+DEV_VENDOR$$HITACHI$$HITACHI$$null$$null$$1$$1
+DEV_VENDOR$$HP$$HP$$null$$null$$1$$1
+DEV_VENDOR$$IBM$$IBM$$null$$null$$1$$1
+DEV_VENDOR$$INTEL$$INTEL$$null$$null$$1$$1
+DEV_VENDOR$$JUNIPER$$JUNIPER$$null$$null$$1$$1
+DEV_VENDOR$$Kontron$$Kontron$$null$$null$$1$$1
+DEV_VENDOR$$LG$$LG$$null$$null$$1$$1
+DEV_VENDOR$$Langley$$Langley$$null$$null$$1$$1
+DEV_VENDOR$$Laurel Networks$$Laurel Networks$$null$$null$$1$$1
+DEV_VENDOR$$Microsoft$$Microsoft$$null$$null$$1$$1
+DEV_VENDOR$$NORTEL$$NORTEL$$null$$null$$1$$1
+DEV_VENDOR$$Newgrid$$Newgrid$$null$$null$$1$$1
+DEV_VENDOR$$Nokia$$Nokia$$null$$null$$1$$1
+DEV_VENDOR$$Nortel$$Nortel$$null$$null$$1$$1
+DEV_VENDOR$$Redback$$Redback$$null$$null$$1$$1
+DEV_VENDOR$$Riverstone$$Riverstone$$null$$null$$1$$1
+DEV_VENDOR$$SAMSUNG$$SAMSUNG$$null$$null$$1$$1
+DEV_VENDOR$$SECUI$$SECUI$$null$$null$$1$$1
+STGCLIENT_OPTION$$USE_DAC_TREE$$0$$null$$DB접근제어 트리 (1:사용)$$1$$1
+DEV_VENDOR$$SNIPER$$SNIPER$$null$$null$$1$$1
+DEV_VENDOR$$SUN$$SUN$$null$$null$$1$$1
+DEV_VENDOR$$Seachange$$Seachange$$null$$null$$1$$1
+DEV_VENDOR$$Smart Server$$Smart Server$$null$$null$$1$$1
+DEV_VENDOR$$Uniwide$$Uniwide$$null$$null$$1$$1
+DORMANT_ACCT$$EMPLOYEE$$90$$DISABLE$$직원 휴먼계정 처리정책$$0$$0
+DORMANT_ACCT$$SUBCONTRACTOR$$90$$DISABLE$$협력사 휴먼계정 처리정책$$0$$1
+EXTERM_TERMINAL_DEFAULT$$PUTTY$$Window|C:\STGManager\bin\putty.exe|telnet://<ip>:<port>$$TELNET|SSH$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$Pineterm$$Window|Pineterm.exe|-A <ip> -P <port>$$TELNET|SSH$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$SecureCRT$$Window|C:\Program Files\SecureCRT\SecureCRT.exe|telnet://<ip>:<port>$$TELNET|SSH$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$SecureCRTv6$$Window|C:\Program Files\SecureCRT\SecureCRT.exe|/t /N <dev_nm>(<dev_ip>) telnet://<ip>:<port>$$TELNET|SSH$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$Spider$$Window|C:\STGManager\bin\SecureLinx Spider View.exe|/ip <dev_ip> /user <id> /password <pass>$$CONSOLE|KVM$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$TELNET$$Window|C:\Windows\System32\telnet.exe|<ip> <port>$$TELNET|SSH$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$Teraterm$$Window|Traterm.exe|/T=1 <ip>:<port>$$TELNET|SSH$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$VNC$$Window|C:\STGManager\bin\vnc-E4_4_3-x86_win32_viewer.exe|<ip>:<port>$$WINTERM$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$Winterm$$Window|C:\STGManager\bin\mstsc.exe|-ip=<ip> -port=<port> -id=<id> -pw=<pass>$$WINTERM$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$Winterm_Console$$Window|C:\STGManager\bin\mstsc.exe|-ip=<ip> -port=<port> -id=<id> -pw=<pass> -console=true$$WINTERM$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$Xshell$$Window|C:\Program Files\NetSarang\Xshell\Xshell.exe|/url telnet://<ip>:<port>$$TELNET|SSH$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$ZTERM$$Window|Zterm.exe|-h <ip> -n <port>$$TELNET|SSH$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT_SET$$SSH$$PUTTY$$null$$SSH 프로토콜은 PUTTY 를 기본 터미널로 사용.$$1$$1
+EXTERM_TERMINAL_DEFAULT_SET$$TELNET$$PUTTY$$null$$TELNET 프로토콜은 PUTTY 를 기본 터미널로 사용.$$1$$1
+EXTERM_TERMINAL_DEFAULT_SET$$WINTERM$$Winterm$$null$$WINTERM 프로토콜은 Winterm 를 기본 터미널로 사용.$$1$$1
+EXTERM_TERMINAL_HIDE$$2$$SFTP$$null$$외부터미널 설정에서 SFTP 를 제외한다.$$1$$1
+EXT_AUTH_LINK$$BASE_DNS$$null$$null$$SSO_LDAP BASE DN 정보$$1$$1
+EXT_AUTH_LINK$$DOMAIN$$null$$null$$SSO_LDAP 도메인 정보$$1$$1
+EXT_AUTH_LINK$$PORT$$389$$null$$SSO_LDAP 포트 정보$$1$$1
+EXT_AUTH_LINK$$SSL_PORT$$636$$null$$SSO_LDAP SSL 포트 정보$$1$$1
+EXT_AUTH_LINK$$STATUS$$1$$null$$서버 상태 정보( 0 : 접속 불가 1 : 정상 )$$1$$1
+EXT_AUTH_LINK$$URL$$null$$null$$주소 URL ( KTP_AD에서 사용 )$$1$$1
+HINT_TABLE$$NAD_DEV10$$NAD_DEV10_IDX01$$DEV_NM$$테이블의 힌트 인덱스를 가짐 - DEV10 의 DEFAULT 인덱스$$1$$1
+HINT_TABLE$$NAD_DEV10@DEV_NM$$NAD_DEV10_IDX01$$DEV_NM$$테이블의 힌트 인덱스를 가짐 - DEV10 의 장비명인덱스$$1$$1
+HINT_TABLE$$NAD_DEV10@DEV_IP$$NAD_DEV10_IDX02$$DEV_IP$$테이블의 힌트 인덱스를 가짐 - DEV10 의 장비 IP 인덱스$$1$$1
+HINT_TABLE$$NAD_USER10$$NAD_USER10_IDX_USER_NM$$USER_NM$$테이블의 힌트 인덱스를 가짐 - USER10 의 DEFAULT 인덱스$$1$$1
+HINT_TABLE$$NAD_USER10@USER_NM$$NAD_USER10_IDX_USER_NM$$USER_NM$$테이블의 힌트 인덱스를 가짐 - USER10 의 사용자명 인덱스$$1$$1
+HINT_TABLE$$NAD_USER10@USER_ID$$NAD_USER10_PK$$USER_ID$$테이블의 힌트 인덱스를 가짐 - USER10 의 사용자 아이디 인덱스$$1$$1
+HINT_TABLE$$NAD_GRP10$$NAD_GRP10_PK$$GRP_NUM$$테이블의 힌트 인덱스를 가짐 - GRP10 의 DEFAULT 인덱스$$1$$1
+HINT_TABLE$$NAD_GRP10@GRP_NUM$$NAD_GRP10_PK$$GRP_NUM$$테이블의 힌트 인덱스를 가짐 - GRP10 의 그룹번호 인덱스$$1$$1
+HINT_TABLE$$NAD_GRP20$$NAD_GRP20_PK$$GRP_NUM$$테이블의 힌트 인덱스를 가짐 - GRP20 의 DEFAULT 인덱스$$1$$1
+HINT_TABLE$$NAD_GRP20@GRP_NUM$$NAD_GRP20_PK$$GRP_NUM$$테이블의 힌트 인덱스를 가짐 - GRP20 의 그룹번호 인덱스$$1$$1
+HI_ACL$$MAC_USER_MAX_CNT$$5$$0$$개인별 MAC 설정 가능 갯수$$1$$1
+CERT_MODE_DATA$$1$$60$$10$$null$$1$$1
+CERT_MODE$$0$$기본인증$$null$$null$$1$$1
+CERT_MODE_DATA$$3$$60$$10$$null$$1$$1
+DEV_CERT_MODE$$4$$null$$null$$장비 접속 이중인증 방식(nad_code code_kind : dev_cert_mode_list 에 종류 존재)$$1$$1
+CERT_MODE$$1$$SMS_OTP$$null$$OTP 인증 정책 중 전송방식 SMS 사용$$1$$1
+CERT_MODE$$3$$RSA_OTP$$null$$RSA_OTP 인증 정책 사용$$1$$0
+CERT_MODE$$5$$NOTE_OTP$$null$$NOTE_OTP인증 정책 사용$$1$$0
+DEV_CERT_MODE_LIST$$0$$이중인증 사용안함$$null$$null$$1$$0
+DEV_CERT_MODE_LIST$$2$$장비$$null$$null$$1$$0
+DEV_CERT_MODE_LIST$$3$$장비,장비계정$$null$$null$$1$$0
+DEV_CERT_MODE_LIST$$4$$사용자$$null$$null$$1$$1
+DEV_CERT_MODE_LIST$$6$$사용자,장비$$null$$null$$1$$0
+DEV_CERT_MODE_LIST$$7$$사용자,장비,장비계정$$null$$null$$1$$0
+CERT_MODE_DATA$$4$$60$$10$$null$$1$$1
+DAC_POLICY$$LOG_POLICY$$5$$200$$null$$1$$1
+DEV_SVR_KIND_TP$$01$$SYSTEM$$null$$null$$1$$1
+DEV_SVR_KIND_TP$$02$$DB$$null$$null$$1$$1
+MULTI_AUTH_POLICY$$USE_DEFAULT_AUTH$$0$$null$$장비접속 이중인증 미사용시 인증 타입-기본인증$$1$$1
+HI_ACL$$MAC_USER_SET_YN$$1$$0$$개인별 MAC 설정 가능 여부$$1$$1
+HI_WARE$$COMMON$$0$$0$$null$$0$$1
+HI_WARE$$NMS$$2$$2$$null$$2$$1
+HI_WARE$$STG$$1$$1$$null$$1$$1
+ICMP_OPT$$GIVEUP_CNT$$2$$null$$ICMP 연속 실패 시 Down 판단 회수$$2$$1
+ICMP_OPT$$PKT_SIZE$$32$$null$$ICMP Data packet size$$2$$1
+ICMP_OPT$$TIMEOUT$$2000$$null$$ICMP Timeout(msec)$$2$$1
+ICMP_OPT$$TRY_CNT$$10$$null$$ICMP 시도 회수$$2$$1
+IP_AUTH$$MAC_USED$$0$$0$$MAC 사용 여부$$1$$1
+LINK$$DEV_APPLY$$0$$null$$0 : disable, 1 : enable$$1$$1
+LINK$$DEV_AUTO$$0$$null$$0 : 연동 미사용, 1 : 연동 사용$$1$$1
+LINK$$USER_AUTO$$1$$0$$사용자 자동 연동 여부$$1$$1
+EXTERM_TERMINAL_DEFAULT$$HI-TAM 5.0$$Default|C:\STGManager\Bin\HI-TAM 5.0.exe|$$null$$null$$1$$1
+TIM_MYSQL$$TIM_MYSQL5.7$$MySQL 5.7$$1$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+ACCT_WORK_ID$$SET_ACCT_INFO$$계정 정보 설정$$null$$null$$7$$1
+STGCLIENT_OPTION$$MULTI_CONNECT$$1$$null$$null$$1$$1
+STGCLIENT_OPTION$$USE_WEB_BOARD$$0$$웹 게시판 사용 여부$$웹 게시판 사용 여부$$1$$1
+STGCLIENT_OPTION$$WEB_BOARD_LINK$$null$$웹 게시판 링크 URL$$웹 게시판 사용 시 LINK 주소$$1$$1
+STGCLIENT_OPTION$$USE_CONN_REQUEST$$0$$접속 요청 승인 기능 사용 여부$$작업 요청 승인 기능 사용 여부$$1$$1
+STGCLIENT_OPTION$$USE_BATCH_COMMAND$$1$$배치 커맨드 사용 여부$$Batch Command 사용 여부$$1$$1
+STGCLIENT_OPTION$$SGS_ON$$0$$Packet Forwarding 모듈 사용 여부$$패킷 포워딩 모듈을 이용한 기타 Bypass 프로토콜의 패킷 데이터 포워딩 모듈$$1$$0
+STGCLIENT_OPTION$$SEARCH_TOOL$$DEFAULT$$DEFAULT/KT 기본은 DEFAULT$$장비 검색 기능 종류 (없을 경우 ‘DEFAULT’ 로 셋팅 됨 ) KT 였을 경우 커스터 마이징 되어진 SEARCH TOOL$$1$$1
+STGCLIENT_OPTION$$EXPIRE_LOGIN_CONFIG$$0$$자리비움 설정 기능 사용 여부$$null$$1$$1
+STGCLIENT_OPTION$$DIRECT_CONNECT$$0$$DIRECT CONNECT 기능 사용 여부$$null$$1$$1
+STGCLIENT_OPTION$$EXTERM_CONFIG_VER$$2$$null$$null$$1$$1
+STGCLIENT_OPTION$$EXTERM_CONVERT_TARGET$$DB$$null$$null$$1$$1
+STGCLIENT_OPTION$$USE_DEV_INFO_DOWN$$0$$장비 정보 다운로드 사용 여부$$콘솔 모드 기능을 위한 장비 정보 다운로드$$1$$1
+STGCLIENT_OPTION$$LDB_VERSION$$11$$null$$null$$1$$1
+STGCLIENT_OPTION$$DIRECT_CONNECT_VERSION$$2$$null$$Proxy Configuration version$$1$$1
+STGCLIENT_OPTION$$USE_SERIAL_CONNECT$$0$$null$$Serial connection function disable or enable$$1$$1
+STGCLIENT_OPTION$$USE_FAVORITE_TREE$$1$$null$$즐겨찾기 트리 사용 여부 (1:사용)$$1$$1
+ACCT_WORK_ID$$ACCT_CREATE$$계정 생성$$100$$code_id:계정관리ID, code_val1:이름, code_val1:연결되는 Script 종류 키$$7$$1
+ACCT_WORK_ID$$ACCT_DELETE$$계정 삭제$$101$$계정 관리 요청 시 해당 code_id 를 사용하기 위하여 해당 code_kind 가 설계되었음$$7$$1
+ACCT_WORK_ID$$ACCT_EXPIRY_DATE$$계정 사용 기간$$111$$계정 정보 수정(UID, GID, SHELL, HOME DIR)$$7$$1
+ACCT_WORK_ID$$ACCT_LOCK$$계정 잠금$$109$$null$$7$$1
+ACCT_WORK_ID$$ACCT_UNLOCK$$계정 잠금 해제$$110$$계정의 lock상태를 해제한다.$$7$$1
+ACCT_WORK_ID$$AUTO_LOGIN$$자동로그인$$0$$null$$7$$1
+ACCT_WORK_ID$$DB_PRIV_ADD$$DB Privilege 추가$$215$$null$$7$$1
+ACCT_WORK_ID$$DB_PRIV_DEL$$DB Privilege 삭제$$216$$null$$7$$1
+ACCT_WORK_ID$$DEF_DB_SET$$기본 DB 선택$$207$$null$$7$$1
+ACCT_WORK_ID$$DEF_TS_SET$$기본 Table Space 설정$$200$$null$$7$$1
+ACCT_WORK_ID$$GID_CHG$$Group ID 변경$$103$$null$$7$$1
+ACCT_WORK_ID$$HOME_DIR_CHG$$Home Dir 변경$$105$$null$$7$$1
+ACCT_WORK_ID$$POLL_ACCT$$계정 수집$$102$$null$$7$$1
+ACCT_WORK_ID$$POLL_ACCT_GRP$$계정 그룹 수집$$107$$null$$7$$0
+ACCT_WORK_ID$$POLL_SHELL$$로그인 쉘 수집$$108$$null$$7$$0
+ACCT_WORK_ID$$PRIV_ADD$$Privilege 추가$$204$$null$$7$$1
+ACCT_WORK_ID$$PRIV_DEL$$Privilege 삭제$$205$$null$$7$$1
+ACCT_WORK_ID$$PROFILE_SET$$Profile 설정$$206$$null$$7$$1
+ACCT_WORK_ID$$PWD_CHG$$패스워드 변경$$1$$null$$7$$1
+ACCT_WORK_ID$$PWD_EXPIRY_DATE$$PWD 사용 기간$$112$$null$$7$$1
+ACCT_WORK_ID$$ROLE_ADD$$Role 추가$$202$$null$$7$$1
+ACCT_WORK_ID$$ROLE_DEL$$Role 삭제$$203$$null$$7$$1
+ACCT_WORK_ID$$SHELL_CHG$$로그인 쉘 변경$$106$$null$$7$$1
+ACCT_WORK_ID$$TEMP_TS_SET$$임시 Table Space 설정$$201$$null$$7$$1
+ACCT_WORK_ID$$UID_CHG$$UID 변경$$104$$null$$7$$1
+ACCT_WORK_ID$$USER_PRIV_ADD$$USER Privilege 추가$$213$$null$$7$$1
+ACCT_WORK_ID$$USER_PRIV_DEL$$USER Privilege 삭제$$214$$null$$7$$1
+PARAM_TEMPLATE$$EXT_ACCT$$-config_file=C:\STGManager\Bin\LDAPv2\config.xml $$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_1206$$-server_id=::SERVER_ID -db_thread_cnt=1 -db_type=NDC30 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1206 -ra_thread_cnt=10 -tot_save_point=100 -force_discon=1 -badcmd_loadtype=TEMPLATE -badcmd_mode=DB -tnt_log_level=0 -net_log_port=21206 -linger_opt=1 -FTP_PASV=1 -insert_insert=1 -conn_type=BYPASS,FTP,FTP_ACTV,FTP_PASV,HTTP,SSH,TELNET,WINTERM$$null$$null$$1$$1
+DB_PARTITIONING$$STG_TNT30$$MANUAL_VARIABLE$$0$$null$$1$$1
+SYS_AC_POLICY$$AC_POLICY$$null$$null$$시스템 접근 정책$$1$$1
+SYS_AC_DLP$$DLP_LOGIN$$null$$null$$DLP로그인 설정$$1$$0
+TIM_ACCT_CONFIG_FAIL$$0$$작업 가능$$null$$계정에 대한 생성, 삭제, 패스워드 변경 등이 가능 함$$1$$1
+TIM_ACCT_CONFIG_FAIL$$1$$스크립트 확인 요망$$null$$계정에 대한 작업시 스크립트가 존재하지 않음$$1$$1
+TIM_ACCT_CONFIG_FAIL$$2$$관리계정 확인 요망$$null$$계정에 대한 작업시 관리계정이 존재하지 않음$$1$$1
+TIM_ACCT_CONFIG_FAIL$$3$$스크립트, 관리계정 확인 요망$$null$$계정에 대한 작업시 스크립트와 관리계정이 존재하지 않음$$1$$1
+TIM_DEV_ACCT_STATUS$$1$$정상$$null$$null$$7$$1
+TIM_DEV_ACCT_STATUS$$2$$사용기간만료$$null$$계정 사용 기간 초과$$7$$1
+TIM_DEV_ACCT_STATUS$$3$$PWD기간만료$$null$$패스워드 사용기간이 만료된 상태$$7$$1
+TIM_DEV_ACCT_STATUS$$4$$휴면 계정$$null$$지정된 기간이상 사용이 없을 경우$$7$$1
+TIM_DEV_ACCT_STATUS$$5$$Ghost 계정$$null$$실 서버에만 존재하고 현재 시스템에 없을 경우$$7$$1
+TIM_DEV_ACCT_STATUS$$6$$Broken 계정$$null$$현재 시스템만 존재하고 실 서버에는 없을 경우$$7$$1
+TIM_DEV_ACCT_STATUS_INTERNAL$$-1$$삭제됨$$null$$관리자가 계정을 삭제할 경우$$7$$1
+TIM_DEV_ACCT_STATUS_INTERNAL$$-2$$잠김$$null$$관리자 또는 내부 System 에 의하여 잠길 경우$$7$$1
+TIM_DEV_ACCT_STATUS_INTERNAL$$0$$Provisioning$$null$$시스템 계정 작업 중일 경우$$7$$1
+TIM_DEV_ACCT_STATUS_INTERNAL$$1$$정상$$null$$정상 계정$$7$$1
+TIM_DEV_ACCT_STATUS_INTERNAL$$2$$사용기간만료$$null$$계정 사용기간이 내부에 설정한 사용 기간을 넘길 경우$$7$$1
+TIM_DEV_ACCT_STATUS_INTERNAL$$3$$패스워드기간만료$$null$$PWD 사용기간이 내부에 설정한 사용 기간을 넘길 경우$$7$$1
+TIM_DEV_ACCT_STATUS_INTERNAL$$4$$휴면계정$$null$$계정이 등록한 기간동안 장비 접속이 없을 경우$$7$$1
+TIM_DEV_ACCT_STATUS_INTERNAL$$5$$Ghost계정$$null$$계정관리 시스템에 없는 계정이 시스템에는 있을 경우$$7$$1
+TIM_DEV_ACCT_STATUS_INTERNAL$$6$$Broken계정$$null$$계정관리 시스템에 있는 계정이 시스템에 없을 경우$$7$$1
+TIM_DEV_ACCT_STATUS_TARGET$$-1$$미존재$$null$$서버에서 계정이 삭제된 상태$$7$$1
+TIM_DEV_ACCT_STATUS_TARGET$$-2$$잠김$$null$$서버에서 계정이 잠긴 상태$$7$$1
+TIM_DEV_ACCT_STATUS_TARGET$$1$$정상$$null$$서버에서 계정이 잠긴 상태$$7$$1
+TIM_EVENT_KIND$$0$$관리자 설정$$ADMIN$$관리자 페이지에서 설정 시 (계정생성, 계정삭제를 시스템계정관리 페이지에서 수행할 경우)$$7$$1
+TIM_EVENT_KIND$$1$$사용자 삭제$$ADMIN$$관리자에 의한 사용자 삭제$$7$$1
+TIM_EVENT_KIND$$11$$계정 사용 만료$$SYSTEM$$시스템에 의해서 계정의 사용 만료가 있을 경우$$7$$1
+TIM_EVENT_KIND$$12$$휴면 계정$$SYSTEM$$시스템에 의해서 휴면 계정으로 처리될 경우$$7$$1
+TIM_EVENT_KIND$$13$$패스워드 만료$$SYSTEM$$시스템에 의해서 패스워드 사용 기간이 만료 될 경우 처리$$7$$1
+TIM_EVENT_KIND$$14$$불법 계정$$SYSTEM$$불법 계정 판단$$7$$1
+TIM_EVENT_KIND$$2$$퇴사자$$ADMIN$$퇴사에 의한 처리 $$7$$1
+TIM_EVENT_KIND$$3$$계정생성승인$$ADMIN$$계정 권한 요청에 의하여 생성되었을 경우 $$7$$1
+TIM_EVENT_KIND$$4$$계정삭제승인$$ADMIN$$계정 삭제 요청에 의하여 삭제 되었을 경우$$7$$1
+MODULE_VERSION$$libssh2.dll$$1.4.3.2$$0$$null$$1$$1
+TIM_EVENT_KIND$$5$$패스워드변경$$ADMIN$$패스워드 변경에 의하여 삭제 되었을 경우$$7$$1
+TIM_EVENT_KIND$$17$$부서이동 후 계정 처리$$SYSTEM$$부서이동 후 계정 처리$$7$$1
+TIM_EVENT_KIND$$16$$계정 잠금 후 삭제$$SYSTEM$$휴면잠금 후 삭제$$7$$1
+TIM_DB_KIND$$TIM_ALTIBASE$$Altibase$$6$$null$$7$$1
+TIM_DB_KIND$$TIM_DB2$$DB2$$9$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$0
+TIM_DB_KIND$$TIM_GREENPLUM$$PostgreSQL$$7$$null$$7$$1
+TIM_DB_KIND$$TIM_MSSQL$$MS-SQL$$2$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+TIM_DB_KIND$$TIM_MYSQL$$MySQL$$3$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+TIM_DB_KIND$$TIM_ORACLE$$Oracle$$1$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+TIM_DB_KIND$$TIM_SYBASE$$Sybase$$4$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+TIM_DB_KIND$$TIM_TIBERO$$Tibero$$8$$null$$7$$1
+TIM_DEFAULT_POLICY$$ACCT_TYPE$$-1$$null$$계정타입 키$$7$$1
+TIM_DEFAULT_POLICY$$ACCT_TYPE_YN$$1$$null$$계정타입 사용 여부$$7$$1
+TIM_DEFAULT_POLICY$$DEF_ACCT_AUTH_KIND$$-1$$null$$기본 권한 적용 범위$$7$$1
+TIM_DEFAULT_POLICY$$REQ_WORK_TIME$$1$$null$$작업 요청 시간$$7$$1
+TIM_MSSQL$$TIM_MSSQL2008$$MS-SQL2008$$1$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+TIM_ORACLE$$TIM_ORA10G$$Oracle 10g$$2$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+TIM_ORACLE$$TIM_ORA11G$$Oracle 11g$$3$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+TIM_ORACLE$$TIM_ORA9I$$Oracle 9i$$1$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+TIM_GREENPLUM$$TIM_GREENPLUM4.2.1$$GreenPlum 4.2$$null$$null$$7$$1
+TIM_TIBERO$$TIM_TIBERO5$$Tibero RDBMS 5$$null$$null$$7$$1
+PARAM_TEMPLATE$$WORK_MANAGER$$-config_file=config_workManager.xml$$null$$null$$1$$1
+TIM_DB_KIND$$TIM_SYBASEASE$$Sybase ASE$$5$$null$$7$$1
+OS_WARE$$Cent$$CentOS$$null$$null$$1$$1
+OS_WARE$$Cisco$$Cisco$$null$$null$$1$$1
+OS_WARE$$Debian$$Debian$$null$$null$$1$$1
+OS_WARE$$ETC$$Etc.$$null$$null$$1$$1
+OS_WARE$$Fedora$$Fedora$$null$$null$$1$$1
+OS_WARE$$HP$$HP$$null$$null$$1$$1
+OS_WARE$$IBM$$AIX$$null$$null$$1$$1
+OS_WARE$$JUNIPER$$Juniper$$null$$null$$1$$1
+OS_WARE$$LINUX$$Linux$$null$$null$$1$$1
+OS_WARE$$MICROSOFT$$Windows$$null$$null$$1$$1
+ACCT_POLICY$$PWD_PERMIT_SPECIAL_CHAR$$null$$null$$입력 가능 특수문자(미입력시 전체)$$1$$1
+OS_WARE$$Sun$$Solaris$$null$$null$$1$$1
+OS_WARE$$Ubuntu$$Ubuntu$$null$$null$$1$$1
+OS_WARE$$redhat$$redhat$$null$$null$$1$$1
+TIM_DEFAULT_DATA_KIND$$ACCT_STATUS$$계정 상태$$TIM_COMMON$$계정 수집 시 기본 계정 상태$$7$$1
+TIM_DEFAULT_DATA_KIND$$ACCT_AUTH$$계정 권한$$TIM_COMMON$$기본 계정 권한$$7$$1
+TIM_DEFAULT_DATA_KIND$$ACCT_GROUP$$기본 계정 그룹$$TIM_SYSTEM$$null$$7$$1
+TIM_DEFAULT_DATA_KIND$$LOGIN_SHELL$$기본 로그인 쉘$$TIM_SYSTEM$$null$$7$$1
+TIM_DEFAULT_DATA_KIND$$HOME_DIR$$홈 디렉토리$$TIM_SYSTEM$$null$$7$$1
+TIM_DEFAULT_DATA_KIND$$DEFAULT_TBL_SPACE$$기본 테이블 스페이스$$TIM_DATABASE$$null$$7$$1
+TIM_DEFAULT_DATA_KIND$$TEMP_TBL_SPACE$$템프 테이블 스페이스$$TIM_DATABASE$$null$$7$$1
+TIM_DEFAULT_DATA_KIND$$ROLE$$기본 ROLE$$TIM_DATABASE$$Oracle 에서 사용$$7$$1
+TIM_DEFAULT_DATA_KIND$$PRIVILEGE$$기본 권한$$TIM_DATABASE$$null$$7$$1
+TIM_DEFAULT_DATA_KIND$$SERVER_ROLE$$기본 서버 ROLE$$TIM_DATABASE$$MS-SQL , Sybase 사용$$7$$1
+TIM_DEV_ACCT_STATUS_TARGET$$2$$사용기간만료$$null$$계정 사용기간 초과 시$$7$$1
+TIM_DEV_ACCT_STATUS_TARGET$$3$$패스워드기간만료$$null$$PWD 사용기간 초과 시$$7$$1
+TIM_ACCT_TYPE_AUTH$$1$$공용 계정$$null$$계정 권한 종류$$1$$1
+TIM_ACCT_TYPE_AUTH$$2$$개인 계정$$null$$계정 권한 종류$$1$$1
+APV_REQ_KIND$$ACCT_UNLOCK$$잠금 계정 해제 신청$$TIM$$잠금 계정 해제 신청$$1$$1
+APV_REQ_KIND$$DEV_ACCT_REQ$$장비 계정 발급 신청$$TIM$$장비 계정 발급 신청$$1$$1
+APV_REQ_KIND$$PUBLIC_ACCT_AUTH$$공용 계정 사용 신청$$TIM$$공용 계정 사용 신청$$1$$1
+APV_REQ_KIND$$PWD_CHG_BATCH$$패스워드 변경 신청$$TIM$$패스워드 변경 신청$$1$$1
+APV_REQ_KIND$$ACCT_EXPIRY_DATE$$계정 기간 변경$$TIM$$계정 기간 변경$$1$$0
+APV_REQ_KIND$$CLEAR_VIOLATION$$위반 해제$$TIM$$위반 해제$$1$$0
+APV_REQ_KIND$$PWD_CHG$$패스워드 변경$$TIM$$계정 패스워드 변경$$1$$0
+APV_REQ_KIND$$PWD_EXPIRY_DATE$$패스워드 기간 변경$$TIM$$계정 패스워드 기간 변경$$1$$0
+TIM_REQ_DATA$$USE_ACCT_TYPE$$1$$1$$CODE_VAL1:결재용, CODE_VAL2:관리자용 (1:계정속성 입력창 보임, 0:계정속성 입력창 보이지 않음)$$1$$1
+TIM_REQ_DATA$$USE_UID$$1$$1$$CODE_VAL1:결재용, CODE_VAL2:관리자용 (1:UID 입력창 보임, 0:UID 입력창 보이지 않음)$$1$$1
+TIM_REQ_DATA$$USE_GROUP$$1$$1$$CODE_VAL1:결재용, CODE_VAL2:관리자용 (1:Group명 입력창 보임, 0:Group명 입력창 보이지 않음)$$1$$1
+TIM_REQ_DATA$$USE_LOGIN_SHELL$$1$$1$$CODE_VAL1:결재용, CODE_VAL2:관리자용 (1:Login Shell 입력창 보임, 0:Login Shell 입력창 보이지 않음)$$1$$1
+TIM_REQ_DATA$$USE_HOME_DIRECTORY$$1$$1$$CODE_VAL1:결재용, CODE_VAL2:관리자용 (1:Home Directory 입력창 보임, 0:Home Directory 입력창 보이지 않음)$$1$$1
+TIM_REQ_DATA$$USE_NOTES$$1$$1$$CODE_VAL1:결재용, CODE_VAL2:관리자용 (1:비고 입력창 보임, 0:비고 입력창 보이지 않음)$$1$$1
+TIM_DEFAULT_POLICY$$ACCT_TYPE_PROCESS$$1$$null$$0: 수동, 1:자동(처음 한번만) lock, 2:자동(계속)$$7$$1
+ALIAS_CODE_KIND$$ACCT_WORK_ID$$계정 관리 작업$$1$$null$$0$$1
+ALIAS_CODE_KIND$$DEV_ACCT_STATUS_TIM$$계정 상태$$1$$null$$0$$1
+ALIAS_CODE_KIND$$SCRIPT_KIND$$스크립트 종류$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_ALTIBASE$$Altibase DB$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_DB_CONNECTOR_VAR$$스크립트 변수$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_DB_KIND$$DB 종류$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_DB_WORK_KIND$$DB Provisioning 종류$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_DEFAULT_DATA_KIND$$Default 정보 종류$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_DEFAULT_POLICY$$기본 정책$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_DEV_ACCT_STATUS$$계정 상태$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_DEV_ACCT_STATUS_INTERNAL$$Internal 계정 상태$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_DEV_ACCT_STATUS_TARGET$$시스템 계정 상태$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_EVENT_KIND$$이벤트 종류$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_GREENPLUM$$GreenPlum DB$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_MSSQL$$MS-SQL DB$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_MYSQL$$MySQL DB$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_ORACLE$$Oracle DB$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_SYBASE$$Sybase DB$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_SYBASEASE$$Sybase ASE DB$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_TIBERO$$Tibero DB$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_REQ_DATA$$계정신청 옵션$$1$$null$$0$$1
+TIM_REQ_DATA$$USE_NOT_DATE$$0$$1$$CODE_VAL1:결재용, CODE_VAL2:관리자용 (1:기간 데이터 사용, 0:기간 데이터 사용안함)$$1$$1
+TIM_PWD_ALARM_POLICY$$PWD_ALARM_USED$$1$$null$$<alias code_id='패스워드 만료 알림 사용' code_desc='0:사용안함, 1:사용' />$$7$$1
+TIM_PWD_ALARM_POLICY$$PWD_ALARM_MODE$$1$$null$$<alias code_id='패스워드 만료 알림 방식' code_desc='1:Email, 2:SMS, 3:Email+SMS' />$$7$$1
+TIM_PWD_ALARM_POLICY$$PWD_ALARM_TIME$$7$$null$$<alias code_id='패스워드 만료 n일전 알림' code_desc='0일 경우 만료일자만' />$$7$$1
+TIM_PWD_ALARM_POLICY$$PWD_ALARM_TARGET$$1$$null$$<alias code_id='패스워드 만료 알림 대상' code_desc='1:소유자, 2:SUPER, 3:소유자+SUPER' />$$7$$1
+ALIAS_CODE_KIND$$TIM_PWD_ALARM_POLICY$$알림설정$$1$$null$$0$$1
+ACCT_POLICY$$PWD_MIX_UPPERCASE$$0$$null$$대문자 혼합 여부(0: 미적용 1: 적용)$$1$$1
+ACCT_POLICY$$PWD_DIC_SEARCH$$0$$null$$Dictionary 검색 여부(0: 미적용 1: 적용)$$1$$1
+ACCT_WORK_ID$$SET_DBUSER_INFO$$DB User 정보 설정$$null$$null$$7$$1
+TIM_SYBASEASE$$TIM_SYBASEASE12.0$$Sybase ASE 12.0$$1$$null$$7$$1
+TIM_SYBASEASE$$TIM_SYBASEASE12.5$$Sybase ASE 12.5$$2$$null$$7$$1
+TIM_EVENT_KIND$$8$$결재$$USER$$결재 이벤트$$1$$1
+TIM_EVENT_KIND$$9$$계정 수집$$SYSTEM$$계정 수집$$1$$1
+PWD_POLICY$$NUM_LIMIT_CONTINUE_LEN$$3$$null$$숫자 연속 입력 최대 길이$$0$$1
+MODULE_VERSION$$ScreenLock.bmp$$1.0.0.0$$0$$스크린락 이미지$$1$$1
+MODULE_PATCH_DIR$$ScreenLock.bmp$$$$SETUP_DIR$Images\$$null$$$$SETUP_DIR$ STGClient 설치 경로 이며 MODULE_PATCH_DIR 값은 정해진 위치에 파일 패치 가능$$1$$1
+TIM_DEFAULT_POLICY$$ILLEGAL_ACCT_PROCESS$$2$$null$$0:서버계정삭제, 1:계정 lock, 2:동작안함$$7$$1
+TIM_DEFAULT_POLICY$$ILLEGAL_PROCESS_YN$$1$$null$$1 OR 0 로컬 시스템에 계정이 없을 경우 불법 계정 여부$$7$$1
+TIM_DEFAULT_POLICY$$POLL_ACCT_CYCLE$$10$$null$$계정 수집 주기 (분)$$7$$1
+LINK$$USER_AUTO_APPLY$$1$$0$$연동 데이터 자동 적용 여부 CODE_VAL1  0 : false  1 : true $$1$$1
+LINK$$USER_USE_FLG$$0$$0$$연동후 USER10의 USE_FLG 0,1여부$$1$$1
+LINK_DEV$$0$$0$$수동등록$$null$$1$$1
+LINK_DEV$$1$$1$$연동등록$$null$$1$$0
+LINK_USER$$0$$수동 등록$$null$$수동 등록된 사용자$$1$$1
+LINK_USER$$1$$인사 연동$$null$$DB 연동으로 등록된 사용자$$1$$1
+LOGIN_CONTROL$$CLIENT$$1$$null$$1 : IP 제어 사용, 2 : MAC 제어 사용, 3 : IP+MAC제어 사용$$1$$1
+LOGIN_CONTROL$$MANAGER$$1$$null$$1 : IP 제어 사용, 2 : MAC 제어 사용, 3 : IP+MAC제어 사용$$1$$1
+LOG_SERVER_TYPE$$FTP$$FTP$$null$$null$$1$$1
+LOG_SERVER_TYPE$$FTPS$$FTPS$$null$$null$$1$$1
+LOG_SERVER_TYPE$$FTP_PASV$$FTP_PASV$$null$$null$$1$$1
+MAX_SESSION_CNT$$MAX_SESSION_CNT$$10$$null$$null$$1$$1
+MODULE_PATCH_DIR$$Client_Kor.ini$$$$SETUP_DIR$Config\$$null$$$$SETUP_DIR$ STGClient 설치 경로 이며 MODULE_PATCH_DIR 값은 정해진 위치에 파일 패치 가능$$1$$1
+MODULE_VERSION$$AxInterop.MSTSCLib.dll$$1.0.0.1$$0$$RDP 자동로그인 포함 라이브러리$$1$$1
+MODULE_VERSION$$HIUpdateChecker.exe$$5.0.4.2$$1$$HIUpdater 가 업데이트 되었을 경우 패치를 위한 모듈 버전은 항사 updater 와 같게 설정한다.$$1$$1
+MODULE_VERSION$$Interop.MSTSCLib.dll$$1.0.0.1$$0$$RDP 자동로그인 포함 라이브러리 | ktacs때문에 0.0.0.0에서 1.0.0.0으로 올림$$1$$1
+MODULE_VERSION$$NADDllHost.exe$$5.0.4.1$$0$$null$$1$$1
+MODULE_VERSION$$NADImport.dll$$5.0.12.1$$0$$Excel Import를 이용한 장비 다중 등록 모듈$$1$$1
+MODULE_VERSION$$NSHost.exe$$5.0.14.8$$0$$null$$1$$1
+USER_CERT_TIME$$EMAIL$$120$$null$$EMAIL 인증 시간(단위: 초)$$1$$1
+RESTRICT_CHARACTER$$SPECIAL_CHARACTER$$"'$$null$$INPUT_TEXT_BOX에 입력 불가능한 특수문자$$1$$1
+TIM_SYBASE$$TIM_SYBASEIQ15.2$$Sybase IQ 15.2$$1$$null$$7$$1
+TIM_SYBASEASE$$TIM_SYBASEASE15.7$$Sybase ASE 15.7$$1$$null$$7$$1
+TIM_ALTIBASE$$TIM_ALTIBASE6.1$$Altibase 6.1$$1$$null$$7$$1
+MSSQL_CERT_TYPE$$SQL_LOGIN$$SQL Server 인증$$0$$null$$1$$1
+MSSQL_CERT_TYPE$$WINDOWS_LOGIN$$Window 인증$$0$$null$$1$$0
+SGS_PROTOCOL$$3$$BYPASS$$null$$CODE_VAL1에 등록된 프로토콜은 SGS 모드를 지원한다$$1$$0
+APV_STATUS$$7$$정책적용대기$$null$$결재 프로세스 - 상태$$1$$1
+APV_MS_TYPE$$1$$결재$$null$$MySingel 결재 타입$$1$$0
+APV_MS_TYPE$$2$$합의$$null$$MySingel 결재 타입$$1$$0
+APV_REQ_TYPE$$IN$$내부결재$$null$$내부결재$$1$$1
+APV_REQ_TYPE$$AF$$AnyFlow$$null$$AnyFlow 결재(삼성증권) $$1$$0
+APV_REQ_TYPE$$MS$$MySingle$$null$$Mysingle 결재(삼성생명)$$1$$0
+POLICY_TYPE$$0$$계정 기간 만료$$PERIOD_EXPIRE$$정책 리스트$$1$$1
+POLICY_TYPE$$1$$패스워드 기간 만료$$PWD_PERIOD_EXPIRE$$정책 리스트$$1$$1
+POLICY_TYPE$$2$$잠금 계정$$LOCK$$정책 리스트$$1$$1
+POLICY_TYPE$$3$$휴면 계정$$DORMANT$$정책 리스트$$1$$1
+POLICY_TYPE$$4$$삭제$$DELETE$$정책 리스트$$1$$1
+POLICY_TYPE$$5$$퇴사자$$RETIRE$$정책 리스트$$1$$1
+POLICY_TYPE$$6$$불법 계정$$ILLEGAL$$정책 리스트$$1$$1
+FUNC_TYPE$$0$$상태 변경$$STATUS_CHANGE$$기능 리스트$$1$$1
+FUNC_TYPE$$1$$장비 계정 삭제$$DEV_ACCT_DEL$$기능 리스트$$1$$1
+FUNC_TYPE$$2$$장비 권한 삭제$$DEV_AUTH_DEL$$기능 리스트$$1$$1
+FUNC_TYPE$$3$$장비 계정 권한 삭제$$DEV_ACCT_AUTH_DEL$$기능 리스트$$1$$1
+FUNC_TYPE$$4$$프로토콜 권한 삭제$$PRCTL_DEL$$기능 리스트$$1$$1
+FUNC_TYPE$$5$$명령어 권한 삭제$$CMD_DEL$$기능 리스트$$1$$1
+FUNC_TYPE$$6$$MAC ／ IP 대역 삭제$$MACIP_DEL$$기능 리스트$$1$$1
+FUNC_TYPE$$7$$인증 정책 삭제$$CERT_DEL$$기능 리스트$$1$$1
+FUNC_TYPE$$8$$매핑 정보 삭제$$MAPPING_DATA_DEL$$기능 리스트$$1$$1
+USER_ID_PWD_RULE_APPLY$$DORMANT_ALARM_DATE$$7$$null$$사용자 휴면 변경 N일 전 알림$$1$$1
+USER_ID_PWD_RULE_APPLY$$PERIOD_EXPIRED_ALARM_DATE$$7$$null$$사용자 사용 기간 만료 N일 전 알림$$1$$1
+EXTERM_TERMINAL_OPTION$$FileZilla$$ftp://<ip>:<port>$$null$$null$$1$$1
+EXTERM_TERMINAL_OPTION$$FileZilla UTF-8$$-e UTF-8 ftp://<ip>:<port>$$null$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$FileZilla$$Window|C:\STGManager\Bin\FilezillaPortable\App\filezilla\filezilla.exe|ftp://<ip>:<port>$$FTP|FTP_PASV|FTP_ACTV$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT$$FileZilla UTF-8$$Window|C:\STGManager\Bin\FilezillaPortable\App\filezilla\filezilla.exe|-e UTF-8 ftp://<ip>:<port>$$FTP|FTP_PASV|FTP_ACTV$$null$$1$$1
+EXTERM_TERMINAL_DEFAULT_SET$$FTP$$FileZilla$$null$$FTP 프로토콜은 FileZilla Client 를 기본 터미널로 사용.$$1$$1
+EXTERM_TERMINAL_DEFAULT_SET$$FTP_ACTV$$FileZilla$$null$$FTP_ACTV 프로토콜은 FileZilla Client 를 기본 터미널로 사용.$$1$$1
+EXTERM_TERMINAL_DEFAULT_SET$$FTP_PASV$$FileZilla$$null$$FTP_PASV 프로토콜은 FileZilla Client 를 기본 터미널로 사용.$$1$$1
+EXTERM_TERMINAL_DEFAULT$$WinSCP$$Window|C:\STGManager\Bin\Winscp.exe|ftp://<id>:pass@<ip>:<port>$$FTP|FTP_PASV|FTP_ACTV$$null$$1$$1
+MODULE_VERSION$$WinSCP.exe$$5.1.4.3020$$0$$null$$1$$1
+LOG_FUNC_KIND$$ACCT$$계정 관리$$null$$로그 기능 종류 코드$$1$$1
+LOG_FUNC_KIND$$AUTH$$권한 관리$$null$$로그 기능 종류 코드$$1$$1
+LOG_FUNC_KIND$$CERT$$인증 관리$$null$$로그 기능 종류 코드$$1$$1
+LOG_FUNC_KIND$$DEV$$장비 관리$$null$$로그 기능 종류 코드$$1$$1
+LOG_FUNC_KIND$$POLICY$$정책 관리$$null$$로그 기능 종류 코드$$1$$1
+LOG_FUNC_KIND$$SYSTEM$$시스템 및 모듈 관리$$null$$로그 기능 종류 코드$$1$$1
+LOG_FUNC_KIND$$USER$$사용자 관리$$null$$로그 기능 종류 코드$$1$$1
+WEEKLY_WORK_TIME$$COUNT$$5$$null$$요일별 접근 시간 설정 제한 갯수$$1$$1
+APV_REQ_KIND$$ACCT_REQ$$사용자 계정 신청$$COMMON$$사용자 계정 신청$$1$$1
+USER_DORMANT_ALARM_DATE$$SUPER$$7$$null$$사용자 계정 정책 - 휴면 계정 알림 일수(SUPER 권한)$$1$$1
+USER_DORMANT_ALARM_DATE$$ADMIN$$7$$null$$사용자 계정 정책 - 휴면 계정 알림 일수(ADMIN 권한)$$1$$1
+USER_DORMANT_ALARM_DATE$$USER$$7$$null$$사용자 계정 정책 - 휴면 계정 알림 일수(USER 권한)$$1$$1
+USER_DORMANT_ALARM_DATE$$OUTER$$7$$null$$사용자 계정 정책 - 휴면 계정 알림 일수(OUTER 권한)$$1$$1
+USER_EXPIRE_ALARM_DATE$$SUPER$$null$$null$$사용자 계정 정책 - 기간 만료 알림 일수(SUPER 권한)$$1$$1
+USER_EXPIRE_ALARM_DATE$$ADMIN$$7$$null$$사용자 계정 정책 - 기간 만료 알림 일수(ADMIN 권한)$$1$$1
+USER_EXPIRE_ALARM_DATE$$USER$$7$$null$$사용자 계정 정책 - 기간 만료 알림 일수(USER 권한)$$1$$1
+USER_EXPIRE_ALARM_DATE$$OUTER$$7$$null$$사용자 계정 정책 - 기간 만료 알림 일수(OUTER 권한)$$1$$1
+USER_PWD_ALARM_DATE$$SUPER$$7$$null$$사용자 계정 정책 - 패스워드 만료 알림 일수(SUPER 권한)$$1$$1
+USER_PWD_ALARM_DATE$$ADMIN$$7$$null$$사용자 계정 정책 - 패스워드 만료 알림 일수(ADMIN 권한)$$1$$1
+USER_PWD_ALARM_DATE$$USER$$7$$null$$사용자 계정 정책 - 패스워드 만료 알림 일수(USER 권한)$$1$$1
+USER_PWD_ALARM_DATE$$OUTER$$7$$null$$사용자 계정 정책 - 패스워드 만료 알림 일수(OUTER 권한)$$1$$1
+APV_STATUS$$10$$신청대기$$null$$결재 프로세스 - 상태$$1$$1
+LOGIN_POLICY$$IP$$OLD$$null$$OLD:사용자 또는 PUBLIC 으로 설정 가능 / NEW:사용자그룹으로 사용가능$$1$$1
+LOGIN_POLICY$$MAC$$NEW$$null$$OLD:사용자 또는 PUBLIC 으로 설정 가능 / NEW:사용자그룹으로 다중 사용가능$$1$$1
+APV_REQ_POLICY$$10$$정책적용대기$$null$$신청대기:10/정책적용대기:7/사용안함:0)$$1$$1
+ACCT_POLICY$$PWD_USABLE_PROCESS$$2$$null$$패스워드 만료 시 계정 처리 정책(0:서버계정삭제, 1:계정 Lock, 2:없음)$$1$$1
+ACCT_POLICY$$PWD_CHANGE_OPT$$0$$null$$패스워드 변경 옵션 (0:Self-Service, 1:결재, 2:자동)$$1$$1
+ACCT_POLICY$$PWD_END_FEW_DAY$$7$$null$$패스워드 만료 n일 전 변경(일)$$1$$1
+ACCT_POLICY$$PWD_INPUT_OPT$$0$$null$$0:수동 입력, 1:Random 입력$$1$$1
+TIM_EVENT_KIND$$15$$패스워드 자동 변경$$SYSTEM$$시스템에 의해서 패스워드가 자동 변경될 경우$$7$$1
+ACCT_WORK_ID$$SU_LOGIN$$SU 로그인$$4$$null$$1$$1
+MODULE_VERSION$$libeay32.dll$$0.9.8.31$$0$$null$$1$$1
+TIM_ACCT_TYPE_AUTH$$0$$전체$$null$$계정 권한 종류$$1$$1
+AD_POLL_ACCT$$FAIL_SEARCH$$OU 검색 실패$$1$$AD 계정 수집 실패 코드 ALIAS$$7$$1
+AD_POLL_ACCT$$FAIL_CONNECTION$$서버 접속 실패$$2$$AD 계정 수집 실패 코드 ALIAS$$7$$1
+AD_POLL_ACCT$$FAIL_AUTHENTICATION$$ID/PASSWORD 오류$$3$$AD 계정 수집 실패 코드 ALIAS$$7$$1
+ACCT_WORK_ID$$ACCT_OU_CHG$$OU 변경$$219$$code_id:계정관리ID, code_val1:이름, code_val1:연결되는 Script 종류 키$$7$$1
+TIM_SYSTEM_KIND$$AD$$AD$$null$$OS구분( CODE_ID : 키 값, CODE_VAL1 : 출력값 )$$1$$0
+TIM_SYSTEM_KIND$$APP$$APP$$null$$OS구분( CODE_ID : 키 값, CODE_VAL1 : 출력값 )$$1$$0
+TIM_SYSTEM_KIND$$DATABASE$$DATABASE$$null$$OS구분( CODE_ID : 키 값, CODE_VAL1 : 출력값 )$$1$$0
+TIM_SYSTEM_KIND$$ETC$$ETC$$null$$OS구분( CODE_ID : 키 값, CODE_VAL1 : 출력값 )$$1$$0
+TIM_SYSTEM_KIND$$NETWORK$$NETWORK$$null$$OS구분( CODE_ID : 키 값, CODE_VAL1 : 출력값 )$$1$$0
+TIM_SYSTEM_KIND$$UNIX$$UNIX/LINUX$$null$$OS구분( CODE_ID : 키 값, CODE_VAL1 : 출력값 )$$1$$1
+TIM_SYSTEM_KIND$$WINDOWS$$NT$$null$$OS구분( CODE_ID : 키 값, CODE_VAL1 : 출력값 )$$1$$1
+WORK_RESULT_KIND$$-1$$장비 접속이 실패 하였습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$0$$스크립트를 실행 하였습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$1$$ID 전송이 완료 되었습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$10$$Password 변경이 완료 되었습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$11$$Enable Password 변경이 완료 되었습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$2$$Password 전송이 완료 되었습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$3$$Enable Password 전송이 완료 되었습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$4$$로그인에 실패 하였습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$98$$메모리 적용이 완료 되었습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$99$$스크립트 실행이 완료 되었습니다.$$null$$null$$1$$1
+DAC_ROOT_GROUP$$DAC_GROUP$$1000$$null$$DB접근제어 그룹 번호$$1$$0
+MODULE_PATCH_DIR$$NadImport_Kor.ini$$$$SETUP_DIR$Config\$$null$$null$$1$$1
+MODULE_PATCH_DIR$$NadImport_Eng.ini$$$$SETUP_DIR$Config\$$null$$null$$1$$1
+DEV_ACCT_AUTH$$1$$임시 권한$$3$$장비 계정 권한 구분 CODE_VAL2는 정렬컬럼$$1$$1
+DEV_ACCT_AUTH$$10$$소유자$$2$$장비 계정 권한 구분 CODE_VAL2는 정렬컬럼$$1$$1
+DEV_ACCT_AUTH$$99$$모든 권한$$1$$장비 계정 권한 구분 CODE_VAL2는 정렬컬럼$$1$$1
+ACCT_WORK_ID$$COMMENT$$계정 설명$$116$$null$$1$$1
+TIM_EVENT_KIND$$6$$Ghost$$SYSTEM$$수집시 Ghost 계정$$7$$1
+TIM_EVENT_KIND$$7$$Broken$$SYSTEM$$수집시 Broken계정$$7$$1
+TIM_APV_POLICY$$USE_ACCT_AUTH$$1$$PUBLIC_ACCT_AUTH$$[공용계정사용권한] 계정 권한 레벨 사용 여부 (0:사용안함, 1:사용함). 사용안함시 '임시권한'으로 기본 설정됩니다.$$1$$1
+TIM_APV_POLICY$$USE_TERM_LIMIT$$0$$PUBLIC_ACCT_AUTH$$[공용계정사용권한] 계정 사용 기간 제한없음 체크 여부 (0:체크안함, 1:체크함)$$1$$1
+ACCT_POLICY$$PATT_FIX_STR$$null$$null$$고정문자 값$$1$$1
+ACCT_POLICY$$PATT_APPOINT_RANDOM_STR$$null$$null$$지정문자 중 랜덤문자 값$$1$$1
+ACCT_POLICY$$PATT_PWD_OPT$$0$$null$$고정문자:0, 지정문자:1, 랜덤숫자:2, 변경하는날짜:3, 장비정보:4$$1$$1
+ACCT_POLICY$$PATT_APPOINT_STR_USE_CNT$$0$$null$$지정문자 중 랜덤문자-사용할 글자 개수$$1$$1
+ACCT_POLICY$$PATT_RANDOM_NUM_START$$0$$null$$랜덤 숫자-시작값(0~9)$$1$$1
+ACCT_POLICY$$PATT_RANDOM_NUM_END$$9$$null$$랜덤 숫자-끝 값(0~9)$$1$$1
+ACCT_POLICY$$PATT_RANDOM_NUM_POSITION$$1$$null$$랜덤숫자 자릿수 (1~10 까지의 자릿수를 지정)$$1$$1
+ACCT_POLICY$$PATT_DATE_FORM$$null$$null$$변경하는 날짜 - yyyymmdd:0, dd:1, yyyy:2, yyyymm:3, mm:4, mmdd:5$$1$$1
+ACCT_POLICY$$PATT_DEV_INFO$$null$$null$$장비정보 - IP:0, 장비이름:1$$1$$1
+ACCT_POLICY$$PATT_DEV_INFO_STR$$0$$null$$장비정보-문자사용(체크:1, 미체크:0)$$1$$1
+ACCT_POLICY$$PATT_DEV_INFO_NUM$$0$$null$$장비정보-숫자사용(체크:1, 미체크:0)$$1$$1
+ACCT_POLICY$$PATT_DEV_INFO_SPECIAL_STR$$0$$null$$장비정보-특수문자 사용(체크:1, 미체크:0)$$1$$1
+ACCT_POLICY$$PATT_DEV_INFO_STR_CUT$$0$$null$$장비정보-문자열 자르기(체크:1, 미체크:0)$$1$$1
+ACCT_POLICY$$PATT_DEV_INFO_STR_CUT_START$$1$$null$$장비정보-문자열 자르기-시작위치$$1$$1
+ACCT_POLICY$$PATT_DEV_INFO_STR_CUT_END$$9$$null$$장비정보-문자열 자르기-끝위치$$1$$1
+ACCT_POLICY$$PATT_DEV_INFO_TEST_IP$$null$$null$$장비정보-테스트 IP$$1$$1
+ACCT_POLICY$$PATT_DEV_INFO_TEST_NAME$$null$$null$$장비정보-테스트 장비명$$1$$1
+ACCT_POLICY$$PATT_TYPE_TITLE$$null$$null$$설정한 패턴 제목$$1$$1
+APV_STATUS$$5$$정책적용중$$null$$결재 프로세스 - 상태$$1$$1
+APV_STATUS$$6$$정책적용실패$$null$$결재 프로세스 - 상태$$1$$1
+APV_STATUS$$9$$승인완료(정책미적용)$$null$$결재 프로세스 - 상태$$1$$1
+SGS_PROTOCOL$$8$$MSSQL$$null$$null$$1$$0
+WORK_RESULT_KIND$$95$$중복 계정이 존재하여 수집을 실패 하였습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$96$$중복 UID가 존재하여 수집을 실패 하였습니다.$$null$$null$$1$$1
+WORK_RESULT_KIND$$97$$중복 GID가 존재하여 수집을 실패 하였습니다.$$null$$null$$1$$1
+SYSTEM_ACCT_PWD$$PWD_REASON_STR$$10$$250$$계정패스워드 열람 사유작성시 문자제한,  CODE_VAL1 : 최소 글자 수 , CODE_VAL2 : 최대 글자수  $$7$$1
+TIM_MSSQL$$TIM_MSSQL2005$$MS-SQL2005$$1$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+TIM_MSSQL$$TIM_MSSQL2012$$MS-SQL2012$$1$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+CONN_ADMISSION$$USE_FLG$$0$$null$$접속 승인 프로세스 사용 여부$$1$$1
+CONN_ADMISSION$$DEV_REQ_TYPE$$COUNT$$null$$장비 접속 요청 UI 타입 ( PERIOD : 기간별, COUNT 접속별)$$1$$1
+ACCT_WORK_ID$$GRP_CREATE$$그룹 추가$$113$$null$$7$$1
+ACCT_WORK_ID$$GRP_DELETE$$그룹 삭제$$114$$null$$7$$1
+ACCT_WORK_ID$$USER_GRP_ADD$$세컨더리 그룹 추가$$115$$null$$7$$1
+STGCLIENT_OPTION$$WINTERM_AUTO_LOGIN$$1$$STGClient Mstsc 자동 로그인 되는 기능 적용 버전 사용$$null$$1$$1
+STGCLIENT_OPTION$$GROUP_CONNECT$$0$$null$$null$$1$$1
+POLICY_OPTION$$BLOCK_DEFAULT_TIME$$30$$null$$차단시 매니저에 디폴트로 표시되는 시간$$1$$1
+POLICY_OPTION$$BLOCK_PWD_CONFIRM$$null$$null$$차단 시 관리자 암호 확인$$1$$1
+POLICY_OPTION$$BLOCK_TIME$$10$$null$$세션 차단 시간$$1$$1
+POLICY_OPTION$$DEV_SESSION_TIMEOUT$$0$$null$$분 단위$$1$$1
+POLICY_OPTION$$RELEASE_PWD_CONFIRM$$null$$null$$해제 시 관리자 암호 확인$$1$$1
+POLICY_OPTION$$VIOLATION_COUNT$$3$$null$$null$$1$$1
+PROTOCOL$$BYPASS$$0$$10$$null$$1$$1
+PROTOCOL$$FTP$$1$$3$$null$$1$$1
+PROTOCOL$$SFTP$$0$$4$$null$$1$$1
+PROTOCOL$$SSH$$0$$2$$null$$1$$1
+PROTOCOL$$TELNET$$1$$1$$null$$1$$1
+PROTOCOL$$WINTERM$$1$$5$$null$$1$$1
+PWD_POLICY$$INIT_PWD$$1234$$null$$패스워드 초기화 비밀번호$$0$$1
+PWD_POLICY$$LIMIT_CONTINUE_CHAR$$1$$null$$연속된 문자 제한$$0$$1
+PWD_POLICY$$LIMIT_HUMAN_INFO$$1$$null$$인적 사항 제한$$0$$1
+PWD_POLICY$$LIMIT_REUSE_PWD$$1$$null$$기존에 입력한 최근 x번째까지 패스워드 제한$$0$$1
+PWD_POLICY$$LOCK_CNT$$5$$null$$비밀번호 실패 회수 (계정 잠금)$$0$$1
+PWD_POLICY$$MAX_USE_DAY$$999$$null$$최대 사용 기간$$0$$1
+PWD_POLICY$$MIN_LENGTH$$8$$null$$비밀번호 최소 길이$$0$$1
+PWD_POLICY$$MIX_NUM$$1$$null$$영문/숫자 혼합 여부$$0$$1
+PWD_POLICY$$MIX_SPECIAL_CHAR$$1$$null$$특수문자 혼합 여부$$0$$1
+PWD_POLICY$$PWD_EXPIRE_ALARM_DATE$$7$$null$$패스워드 사용 만료 알림$$0$$1
+PWD_POLICY$$PWD_EXPIRE_ALARM_YN$$1$$null$$패스워드 사용 만료 알림일 사용$$0$$1
+REALTIME_REFRESH_TIME$$60$$null$$null$$실시간 세션 모니터링 리프레쉬 시간.  CODE_ID 초단위 $$1$$1
+RELAY_ENC_TYPE$$RIJINDAEL$$1$$null$$null$$1$$1
+SCRIPT_TYPE$$Backup$$1$$null$$NAD_SCRIPT의 명령어 종류중 백업 명령어$$1$$1
+SCRIPT_TYPE$$Setting$$2$$null$$NAD_SCRIPT의 명령어 종류중 장비정보 셋팅 명령어$$1$$1
+SCRIPT_TYPE$$TFTP$$3$$null$$NAD_SCRIPT의 IOS 백업 스크립트$$1$$1
+SEARCH_CONDITION$$REPORT_DEV$$DEV_IP$$null$$null$$1$$1
+SEARCH_CONDITION$$REPORT_USER$$USER_ID$$null$$null$$1$$1
+SGS_PROTOCOL$$1$$FTP$$null$$CODE_VAL1에 등록된 프로토콜은 SGS 모드를 지원한다$$1$$0
+SSG_INFO$$CAPTURE_CYCLE$$1000$$null$$SSG CAPTURE 주기 ( 1000 = 1초 )$$1$$1
+SSG_INFO$$CAPTURE_QUALITY$$40$$null$$SSG CAPTURE 화질  1 ~ 100 (%)$$1$$1
+SUPER_MAKE_USERAUTH$$ADMIN$$null$$SUPER 사용자가 ADMIN사용자를 만드는게 가능$$null$$1$$1
+SUPER_MAKE_USERAUTH$$SUPER$$null$$SUPER 사용자가 SUPER사용자를 만드는게 가능$$null$$1$$1
+SUPER_MAKE_USERAUTH$$USER$$null$$SUPER 사용자가 USER사용자를 만드는게 가능$$null$$1$$1
+UPDATE_SERVER$$DIR$$C:\STGManager\UPDATE$$null$$SFTP 업데이트 모듈 리스트가 존재하는 디렉토리$$1$$1
+UPDATE_SERVER$$ID$$update$$null$$null$$1$$1
+UPDATE_SERVER$$IP$$192.168.5.47$$null$$서버 IP$$1$$1
+UPDATE_SERVER$$PORT$$26612$$null$$SFTP PORT 번호$$1$$1
+UPDATE_SERVER$$PWD$$1410$$null$$null$$1$$1
+USER_ACCT_REQ_AUTH$$ADMIN$$2$$null$$계정신청시 사용자권한 설정가능여부$$1$$1
+USER_ACCT_REQ_AUTH$$USER$$1$$null$$계정신청시 사용자권한 설정가능여부$$1$$1
+USER_ACCT_SECURITY$$APPLY_TYPE$$0$$null$$0: 전체 / 1: 개별 적용$$1$$1
+USER_ACCT_SECURITY$$ENABLE$$1$$null$$계정 보안 정책 사용 여부 - 0: 사용안함 / 1: 사용$$1$$1
+USER_ACCT_STATUS$$0$$미사용$$1$$미사용$$1$$1
+USER_ACCT_STATUS$$1$$정상$$1$$정상$$1$$1
+USER_ACCT_STATUS$$2$$패스워드 입력 오류 잠김$$0$$PWD 입력 오류 잠김$$1$$1
+USER_ACCT_STATUS$$3$$패스워드 사용 기간 만료$$0$$PWD 사용 기간 만료$$1$$1
+USER_ACCT_STATUS$$4$$휴면계정$$0$$휴면계정$$1$$1
+USER_ACCT_STATUS$$5$$퇴사자$$1$$퇴사자$$1$$1
+USER_ACCT_STATUS$$6$$정책 위반 잠김$$0$$정책 위반 잠김$$1$$0
+USER_ACCT_STATUS$$7$$관리자에 의한 차단$$0$$관리자에 의한 차단$$1$$0
+USER_ACCT_USED_LIMIT$$DEFAULT_USED_RANGE$$MONTH$$1$$계정 사용기간 제한 > 계정 사용기간 DEFAULT SETTING 범위 지정 [CODE_VAL1 - 단위: DAY(일)/MONTH(월)/YEAR(년)]$$1$$1
+USER_ID_CREATE_RULE$$DEFAULT_AUTH$$USER$$null$$사용자 가입 요청시 기본 권한 ADMIN/USER$$1$$1
+USER_ID_CREATE_RULE$$MAX_LEN$$16$$null$$ID최대 길이$$1$$1
+USER_ID_CREATE_RULE$$MIN_LEN$$8$$null$$ID최소길이$$1$$1
+USER_ID_CREATE_RULE$$MIX_NUM$$1$$null$$영문 숫자 혼합여부$$1$$1
+USER_ID_PWD_RULE_APPLY$$ACCT_STATUS_CHG_ALARM$$1$$null$$계정 상태 잠김시 알림 사용$$1$$1
+USER_ID_PWD_RULE_APPLY$$ACCT_UNUSE_LIMIT_DAY$$999$$null$$휴면 계정$$1$$1
+USER_ID_PWD_RULE_APPLY$$ADMIN$$1$$null$$ADMIN 계정 생성 규칙$$1$$1
+USER_ID_PWD_RULE_APPLY$$DEFAULT_ID_RULE$$0$$null$$ID 생성 규칙 사용 여부$$1$$1
+USER_ID_PWD_RULE_APPLY$$DEFAULT_PWD_RULE$$0$$null$$PWD 보안 규칙 사용 여부$$1$$1
+USER_ID_PWD_RULE_APPLY$$SUPER$$1$$null$$SUPER 계정 생성 규칙$$1$$1
+USER_ID_PWD_RULE_APPLY$$USER$$1$$null$$USER 계정 생성 규칙$$1$$1
+USER_MAKE_AUTH$$SUPER$$SUPER$$SUPER 사용자가 SUPER사용자를 만드는게 가능$$null$$1$$1
+WORK_KIND$$CONFIG BACKUP$$Config Backup$$null$$null$$0$$1
+WORK_KIND$$CUSTOM_WORK$$지정 작업$$null$$null$$0$$1
+WORK_KIND$$PASSWORD CHANGE$$Password Change$$null$$null$$0$$1
+WORK_KIND$$WORK_TPT$$작업템플릿$$null$$null$$0$$1
+WORK_TYPE$$CONFIGBACKUP$$Config Backup$$null$$null$$1$$1
+WORK_TYPE$$FWPOLICY$$방화벽 파싱$$null$$null$$1$$1
+WORK_TYPE$$NORMAL$$일반작업$$null$$null$$1$$1
+PROTOCOL$$FTP_ACTV$$1$$3$$null$$1$$1
+PROTOCOL$$FTP_PASV$$1$$3$$null$$1$$1
+DEV_PWD_POLICY$$POSSIBLE_SPECIAL_CHAR$$`~!@#$%$$null$$우리가 입력을 허용하는 특수문자의 종류$$0$$1
+DEV_PWD_POLICY$$SPECIAL_CHAR$$null$$null$$공통으로 사용할 입력가능특수문자$$0$$1
+DEFAULT_EXPRESSION_UI$$NAD_GRP10$$ALL$$null$$그룹을 표현하는 방식 ALL/LAST$$1$$1
+JOIN_ADMIT_AUTH$$SUPER$$null$$null$$계정 신청시 나타나는 승인자 권한$$1$$1
+JOIN_USERGRP$$JOIN_USE$$0$$null$$계정 신청시 보여질 사용자 그룹 설정 0:모든 그룹, 1:일부 그룹$$1$$1
+JOIN_USERGRP_NUM$$[그룹번호]$$null$$null$$계정 신청시 보여질 사용자 그룹 설정 (그룹 번호)$$1$$1
+ACCT_POLICY$$PWD_MAX_LEN$$20$$null$$PWD 최대 길이$$1$$1
+PWD_POLICY$$MAX_LENGTH$$16$$null$$비밀번호 최대 길이$$0$$1
+MODULE_VERSION$$SWGBrowser.exe$$5.0.9.1$$0$$null$$1$$1
+DEFAULT_EXPRESSION_UI$$NAD_GRP20$$ALL$$null$$그룹을 표현하는 방식 ALL/LAST$$1$$1
+ACCT_WORK_ID$$ACCT_UNLOCK_RENEWAL$$패스워드변경+잠금해제$$301$$null$$7$$1
+TIM_DEFAULT_POLICY$$DB_ACCT_TYPE$$-1$$null$$DB 계정타입 키$$7$$1
+ACCT_WORK_ID$$TABLE_ADD$$TABLE 권한 추가$$240$$null$$7$$1
+ACCT_WORK_ID$$TABLE_DEL$$TABLE 권한 삭제$$241$$null$$7$$1
+ACCT_WORK_ID$$TABLE_MODIFY$$TABLE 권한 수정$$null$$null$$7$$1
+ACCT_WORK_ID$$TABLE_ALL_DEL$$TABLE 권한 전체 삭제$$242$$null$$7$$1
+ACCT_WORK_ID$$ACCT_CREATE_WIN$$계정생성(Windows 인증)$$302$$null$$7$$1
+ACCT_WORK_ID$$DATABASE_USER_MAPPING$$DB User 추가$$244$$null$$7$$1
+ACCT_WORK_ID$$DATABASE_USER_MAPPING_REMOVE$$DB User 삭제$$245$$null$$7$$1
+ACCT_WORK_ID$$DB_ACCT_SCHEMA_MAPPING$$소유 Scehma 설정$$210$$null$$7$$1
+ACCT_WORK_ID$$ROLE_MAPPING$$DB User Role 추가$$243$$null$$7$$1
+ACCT_WORK_ID$$ROLE_MAPPING_REMOVE$$DB User Role 삭제$$246$$null$$7$$1
+ACCT_WORK_ID$$SVR_ROLE_MAPPING$$Server Role 추가$$208$$null$$7$$1
+ACCT_WORK_ID$$SVR_ROLE_MAPPING_REMOVE$$Server Role 제거$$209$$null$$7$$1
+ACCT_WORK_ID$$SVR_ROLE_MODIFY$$Server Role 수정$$null$$null$$7$$1
+ACCT_WORK_ID$$DB_ROLE_MODIFY$$Database Role 수정$$null$$null$$7$$1
+ACCT_WORK_ID$$DATABASE_USER_MODIFY$$Database사용자 수정$$null$$null$$7$$1
+MODULE_VERSION$$im_01.cer$$1.0.0.5$$0$$WEB01 인증서$$1$$1
+MODULE_VERSION$$cert_setup.bat$$1.0.0.5$$1$$WEB 인증서 설치용 배치$$1$$1
+USER_LOGOUT_TIME$$6000$$1200$$null$$STGClient 사용자 접속 세션 타임아웃 설정$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM01$$-data_port=8001 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25000 $$null$$null$$1$$1
+PARAM_TEMPLATE$$SMS02$$config_sms_ktds.xml $$null$$null$$1$$1
+ENCRYPTION_METHODS$$NORMAL$$AES$$null$$null$$1$$1
+SYS_AC_DRMPATH$$C:\Program Files\Ahnlab\V3IS80\V3Svc.exe$$V3$$null$$설치경로 설정$$1$$1
+PARAM_TEMPLATE$$JAVA_DB_POLL$$java -Dlogback.configurationFile=logback.xml -Xms512m -Xmx1024m -XX:NewSize=256M -XX:PermSize=128M -XX:MaxPermSize=256M -XX:+UseParallelGC -jar TimDBConnectorJ.jar -forced_parallelwork_cnt=10 -cycle=2 -commit_size=1000 -server_id=STG_16 -sub_cycle=2 -run_mode=daemon$$null$$null$$1$$1
+CONNECT_TYPE$$altibase$$MSSQL$$20311$$null$$1$$0
+WORK_RESULT_KIND$$8$$패스워드 변경 정책 위반$$null$$null$$1$$1
+CONNECT_TYPE$$ALTIBASE_20300$$ALTIBASE$$20300$$접속 장비 종류 (ALTIBASE_20300)$$1$$1
+CONNECT_TYPE$$ALTIBASE_20311$$ALTIBASE$$20311$$접속 장비 종류 (ALTIBASE_20311)$$1$$1
+CONNECT_TYPE$$FTP$$FTP$$21$$접속 장비 종류 (FTP)$$1$$1
+CONNECT_TYPE$$FTP_Passive$$FTP_PASV$$21$$접속 장비 종류 (FTP Passive)$$1$$1
+CONNECT_TYPE$$GREENPLUM_5432$$GREENPLUM$$5432$$접속 장비 종류 (GREENPLUM_5432)$$1$$1
+CONNECT_TYPE$$GREENPLUM_5434$$GREENPLUM$$5434$$null$$1$$0
+CONNECT_TYPE$$GREENPLUM_5435$$GREENPLUM$$5435$$접속 장비 종류 (GREENPLUM_5435)$$1$$1
+CONNECT_TYPE$$GREENPLUM_5444$$GREENPLUM$$5444$$접속 장비 종류 (GREENPLUM_5444)$$1$$1
+CONNECT_TYPE$$GREENPLUM_5447$$GREENPLUM$$5447$$접속 장비 종류 (GREENPLUM_5447)$$1$$1
+CONNECT_TYPE$$GREENPLUM_5450$$GREENPLUM$$5450$$접속 장비 종류 (GREENPLUM_5450)$$1$$1
+CONNECT_TYPE$$HTTP_10303$$HTTP$$10303$$접속 장비 종류 (HTTP_10303)$$1$$1
+CONNECT_TYPE$$HTTP_2000$$HTTP$$2000$$접속 장비 종류 (HTTP_2000)$$1$$1
+CONNECT_TYPE$$HTTP_3010$$HTTP$$3010$$접속 장비 종류 (HTTP_3010)$$1$$1
+CONNECT_TYPE$$HTTP_8000$$HTTP$$8000$$접속 장비 종류 (HTTP_8000)$$1$$1
+CONNECT_TYPE$$HTTP_8001$$HTTP$$8001$$접속 장비 종류 (HTTP_8001)$$1$$1
+SYS_AC_DRMPATH$$C:\Program Files\Ahnlab\V3IS90\ASDSvc.exe$$V3$$null$$설치경로 설정$$1$$1
+SYS_AC_DRMPATH$$C:\Windows\softcamp\sds\comagent.exe$$com$$null$$설치경로 설정$$1$$1
+SYS_AC_PROCESS$$kcdregsvc.exe$$dlp$$null$$프로세스 설정$$1$$1
+SYS_AC_PROCESS$$kcdsaclt.exe$$dlp$$null$$프로세스 설정$$1$$1
+SYS_AC_PROCESS$$kcdsvc.exe$$dlp$$null$$프로세스 설정$$1$$1
+SYS_AC_PROCESS$$mskcd.exe$$dlp$$null$$프로세스 설정$$1$$1
+ENCRYPTION_METHODS$$PASSWORD$$SHA$$null$$null$$1$$1
+NETWORK_AREA$$CLOUD$$클라우드$$null$$클라우드 콘솔$$1$$1
+NETWORK_AREA$$HYEHWA$$혜화->SDSC$$null$$혜화 장비 -> SDSC$$1$$1
+SCRIPT_KIND$$0$$Login$$GLOBAL$$null$$7$$1
+SCRIPT_KIND$$1$$패스워드 변경$$GLOBAL$$null$$7$$1
+SCRIPT_KIND$$2$$Config Backup$$WORK$$null$$7$$1
+MODULE_PATCH_DIR$$CSAuther_Kor.ini$$$$SETUP_DIR$Config\$$null$$null$$1$$1
+MODULE_VERSION$$CSAuther_Kor.ini$$5.0.4.0$$0$$null$$1$$1
+SENTSTATUS$$0$$대기$$null$$발송 여부$$1$$1
+SENTSTATUS$$1$$성공$$null$$발송 여부$$1$$1
+PARAM_TEMPLATE$$TIM_DB_PRVS$$-server_id=::SERVER_ID -run_mode=daemon -work_mode=provision -cycle=5 -parallelwork_cnt=5 -provision_procedure=HIT_DB_WORK$$null$$null$$1$$1
+MODULE_VERSION$$TpmIE.dll$$5.0.8.0$$0$$null$$1$$1
+PARAM_TEMPLATE$$TIM_PDA$$-server_id=::SERVER_ID -work_mode=collect -parallelwork_cnt=5 -collect_procedure=HIT_DB_ACCT_POLL -run_mode=onetime$$null$$null$$1$$1
+SCRIPT_KIND$$100$$계정 생성$$TIM_COMMON$$null$$7$$1
+SCRIPT_KIND$$101$$계정 삭제$$TIM_COMMON$$null$$7$$1
+SCRIPT_KIND$$102$$계정 수집$$TIM_COMMON$$null$$7$$1
+SCRIPT_KIND$$103$$계정그룹 변경$$TIM_SYSTEM$$null$$7$$1
+SCRIPT_KIND$$104$$UID 변경$$TIM_SYSTEM$$null$$7$$1
+SCRIPT_KIND$$105$$Home Dir 변경$$TIM_SYSTEM$$null$$7$$1
+SCRIPT_KIND$$106$$로그인 쉘 변경$$TIM_SYSTEM$$null$$7$$1
+SCRIPT_KIND$$107$$계정 그룹 정보 수집$$TIM_SYSTEM$$null$$7$$0
+SCRIPT_KIND$$108$$쉘 정보 수집$$TIM_SYSTEM$$null$$7$$0
+SCRIPT_KIND$$109$$계정 잠금$$TIM_COMMON$$null$$7$$1
+SCRIPT_KIND$$110$$잠금 해제$$TIM_COMMON$$null$$7$$1
+SCRIPT_KIND$$111$$계정 사용 기간$$TIM_SYSTEM$$null$$7$$1
+SCRIPT_KIND$$112$$패스워드 사용 기간$$TIM_SYSTEM$$null$$7$$1
+SCRIPT_KIND$$113$$그룹 추가$$TIM_COMMON$$null$$7$$1
+SCRIPT_KIND$$114$$그룹 삭제$$TIM_COMMON$$null$$7$$1
+SCRIPT_KIND$$115$$세컨더리 그룹 추가$$TIM_SYSTEM$$null$$7$$1
+SCRIPT_KIND$$116$$계정 설명$$TIM_SYSTEM$$null$$1$$1
+SCRIPT_KIND$$4$$SU_Login$$GLOBAL$$null$$1$$1
+DEV_REG_OPT$$DEFAULT_SERVER_TYPE$$IM$$IM$$null$$1$$1
+SCRIPT_KIND$$200$$기본 Tablespace$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$201$$임시 Tablespace$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$202$$Role 추가$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$203$$Role 삭제$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$204$$Privilege 추가$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$205$$Privilege 삭제$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$206$$Profile 설정$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$207$$기본 DB 선택$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$208$$Server Role 추가$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$209$$Server Role 제거$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$210$$소유 Scehma 설정$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$117$$계정 생성 APV$$TIM_SYSTEM$$null$$7$$1
+SCRIPT_KIND$$213$$User Privilege 추가$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$214$$User Privilege 삭제$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$215$$DB Privilege 추가$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$216$$DB Privilege 삭제$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$240$$TABLE 권한 추가$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$241$$TABLE 권한 삭제$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$242$$TABLE 권한 전체 삭제$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$243$$DB User Role 추가$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$244$$DB User 추가$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$245$$DB User 삭제$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$246$$DB User Role 삭제$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$301$$패스워드 변경+잠금 해제$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$302$$계정생성(Windows 인증)$$TIM_DATABASE$$null$$7$$1
+TIM_GREENPLUM$$TIM_POSTGRE9.4$$PostgreSQL 9.4$$null$$null$$7$$1
+ACCT_WORK_ID$$USER_AUTH_MODIFY$$User 권한 수정$$null$$null$$7$$1
+ACCT_WORK_ID$$DB_AUTH_MODIFY$$DB 권한 수정$$null$$null$$7$$1
+ACCT_WORK_ID$$LOGINPOLICY_SET$$LoginPolicy 설정$$247$$null$$7$$1
+SCRIPT_KIND$$247$$LoginPolicy 설정$$TIM_DATABASE$$null$$7$$1
+ACCT_WORK_ID$$ROLE_MODIFY$$Role 수정$$null$$null$$7$$1
+ACCT_WORK_ID$$PRIV_MODIFY$$Privilege 수정$$null$$null$$7$$1
+ACCT_WORK_ID$$GROUP_MODIFY$$Group 수정$$null$$null$$7$$1
+TIM_ALTIBASE$$TIM_ALTIBASE6.3$$Altibase 6.3$$2$$null$$7$$1
+TIM_SYBASE$$TIM_SYBASEIQ16.0$$SYBASE IQ 16.0$$2$$null$$7$$1
+MODULE_VERSION$$site_KTDS.xml$$1.0.0.3$$0$$null$$1$$1
+MODULE_PATCH_DIR$$site_KTDS.xml$$$$SETUP_DIR$Config\$$null$$null$$1$$1
+ACCT_WORK_ID$$ACCT_CREATE_APV$$결재 계정 생성$$117$$[KTDS] window장비 계정신청시 사용되는 계정 생성 스크립트$$7$$1
+MODULE_VERSION$$NadImport_Eng.ini$$1.0.0.0$$0$$null$$1$$1
+MODULE_VERSION$$NadImport_Kor.ini$$1.0.0.0$$0$$null$$1$$1
+USER_CERT_POLICY$$CERT_USEABLE$$1$$null$$사용자 인증 정책 사용여부 - 0:사용 안함, 1:사용그룹별사용, 2:권한별사용$$1$$1
+USER_CERT_MODE$$OTP$$1$$null$$사용자 인증 정책 모드 - OTP 인증$$1$$1
+CONNECTION_LIMIT$$DEVICE_CONNECT$$0$$null$$최대 동시 연결 가능 세션수$$1$$1
+ROLE_COPY$$DEV_AUTH$$1$$func_setting_rbacAuthConfig_devauth$$장비접근 권한 설정 권한 복제$$1$$1
+ROLE_COPY$$PRCTL_AUTH$$1$$func_setting_rbacAuthConfig_protocol$$서비스 제한 설정 권한 복제$$1$$1
+ROLE_COPY$$CMD_AUTH$$1$$func_setting_rbacAuthConfig_cmdAuth$$명령어 권한 인증 권한 복제$$1$$1
+CERT_MODE$$2$$EMAIL_OTP$$null$$RSA_OTP 인증 정책 사용$$1$$1
+USER_CERT_POLICY$$MNG_CERT_USEABLE$$1$$null$$장비 인증 정책 사용여부 - 0:사용 안함, 1:사용그룹별사용, 2:권한별사용$$1$$1
+USER_CERT_MODE$$RSA_OTP$$2$$null$$사용자 인증 정책 모드 - RSA OTP 인증$$1$$1
+DEV_ACCT_AUTH_TYPE$$-1$$권한 없음$$null$$장비 계정 권한 - 권한없음$$0$$1
+DEV_ACCT_AUTH_TYPE$$0$$전체$$null$$장비 계정 권한 - 전체 권한$$0$$1
+DEV_ACCT_AUTH_TYPE$$1$$사용자권한$$null$$장비 계정 권한 - 사용자 권한$$0$$1
+DEV_ACCT_AUTH_TYPE$$2$$사용자그룹$$null$$장비 계정 권한 - 사용자 그룹$$0$$1
+DEV_ACCT_AUTH_TYPE$$3$$사용자$$null$$장비 계정 권한 - 사용자$$0$$1
+DEV_ACCT_AUTH_TYPE_DEF$$0$$null$$null$$장비 계정 권한 - 기본 설정 값$$0$$1
+USER_CUSTOM$$MSG_ID$$STRING$$1$$사용자 확장 정보 - 메신저 ID$$1$$0
+SUPER_MAKE_USERAUTH$$OUTER$$null$$SUPER 사용자가 OUTER사용자를 만드는게 가능$$null$$1$$1
+ADMIN_MAKE_USERAUTH$$OUTER$$null$$ADMIN 사용자가 OUTER사용자를 만드는게 가능$$null$$1$$1
+USER_ID_PWD_RULE_APPLY$$OUTER$$1$$null$$OUTER 계정 생성 규칙$$1$$1
+EXTERM_TERMINAL_DEFAULT$$Winterm_FullScreen$$Window|C:\STGManager\bin\mstsc.exe|-ip=<ip> -port=<port> -id=<id> -pw=<pass> -redir_clipboard=true -redir_drive=true -fullscreen=true -redirect_keymode=2$$WINTERM$$null$$1$$1
+LOGIN_CODE$$LOGIN_BLOCK_USER$$차단된 사용자$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_CLIENT_KEY_OK$$그냥 무조건 허용 됨$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_FAIL_EXT_ACCT$$2차 인증 실패$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_NOFIND_ID$$ID 미존재$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_NOTFIND_CLIENTKEY$$존재 하지 않는 클라이언트 키$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_NOTMATCH_ID$$CLIENT_KEY 와 ID 가 일치 하지 않음$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_NOT_PERMIT_CLIENTKEY$$허용 되지 않은 클라이언트 키$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_NOT_PERMIT_IP$$허용 되지 않은 IP 대역$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_NOT_PERMIT_MACADDR$$허용 되지 않은 MAC Address$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_NOT_PROVIDE_VERSION$$호환 되지 않은 버전의 클라이언트$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_PASS_CORRECT$$PW 오류$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_PASS_CORRECT_CNT_OVER$$PW 오류 횟수 초과$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_SUCCESS$$로그인 성공$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_USER_OVER_TIME$$사용기간 만료$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_USING_ID$$이미 로그인 중인 ID$$null$$null$$1$$1
+LOGIN_CODE$$PASS_CHANGE_NONE$$비밀번호 변경 할 필요 없음$$null$$null$$1$$1
+LOGIN_CODE$$PASS_CHANGE_POLICY$$PW 보안 정책 위반$$null$$null$$1$$1
+LOGIN_CODE$$PASS_CHANGE_USER_TIME_OVER$$PW 사용기간 초과$$null$$null$$1$$1
+USER_ACCT_REQ_AUTH$$OUTER$$0$$null$$계정신청시 사용자권한 설정가능여부$$1$$1
+PWD_POLICY$$AS_DIFF_AS_ID$$1$$null$$ID와 동일한 패스워드를 사용금지 하는 옵션 ( 0:사용안함, 2:동일 , 3:포함 )$$0$$1
+PROTOCOL$$HTTP$$1$$7$$null$$1$$1
+USER_ACCT_USED_LIMIT$$ADMIN_SET_RANGE$$MONTH$$2$$ADMIN 설정 가능한 계정 사용기간 제한(기준:현재날짜)$$1$$1
+SGS_LOAD_TYPE$$TYPE$$SGS_PROTOCOL$$null$$null$$1$$0
+SGS_SVC_TYPE$$1$$TELNET_SGS$$null$$null$$1$$0
+PARAM_TEMPLATE$$ACC_PARAM$$-open_port=6610 -backup_path=C:\NADACS\PolicyBackup\ -agent_monitor=0$$null$$null$$1$$1
+SVC_AUTH_TYPE$$ACS_AUTH$$0$$null$$ACS쪽 권한을 사용할지 여부$$1$$1
+SVC_AUTH_TYPE$$ACCT_AUTH_PRCTL$$1$$null$$장비계정별 프로토콜 권한 사용 여부$$1$$1
+APV_STATUS$$0$$대기$$null$$결재 프로세스 - 상태$$1$$1
+APV_STATUS$$1$$승인완료$$null$$결재 프로세스 - 상태$$1$$1
+APV_STATUS$$2$$반려$$null$$결재 프로세스 - 상태$$1$$1
+APV_STATUS$$3$$진행중$$null$$결재 프로세스 - 상태$$1$$1
+APV_TARGET$$AUTH$$사용자 권한$$null$$결재 프로세스 - 대상 타입$$1$$1
+APV_TARGET$$USER$$사용자$$null$$결재 프로세스 - 대상 타입$$1$$1
+APV_TARGET$$USER_GRP$$사용자 그룹$$null$$결재 프로세스 - 대상 타입$$1$$1
+APV_REQ_KIND$$DEV_AUTH$$장비 접속 권한 신청$$COMMON$$장비 접속 권한 신청$$1$$1
+APV_REQ_KIND$$INHIBIT_CMD_USE$$금지 명령어 예외 사용 신청$$COMMON$$금지 명령어 예외 사용 신청$$1$$0
+EXTERM_TERMINAL_HIDE$$5$$BYPASS$$null$$BYPASS 프로토콜은 CLIENT 외부터미널 설정을 하지 않음$$1$$1
+DEV_TREE_OPT$$OUTER$$2$$null$$OUTER 권한의 장비 트리 옵션 설정$$1$$1
+JOIN_ADMIT_AUTH$$ADMIN$$null$$null$$계정 신청시 나타나는 승인자 권한$$1$$1
+LINK_USER_EDIT$$CELL_TELL$$0$$null$$0:편집가능, 1:연동 사용자의 휴대폰번호 편집 제한$$1$$1
+LINK_USER_EDIT$$OFFICE_TELL$$0$$null$$0:편집가능, 1:연동 사용자의 전화번호 편집 제한$$1$$1
+LINK_USER_EDIT$$EMAIL$$0$$null$$0:편집가능, 1:연동 사용자의 이메일 편집 제한$$1$$1
+USE_ID_MIXING_HANGUL$$0$$0$$null$$1:아이디 입력 시 한글과 영어 혼용, 0:아이디 입력 시 영어만 사용$$1$$1
+DEV_ACCT_AUTH_PRCTL$$1$$null$$null$$0:사용안함, 1:계정별 서비스 타입, 2:사용자/사용자그룹/사용자권한에 따른 계정별 서비스 타입 정책$$1$$0
+APV_STATUS$$4$$요청취소$$null$$결재 프로세스 - 상태$$1$$1
+EMAIL_POLICY$$EMAIL_VALIDATOR$$1$$null$$1:이메일 유효성 체크 허용,0:이메일 유효성 체크 허용 안함 $$1$$1
+MODULE_VERSION$$NADWebModule.ocx$$5.0.11.3$$0$$null$$1$$1
+MODULE_VERSION$$NAMVI_BridgeSetup.exe$$16.0.0.400$$1$$null$$1$$1
+MODULE_VERSION$$Res_Client_Kor.ini$$5.0.11.1$$0$$null$$1$$1
+MODULE_VERSION$$Common_Kor.ini$$5.0.14.1$$0$$null$$1$$1
+MODULE_VERSION$$NAMVI_Bridge.ocx$$5.0.7.2$$0$$null$$1$$1
+MODULE_PATCH_DIR$$Res_Client_Kor.ini$$$$SETUP_DIR$Config\$$null$$$$SETUP_DIR$ STGClient 설치 경로 이며 MODULE_PATCH_DIR 값은 정해진 위치에 파일 패치 가능$$1$$1
+MODULE_PATCH_DIR$$Common_Kor.ini$$$$SETUP_DIR$Config\$$null$$$$SETUP_DIR$ STGClient 설치 경로 이며 MODULE_PATCH_DIR 값은 정해진 위치에 파일 패치 가능$$1$$1
+AU_REGISTRY_DELETE$$SSGPlayer.exe$$0$$Software\HI-Ware\SSGPlayer\ProfUIS$$null$$1$$1
+AU_REGISTRY_DELETE$$SWGBrowser.exe$$0$$Software\HI-Ware\SWGBrowser\ProfUIS$$null$$1$$1
+MODULE_VERSION$$Client_Kor.ini$$5.0.11.1$$0$$null$$1$$1
+PWD_CONTINU_CHAR$$PWD_UPPERCASE$$ABCDEFGHIJKLMNOPQRSTUVWXYZ$$null$$패스워드 주기성 문제 제한 -알파벳 (대문자)$$1$$1
+PWD_CONTINU_CHAR$$PWD_LOWERCASE$$abcdefghijklmnopqrstuvwxyz$$null$$패스워드 주기성 문제 제한 -알파벳 (소문자)$$1$$1
+PWD_CONTINU_CHAR$$PWD_NUMBER$$1234567890$$null$$패스워드 주기성 문제 제한 - 숫자$$1$$1
+CERT_MODE_DATA$$2$$60$$10$$null$$1$$1
+PARAM_TEMPLATE$$EMAIL_SINGLE$$C:\STGManager\Bin\config_email_single.xml$$null$$null$$1$$1
+PROTOCOL$$MSSQL$$1$$18$$DB접근제어_MSSQL$$8$$1
+PROTOCOL$$ORACLE$$1$$11$$DB접근제어_ORACLE$$8$$1
+LOG_SERVER_TYPE$$NADLOGSVR$$NADLOGSVR$$null$$null$$1$$1
+PARAM_TEMPLATE$$NADLOGSVR$$-log_path=C:\STGManager\Log\ -log_file=nad_logserver.log -log_file_size=10240000 -db_ip=10.255.255.133 -db_id=hiware6DB -db_pwd=dufma!0934 -open_port=1400 -type=smb -smb_addr=10.255.255.101 -smb_path=smb://10.255.255.101/ktacs_share/IM_HOME/ -smb_id=ktacs_usr -smb_pass=ktacs#2010 -default_root_path="./"$$null$$null$$1$$1
+CONTROL_TS$$APV_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$BBS_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$COM_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$DAM_DATA$$1$$null$$null$$1$$0
+CONTROL_TS$$DEV_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$DIM_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$LOG_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$MSG_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$SAM_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$SIM_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$USR_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$APV_INDEX$$1$$null$$null$$1$$1
+CONTROL_TS$$BBS_INDEX$$1$$null$$null$$1$$1
+CONTROL_TS$$COM_INDEX$$1$$null$$null$$1$$1
+CONTROL_TS$$DAM_INDEX$$1$$null$$null$$1$$0
+CONTROL_TS$$DEV_INDEX$$1$$null$$null$$1$$1
+CONTROL_TS$$DIM_INDEX$$1$$null$$null$$1$$1
+CONTROL_TS$$LOG_INDEX$$1$$null$$null$$1$$1
+CONTROL_TS$$MSG_INDEX$$1$$null$$null$$1$$1
+CONTROL_TS$$SAM_INDEX$$1$$null$$null$$1$$1
+CONTROL_TS$$SIM_INDEX$$1$$null$$null$$1$$1
+CONTROL_TS$$USR_INDEX$$1$$null$$null$$1$$1
+EXTERM_TERMINAL_HIDE$$6$$ORACLE$$null$$외부터미널 설정에서 ORACLE를 제외한다.$$8$$1
+EXTERM_TERMINAL_HIDE$$7$$MSSQL$$null$$외부터미널 설정에서 MSSQL을 제외한다.$$8$$1
+SQL_CMD_TYPE$$ALTER$$ALTER$$null$$DB접근제어 SQL 명령어 타입$$1$$1
+SQL_CMD_TYPE$$CREATE$$CREATE$$null$$DB접근제어 SQL 명령어 타입$$1$$1
+SQL_CMD_TYPE$$DELETE$$DELETE$$null$$DB접근제어 SQL 명령어 타입$$1$$1
+SQL_CMD_TYPE$$DROP$$DROP$$null$$DB접근제어 SQL 명령어 타입$$1$$1
+SQL_CMD_TYPE$$INSERT$$INSERT$$null$$DB접근제어 SQL 명령어 타입$$1$$1
+SQL_CMD_TYPE$$SELECT$$SELECT$$null$$DB접근제어 SQL 명령어 타입$$1$$1
+SQL_CMD_TYPE$$SET$$SET$$null$$DB접근제어 SQL 명령어 타입$$1$$0
+SQL_CMD_TYPE$$UPDATE$$UPDATE$$null$$DB접근제어 SQL 명령어 타입$$1$$1
+CERT_MODE_SEND_TYPE$$1$$OTP$$EMAIL$$장비, 계정별 이중인증 정책의 OTP의 EMAIL 전송타입$$1$$1
+CERT_MODE_SEND_TYPE$$2$$OTP$$SMS$$장비, 계정별 이중인증 정책의 OTP의 SMS 전송타입$$1$$1
+CERT_MODE_SEND_TYPE$$5$$OTP$$NOTE$$장비, 계정별 이중인증 정책의 OTP의 NOTE 전송타입$$1$$1
+TELLKEY_TYPE$$0$$10$$null$$당일로 부터 CODE_VAL1값(일) 이내에 신청 가능$$7$$1
+MODULE_PATCH_DIR$$SSGPlayer_Kor.ini$$$$SETUP_DIR$Config\$$null$$null$$1$$1
+MODULE_PATCH_DIR$$SSGPlayer_Eng.ini$$$$SETUP_DIR$Config\$$null$$null$$1$$1
+MODULE_VERSION$$SSGPlayer_Kor.ini$$5.0.12.1$$0$$null$$1$$1
+MODULE_VERSION$$SSGPlayer_Eng.ini$$5.0.12.1$$0$$null$$1$$1
+WORK_RESULT_KIND$$65$$USER SHADOW 실패$$null$$null$$1$$1
+PARAM_TEMPLATE$$NADLOGSVR_1$$-log_path=C:\STGManager\Log\ -log_file=nad_logserver.log -log_file_size=10240000 -db_ip=10.255.255.133 -db_sid=hiware6DB -db_id=STG -db_pwd=dufma!0934 -open_port=1400 -type=smb -smb_addr=10.255.255.101 -smb_path=smb://10.255.255.101/ktacs_share/IM_HOME/ -smb_id=ktacs_usr -smb_pass=ktacs#2010 -default_root_path="./" $$null$$null$$1$$1
+CONTROL_TS$$LNK_DATA$$1$$null$$null$$1$$1
+CONTROL_TS$$LNK_INDEX$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201511$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201512$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201601$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201602$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201603$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201604$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201605$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201606$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201607$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201608$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201609$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201610$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201611$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201612$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201701$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201702$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201703$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201704$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201705$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201706$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201707$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201708$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201709$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201710$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201711$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_DATA_201712$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201511$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201512$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201701$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201702$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201703$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201704$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201705$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201706$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201707$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201708$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201709$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201710$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201711$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201712$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201601$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201602$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201603$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201604$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201605$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201606$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201607$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201608$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201609$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201610$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201611$$1$$null$$null$$1$$1
+CONTROL_TS$$TNT30_INDEX_201612$$1$$null$$null$$1$$1
+PARAM_TEMPLATE$$EMAIL_DUAL$$C:\STGManager\Bin\config_email_dual.xml$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM02$$-data_port=8002 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25000 $$null$$null$$1$$1
+PARAM_TEMPLATE$$SMS01$$config_sms_ktds.xml$$null$$null$$1$$1
+DB_STATE_TP_CODE$$1$$운영$$null$$DB상태구분코드|DB 상태 구분코드|$$7$$1
+DB_STATE_TP_CODE$$2$$개발$$null$$DB상태구분코드|DB 상태 구분코드|$$7$$1
+ACCT_POLICY$$AS_DIFF_AS_ID$$2$$null$$ID 동일 패스워드 사용 금지 옵션(0: 미적용 1: 포함 2: 동일)$$1$$1
+ACCT_POLICY$$ACCT_TRANS_PROCESS$$2$$null$$0:서버계정삭제, 1:계정 Lock, 2:없음$$1$$1
+ACCT_POLICY$$ACCT_UNUSE_DEL_DAY$$3$$null$$휴면계정 잠금처리후 삭제처리 일$$1$$1
+DEV_REG_OPT$$DEFAULT_DEV_KIND$$0$$ETC$$null$$1$$1
+DEV_REG_OPT$$DEFAULT_DEV_TYPE$$1$$Network$$null$$1$$1
+DEV_REG_OPT$$DEFAULT_DEV_USAGE$$1$$Default$$null$$1$$1
+DEV_REG_OPT$$DEFAULT_DEV_OS$$15$$ETC$$null$$1$$1
+DEV_REG_OPT$$DEFAULT_DEV_MODEL$$760$$ETC$$null$$1$$1
+DEV_REG_OPT$$DEFAULT_DEV_VENDOR$$ETC$$ETC$$null$$1$$1
+ACCT_ADMISSION$$USE_FLG$$1$$null$$계정 승인 인증키 사용 여부$$1$$1
+ACCT_EXPIRE$$POPUP_DATE$$7$$null$$계정만료 안내일 설정$$1$$1
+ACCT_EXPIRE$$POPUP_YESNO$$1$$null$$계정만료 안내 출력 여부(1:출력/0:출력안함)$$1$$1
+ACCT_POLICY$$ACCT_UNUSE_LIMIT_DAY$$90$$null$$휴면계정$$1$$1
+ACCT_POLICY$$ACCT_UNUSE_PROCESS$$2$$null$$0:서버계정삭제, 1:계정 Lock, 2:없음$$1$$1
+ACCT_POLICY$$ACCT_USABLE_DAY$$90$$null$$계정 기본 사용 기간$$1$$1
+ACCT_POLICY$$ACCT_USABLE_PROCESS$$2$$null$$0:서버계정삭제, 1:계정 Lock, 2:없음$$1$$1
+ACCT_POLICY$$DELETED_USER_PROCESS$$2$$null$$0:서버계정삭제, 1:계정 Lock, 2:없음$$1$$1
+ACCT_POLICY$$ID_MAX_LEN$$30$$null$$ID 최대 길이$$1$$1
+ACCT_POLICY$$ID_MIN_LEN$$6$$null$$ID 최소길이$$1$$1
+ACCT_POLICY$$ID_MIX_NUM$$0$$null$$ID 양/슷자 혼합$$1$$1
+ACCT_POLICY$$PWD_INIT_VAL$$1111$$null$$PWD 초기값$$1$$1
+ACCT_POLICY$$PWD_LIMIT_CONTINUE_CHAR$$0$$null$$PWD 주기성 문자 제한$$1$$1
+ACCT_POLICY$$PWD_LIMIT_HUMAN_INFO$$0$$null$$PWD 인적 사항 제한$$1$$1
+ACCT_POLICY$$PWD_MIN_LEN$$4$$null$$PWD 최소 길이$$1$$1
+ACCT_POLICY$$PWD_MIX_NUM$$0$$null$$PWD 영/숫자 혼합$$1$$1
+ACCT_POLICY$$PWD_MIX_SPECIAL_CHAR$$0$$null$$PWD 특수문자 혼합$$1$$1
+ACCT_POLICY$$PWD_REUSE_PWD$$3$$null$$PWD 이전 사용 패스워드 재사용 금지$$1$$1
+ACCT_POLICY$$PWD_USABLE_DAY$$90$$null$$PWD 기본 사용 기간$$1$$1
+ACL_SERVICE$$ACL TACS 2.0$$4$$null$$ACL TACS 2.0$$1$$2
+ADMIN_MAKE_USERAUTH$$ADMIN$$null$$ADMIN 사용자가 ADMIN사용자를 만드는게 가능$$null$$1$$1
+ADMIN_MAKE_USERAUTH$$USER$$null$$ADMIN 사용자가 USER사용자를 만드는게 가능$$null$$1$$1
+ARM_CODE$$BLK_ADMIN$$관리자차단$$null$$관리자에 의한 세션 차단$$1$$1
+ARM_CODE$$BLK_SYSTEM$$시스템차단$$null$$시스템에 의한 세션 차단$$1$$1
+ARM_CODE$$SYSTEM_DOWN$$장비장애$$null$$장비 장애 : ICMP Packet Loss = 100%$$1$$1
+ARM_LEVEL$$Critical$$16216579$$4$$null$$2$$1
+ARM_LEVEL$$Major$$16711425$$3$$CODE_VAL1:RGB값, CODE_VAL2:경보 레벨$$2$$1
+ARM_LEVEL$$Minor$$16711577$$2$$null$$2$$1
+ARM_LEVEL$$Warning$$497407$$1$$null$$2$$1
+ARM_TYPE_ID$$DEV_PERF$$장비 성능$$2$$null$$1$$1
+ARM_TYPE_ID$$IF_PERF$$회선 성능$$2$$null$$1$$1
+ARM_TYPE_ID$$STG$$STG$$1$$null$$1$$1
+AUTO_UPDATE$$IS_RUN$$1$$null$$1: 업데이트 모드 실행 , 0: 업데이트 모드 비활성$$1$$1
+AU_REGISTRY_DELETE$$STGClient.exe$$0$$Software\HI-Ware\STGClient\ProfUIS$$업데이트시 레지스트리 삭제 코드 CODE_VAL1=0일 경우 CURRENT_USER, 1일 경우 LOCAL_MACHINE$$1$$1
+CHG_BAD_TABLE$$AUTH10$$3438$$null$$BAD COMMAND TABLE이 변경시 CODE_VAL1 증가$$1$$1
+CHG_BAD_TABLE$$AUTH20$$1$$null$$BAD COMMAND TABLE이 변경시 CODE_VAL1증가$$1$$1
+CHG_TNT30_NOSAVE_CMD$$CHG_TNT30_NOSAVE_CMD$$15$$null$$null$$1$$1
+CHG_USER_PERMIT$$CHG_USER_PERMIT$$7199$$null$$null$$1$$1
+CLIENT_WEB_START$$CLIENT_WEB_START$$0$$null$$Client 실행 모드 ( 0 : 단독실행 1 : 웹으로만 실행 )$$1$$1
+CODE_TREE$$DEV_USAGE$$서비스군$$1$$트리형태의 코드를 NAD_CODE_TREE 테이블과 함께 관리한다.  CODE_ID : NAD_CODE_TREE 테이블과 연관 키 ,  CODE_VAL1 : 이름 , CODE_VAL2 : UI  에 보여줄지 여부 $$1$$1
+CONN_POLOCY$$1$$1$$0 : 장비와 그룹 중 하나 택일, 1 : 장비와 그룹 둘 다 사용$$null$$1$$1
+DEFAULT_EXPRESSION_UI$$TOPN$$15$$null$$화면에 표현하는 갯수$$1$$1
+DEFAULT_USER_PASSWORD$$DEFAULT_USER_PASSWORD$$1111$$null$$null$$1$$1
+DEFAULT_WEEKLY_WORK_TIME$$1$$00:00$$23:59$$월요일 장비 접근 시간 기본값$$1$$1
+DEFAULT_WEEKLY_WORK_TIME$$2$$00:00$$23:59$$화요일 장비 접근 시간 기본값$$1$$1
+DEFAULT_WEEKLY_WORK_TIME$$3$$00:00$$23:59$$수요일 장비 접근 시간 기본값$$1$$1
+DEFAULT_WEEKLY_WORK_TIME$$4$$00:00$$23:59$$목요일 장비 접근 시간 기본값$$1$$1
+DEFAULT_WEEKLY_WORK_TIME$$5$$00:00$$23:59$$금요일 장비 접근 시간 기본값$$1$$1
+DEFAULT_WEEKLY_WORK_TIME$$6$$00:00$$23:59$$토요일 장비 접근 시간 기본값$$1$$1
+DEFAULT_WEEKLY_WORK_TIME$$7$$00:00$$23:59$$일요일 장비 접근 시간 기본값$$1$$1
+DEV_ACCT_STATUS$$-1$$장비 오류$$null$$계정 점검 시 ICMP 실패 한 장비$$0$$1
+DEV_ACCT_STATUS$$0$$접속 오류$$null$$계정 점검 시 Telnet/SSH 접속이 실패한 장비$$0$$1
+DEV_ACCT_STATUS$$1$$계정 오류$$null$$계정 점검 시 ID/Pwd 실패$$0$$1
+DEV_ACCT_STATUS$$2$$En 오류$$null$$Enable 모드 실패$$0$$1
+DEV_ACCT_STATUS$$3$$En Pwd 오류$$null$$Enable Password 오류$$0$$1
+DEV_ACCT_STATUS$$4$$정상$$null$$null$$0$$1
+DEV_AUTH_LEVEL$$0$$권한 없음$$null$$null$$1$$0
+DEV_AUTH_LEVEL$$1$$접근 권한$$null$$null$$1$$1
+DEV_AUTH_LEVEL$$99$$모든 권한$$null$$null$$1$$1
+DEV_GRP_TYPE$$0$$일반그룹$$SEARCH$$STG에서 사용되는 일반 그룹을 지칭한다(디폴트)$$1$$1
+DEV_PWD_POLICY$$CASE_MIX$$1$$0$$대문자 혼합$$0$$1
+DEV_PWD_POLICY$$IS_RANDOM$$0$$0$$랜덤 패스워드 사용$$0$$1
+DEV_PWD_POLICY$$MAX_LEN$$8$$0$$null$$0$$1
+DEV_PWD_POLICY$$MIN_LEN$$4$$0$$null$$0$$1
+DEV_PWD_POLICY$$NUM_MIX$$1$$0$$숫자 혼합$$0$$1
+DEV_PWD_POLICY$$SPECIAL_MIX$$1$$0$$특수 문자 혼합$$0$$1
+DEV_PWD_POLICY$$TACACS_DEVICE$$0$$0$$TACACS 장비 패스워드 변경 여부$$0$$1
+DEV_PWD_POLICY$$UI_PWDCHG_POLICY$$1$$null$$1 : 1차 , 2차 pwd 둘다 사용 2: 2차 사용 안함$$0$$1
+DEV_PWD_POLICY$$WORK_LIMIT$$1000$$null$$null$$0$$1
+DEV_REG_OPT$$ALLOW_IP_DUPLICATE$$0$$null$$0:IP 중복 허용 안함, 1:IP 중복 허용$$1$$1
+DEV_REG_OPT$$IP_DUPLICATE$$0$$null$$0:IP 중복 허용 안함, 1:IP 중복 허용$$1$$1
+DEV_REG_OPT$$MUST_INPUT_ACCT$$1$$null$$0:등록 시 접속 계정 입력 안함, 1:등록 시 접속 계정 입력$$1$$1
+DEV_TREE_EXP_OPT$$0$$장비명+IP$$null$$트리뷰에 장비명과 IP를 함께 표현한다.$$1$$1
+DEV_TREE_EXP_OPT$$1$$장비명$$null$$트리뷰에 장비명만 표현한다.$$1$$1
+DEV_TREE_EXP_OPT$$2$$IP$$null$$트리뷰에 IP만 표현한다.$$1$$1
+DEV_TREE_OPT$$ADMIN$$0$$null$$ADMIN 권한의 장비 트리 옵션 설정$$1$$1
+DEV_TREE_OPT$$SUPER$$0$$null$$SUPER 권한의 장비 트리 옵션 설정$$1$$1
+DEV_TREE_OPT$$USER$$0$$null$$USER 권한의 장비 트리 옵션 설정$$1$$1
+DEV_TYPE$$0$$Server$$null$$장비 구분 서버$$1$$1
+DEV_TYPE$$1$$Network$$null$$장비 구분 네트워크$$1$$1
+DEV_VENDOR$$3Com$$3Com$$null$$null$$1$$1
+DEV_VENDOR$$Acme$$Acme$$null$$null$$1$$1
+DEV_VENDOR$$Alcatel$$Alcatel$$null$$null$$1$$1
+DEV_VENDOR$$Alteon$$Alteon$$null$$null$$1$$1
+DEV_VENDOR$$Arrow point$$Arrow point$$null$$null$$1$$1
+DEV_VENDOR$$Ascend$$Ascend$$null$$null$$1$$1
+DEV_VENDOR$$Audiocodes$$Audiocodes$$null$$null$$1$$1
+DEV_VENDOR$$CIS$$CIS$$null$$null$$1$$1
+MODULE_VERSION$$ProfUIS280m.dll$$2.8.0.0$$0$$null$$1$$1
+MODULE_VERSION$$SSGPlayer.exe$$5.0.12.1$$0$$null$$1$$1
+MODULE_VERSION$$HI-TAM 5.0.exe$$5.0.16.2$$0$$null$$1$$1
+MODULE_VERSION$$RelayConnecter.exe$$5.0.15.1$$0$$null$$1$$1
+MODULE_VERSION$$mstsc.exe$$5.0.16.2$$0$$ktacs때문에 5.0.4.1에서 9.1.0.22로 올림$$1$$1
+MODULE_VERSION$$putty.exe$$0.61.0.0$$0$$null$$1$$1
+MODULE_VERSION$$ssleay32.dll$$0.9.8.31$$0$$null$$1$$1
+MODULE_VERSION$$zlib1.dll$$1.2.3.2027$$0$$null$$1$$1
+MSG_POLICY$$SENDER_ID$$s2i$$null$$Global Sender 사용자 ID$$1$$1
+MSG_POLICY$$SENDER_TYPE$$2$$null$$1:설정한 사용자가 보내는 사람/2:Global  설정$$1$$1
+MSG_SEND_TYPE$$EMAIL$$2$$null$$MSG 전송 타입 EMAIL 전송$$1$$1
+MSG_SEND_TYPE$$SMS$$1$$null$$MSG 전송 타입 문자메시지$$1$$1
+MSG_SEND_TYPE$$알림 메시지$$3$$null$$MSG 전송 타입 알림 MSN 메시지$$1$$1
+MSG_TPT_KIND$$사용자 메시지 템플릿$$2$$null$$사용자 메시지 템플릿$$1$$1
+MSG_TPT_KIND$$시스템 메시지 템플릿$$3$$null$$시스템 메시지 템플릿
+$$1$$1
+MSG_TPT_KIND$$장비 메시지 템플릿$$1$$null$$장비 메시지 템플릿$$1$$1
+MSN_ALARM$$BLK_CMD$$1$$null$$금지 명령어 입력$$1$$1
+MSN_ALARM$$BLK_SESSION$$1$$null$$접속 차단/해제$$1$$1
+MSN_ALARM$$DEVICE_CONNECT$$0$$null$$장비 접속$$1$$1
+MSN_ALARM$$DEVICE_DISCONNECT$$0$$null$$장비 해제$$1$$1
+MSN_ALARM$$USER_LOGIN$$0$$null$$사용자 로그인$$1$$1
+MSN_ALARM$$USER_LOGOUT$$0$$null$$사용자 로그아웃$$1$$1
+NAC_MANAGE$$CHECKING$$0$$20190117174717$$NADService SCC 이중화 순차 처리를 위한 기준 코드$$1$$1
+NAD_SERVER_USAGE$$ACCESS_GW$$null$$null$$접근제어 G/W$$1$$1
+NAD_SERVER_USAGE$$DB$$null$$null$$DB 서버$$1$$1
+NAD_SERVER_USAGE$$NAC$$null$$null$$인증 서버$$1$$1
+NAD_SERVER_USAGE$$REG_DEV$$null$$null$$장비 등록$$1$$1
+NAD_SERVER_USAGE$$WEB$$null$$null$$솔루션 웹 서버$$1$$1
+NETWORK_AREA$$MOCDONG$$목동$$1$$목동 장비$$1$$1
+NETWORK_MODE$$MODE_JIRAL$$1$$null$$null$$1$$1
+NOW_CON_USER$$USER_ID$$SUPER$$null$$null$$1$$1
+OTP_USER_PWD_RESET$$2$$OTP 사용자 패스워드 초기화$$null$$OTP 로그인 모드$$1$$1
+PACKAGES$$USERAUTH$$ADMIN$$null$$USERAUTH패키지에서 사용자 권한(ADMIN은 ADMIN과 USER, USER과는USER 만 조회  ** SUPER는 보여지지 않음)별 보여지는 조건$$1$$1
+PARAM_TEMPLATE$$AGENT_PARAM$$-nac_ip=::NAC_IP -nac_port=::NAC_PORT -open_ip=::LOCAL_IP -open_port=6602 -db_type=NDC30$$null$$null$$1$$1
+PARAM_TEMPLATE$$CFG_PARAM$$-hang_check=1 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ora_conn_str=::ORA_CONN_STR -server_id=::SERVER_ID -db_type=NDC30$$null$$null$$1$$1
+PARAM_TEMPLATE$$EMAIL$$-mode=EMAIL -server_ip=61.109.252.26 -server_port=25 -server_domain=mail.netand.co.kr$$null$$null$$1$$1
+PARAM_TEMPLATE$$FLEX_POLICY$$-open_flexpolicy_port=6603 $$null$$null$$1$$1
+PARAM_TEMPLATE$$HLS_PARAM$$-server_id=::SERVER_ID -db_type=NDC30 -ora_conn_str=::ORA_CONN_STR$$null$$null$$1$$1
+PARAM_TEMPLATE$$NDC_PARAM$$-enc_mode=RIJINDAEL -open_port=6601 -dual_db=0 -timeout=10 -ora_conn_str=::ORA_CONN_STR -remote_conn_str=::REMOTE_CONN_STR -max_conn_use_cnt=10000 -init_time=0310$$null$$null$$1$$1
+PARAM_TEMPLATE$$PWD_PARAM1$$-contimeout=5 -db_type=NDC30 -hang_check=1 -nac_ip=::NAC_IP -nac_mode=NOUSED -nac_port=::NAC_PORT -parallelwork_cnt=10 -retry_cnt=0 -server_id=::SERVER_ID -work_id=PWD_CHANGE -worktimeout=180 $$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_1201$$-server_id=::SERVER_ID -db_thread_cnt=1 -db_type=NDC30 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1201 -ra_thread_cnt=10 -tot_save_point=100 -force_discon=1 -badcmd_loadtype=TEMPLATE -badcmd_mode=DB -tnt_log_level=0 -net_log_port=21201 -linger_opt=1 -FTP_PASV=1 -insert_insert=1 -conn_type=BYPASS,FTP,FTP_ACTV,FTP_PASV,HTTP,SSH,TELNET,WINTERM$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_1202$$-server_id=::SERVER_ID -db_thread_cnt=1 -db_type=NDC30 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1202 -ra_thread_cnt=10 -tot_save_point=100 -force_discon=1 -badcmd_loadtype=TEMPLATE -badcmd_mode=DB -tnt_log_level=0 -net_log_port=21202 -linger_opt=1 -FTP_PASV=1 -insert_insert=1 -conn_type=BYPASS,FTP,FTP_ACTV,FTP_PASV,HTTP,SSH,TELNET,WINTERM$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_1203$$-server_id=::SERVER_ID -db_thread_cnt=1 -db_type=NDC30 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1203 -ra_thread_cnt=10 -tot_save_point=100 -force_discon=1 -badcmd_loadtype=TEMPLATE -badcmd_mode=DB -tnt_log_level=0 -net_log_port=21203 -linger_opt=1 -FTP_PASV=1 -insert_insert=1 -conn_type=BYPASS,FTP,FTP_ACTV,FTP_PASV,HTTP,SSH,TELNET,WINTERM$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_1204$$-server_id=::SERVER_ID -db_thread_cnt=1 -db_type=NDC30 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1204 -ra_thread_cnt=10 -tot_save_point=100 -force_discon=1 -badcmd_loadtype=TEMPLATE -badcmd_mode=DB -tnt_log_level=0 -net_log_port=21204 -linger_opt=1 -FTP_PASV=1 -insert_insert=1 -conn_type=BYPASS,FTP,FTP_ACTV,FTP_PASV,HTTP,SSH,TELNET,WINTERM$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_1205$$-server_id=::SERVER_ID -db_thread_cnt=1 -db_type=NDC30 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1205 -ra_thread_cnt=10 -tot_save_point=100 -force_discon=1 -badcmd_loadtype=TEMPLATE -badcmd_mode=DB -tnt_log_level=0 -net_log_port=21205 -linger_opt=1 -FTP_PASV=1 -insert_insert=1 -conn_type=BYPASS,FTP,FTP_ACTV,FTP_PASV,HTTP,SSH,TELNET,WINTERM$$null$$null$$1$$1
+PARAM_TEMPLATE$$SCC_PARAM$$-server_id=::SERVER_ID -active=1 -conf_refresh=60 -db_type=NDC30 -ini_path=::INI_PATH -language=::LANGUAGE -license=::LICENSE -log_path=::LOG_PATH -open_ip=::LOCAL_IP -open_port=2400 -ra_thread_cnt=10 -worktime_mode=DEV -License_ver=1 -linger_opt=1 -insert_insert=1 -loadballance_type=2 -net_mode=DIV_AREA$$null$$null$$1$$1
+PARAM_TEMPLATE$$STORAGE_PARAM$$-ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -ora_conn_str=::ORA_CONN_STR -delete_one_date=1$$null$$null$$1$$1
+PARAM_TEMPLATE$$SVROB_CPU_MEM$$-server_id=::SERVER_ID -func_list=CPU;MEMORY -ini_path=::INI_PATH -log_path=::LOG_PATH$$null$$null$$1$$1
+PARAM_TEMPLATE$$SVROB_DISK$$-server_id=::SERVER_ID -func_list=DISK -ini_path=::INI_PATH -log_path=::LOG_PATH$$null$$null$$1$$1
+MODULE_VERSION$$NAMVI_CSAuther.exe$$5.0.11.1$$0$$null$$1$$1
+MODULE_VERSION$$WebModuleReg.bat$$1.0.0.2$$1$$null$$1$$0
+PARAM_TEMPLATE$$PROC_PARAM$$null$$null$$null$$1$$1
+POLICY_DB_BACKUP$$MON$$25$$0$$0: 1일 1:2일 ... 27:25일$$1$$1
+POLICY_DB_BACKUP$$WEEK$$2$$0$$0:일 1:월 2:화 ... 6:토$$1$$1
+POLICY_OPTION$$ALARM$$Yes$$null$$null$$1$$1
+POLICY_OPTION$$ALARM_COUNT$$30$$null$$null$$1$$1
+POLICY_OPTION$$AUTO_KILL$$No$$null$$null$$1$$1
+WORK_RESULT_KIND$$60$$SHADOW 수집 실패$$null$$null$$1$$1
+WORK_RESULT_KIND$$7$$ROOT 아닌 계정으로 passwd 시도$$null$$null$$1$$1
+DEV_KIND$$1$$BACKBONE$$null$$BACKBONE$$1$$1
+LOGIN_CODE$$LOGIN_AUTHKEY_CORRECT$$인증키가 잘못되었습니다.$$null$$null$$1$$1
+DEV_KIND$$2$$SWITCH$$null$$SWITCH$$1$$1
+DEV_KIND$$3$$ROUTER$$null$$ROUTER$$1$$1
+DEV_KIND$$4$$L3SWITCH$$null$$L3SWITCH$$1$$0
+DEV_KIND$$5$$HUB$$null$$HUB$$1$$0
+DEV_KIND$$6$$FIREWALL$$null$$FIREWALL$$1$$1
+DEV_KIND$$7$$VPN$$null$$VPN$$1$$1
+DEV_KIND$$8$$DEVICE$$null$$DEVICE$$1$$0
+DEV_KIND$$9$$SERVER$$null$$SERVER$$1$$1
+DEV_KIND$$10$$PC$$null$$PC$$1$$0
+DEV_KIND$$11$$ETC$$null$$ETC$$1$$1
+DEV_KIND$$12$$CMTS$$null$$CMTS$$1$$1
+DEV_KIND$$13$$AP$$null$$AP$$1$$0
+DEV_KIND$$14$$L7SWITCH$$null$$L7SWITCH$$1$$0
+DEV_KIND$$15$$L2SWITCH$$null$$L2SWITCH$$1$$0
+DEV_KIND$$16$$L4SWITCH$$null$$L4SWITCH$$1$$0
+DEV_KIND$$17$$MUX$$null$$MUX$$1$$1
+DEV_KIND$$18$$Linux$$null$$Linux$$1$$1
+DEV_KIND$$19$$Unix$$null$$Unix$$1$$1
+DEV_KIND$$20$$AIX$$null$$AIX$$1$$1
+DEV_KIND$$21$$NTServer$$null$$NTServer$$1$$1
+DEV_KIND$$22$$CONSOLE$$null$$CONCOLE$$1$$0
+DEV_KIND$$23$$KVM$$null$$KVM$$1$$1
+DEV_KIND$$24$$기타$$null$$기타$$1$$1
+OS_WARE$$OEL$$OEL$$null$$null$$1$$1
+WORK_RESULT_KIND$$5$$ROOT PWD Incorrect$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_TYPE_RELOGIN_LOGOUT$$이미 다른곳에 로그인되어 있습니다.$$null$$null$$1$$1
+LOGIN_CODE$$LOGIN_TYPE_RELOGIN_ALLOW$$여러개의 중복 로그인이 허용되지 않습니다.$$null$$null$$1$$1
+LOGIN_CODE$$PASS_FORCIBLY_CHANGE$$패스워드 초기화로 변경필요$$null$$null$$1$$1
+TIM_GREENPLUM$$TIM_POSTGRE9.3$$PostgreSQL 9.3$$null$$null$$7$$1
+TIM_MYSQL$$TIM_MYSQL5.6$$MySQL 5.6$$null$$null$$7$$1
+TIM_GREENPLUM$$TIM_POSTGRE9.1$$PostgreSQL 9.1$$null$$null$$7$$1
+TIM_MSSQL$$TIM_MSSQL2003$$MS-SQL2003$$null$$null$$7$$1
+TIM_ORACLE$$TIM_ORA8I$$Oracle 8i$$null$$null$$7$$1
+TIM_ORACLE$$TIM_ORA12C$$Oracle 12c$$4$$CODE_VAL1 = 출력용 이름, CODE_VAL2 = 출력순서$$7$$1
+TIM_GREENPLUM$$TIM_POSTGRE9.2$$PostgreSQL 9.2$$null$$null$$7$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8002$$-data_port=8002 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25002$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8003$$-data_port=8003 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25003$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8004$$-data_port=8004 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25004$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8005$$-data_port=8005 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25005$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8006$$-data_port=8006 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25006$$null$$null$$1$$1
+TIM_GREENPLUM$$TIM_POSTGRE9.0$$PostgreSQL 9.0$$null$$null$$7$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8016$$-data_port=8016 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25016$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8018$$-data_port=8018 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25018$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8009$$-data_port=8009 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25009$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8010$$-data_port=8010 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25010$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8011$$-data_port=8011 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25011$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8013$$-data_port=8013 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25013$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8014$$-data_port=8014 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25014$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8012$$-data_port=8012 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25012$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8015$$-data_port=8015 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25015$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8007$$-data_port=8007 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25007$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8008$$-data_port=8008 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25008$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8017$$-data_port=8017 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25017$$null$$null$$1$$1
+PARAM_TEMPLATE$$FORWARD_PARAM_8019$$-data_port=8019 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25019$$null$$null$$1$$1
+TIM_MYSQL$$TIM_MYSQL5.1$$MySQL 5.1$$null$$null$$7$$1
+TIM_MYSQL$$TIM_MYSQL5.5$$MySQL 5.5$$null$$null$$7$$1
+OS_WARE$$OVS$$OVS$$null$$null$$1$$1
+OS_WARE$$Xenserver$$Xenserver$$null$$null$$1$$1
+WORK_RESULT_KIND$$13$$스크립트 실행 실패$$null$$null$$1$$1
+LICENSE$$0$$afRynxsv70x0rxG1r00Jt+IIBB7BXh/JhLDpKiPnM9xhgJYbIzQw0wgDEQSbnG2U6XlyconWpLMR
++a96s/gYdZd0AX+PNc9uvcYGdfz82GcFs5aSitsXJnIno1vPEVC4/7hIuqUhHIO5EQB75pnZ7y5+
+OdoZkKAc6hAjGosIlzplc6f0ztpKRYM5jONzEeTiA6qzbmaPxKRXNii11jDKr1YZBOrRDt9aTaP8
+FP/pKXd8nyajWW6WtEpcXbNzYZ+6N/MbsoCXFNJT9ZfGP55ozZfskPO0WSkxQtpdOxorYD1Z+pc3
+HKDK0Y6NRIK1h7MFSLfAjGLGBAxFjeYqHh0J9/T2S2eVEQfnY4Ae4YzrHR/N5YH0E9v4QoRTszuo
+x7d73k0ORc05H/PEcfsUAFKRJ/6im+BwiWrCgdX/6lgAsI2PdRjIa2GWCmMifdYSTl4aKzPr/+26
+PImLS+nUqGUQAeuphi3fJ1aPSUrhWwhs1xalU0$$01$$null$$1$$1
+WORK_RESULT_KIND$$18$$ROOT로 PWD변경시 최초로그인 설정 문제$$null$$null$$1$$1
+LICENSE$$1$$t44D7qtiQG2P89cNvAt9xPbBrjNDp5jSJljPZK
+VzcO1wtJUG+ZQrOK2T4hc3XXzNfRZgoosrd7ItsHe1rLnJy1AVJ0zhglhxblzNqvnX0gcIo2JjSd
+enHd/nSwwqtJkKj+7NsTCdKq+s0sfRaBatRfwEb7/GwCN1tAIBM+jdc4dVAVtHOES9g+XkYSJIsp
+tmLILoq+IW4M3EMTbGe7eRsmZ7ZhEXEh15aUk+GFEGHBnILuxIOpqx3qJSSufNdCjk/usLU9MvOM
+8yziAf5D7CGO88EoFqEySiElmBwvvUUltbVINlJyLBD7wbtxLtk4TuJNpTjrQAkT+dJB5dSGQYeu
+fehIOD/bJct8O22RVCPFZfT6iwksr8Yt6oYBxAcgx7RfJn6LKKe7sRVAB8StDK8ZAU8kczSjdx1C
++CNv31GUhSFdTa2BAH0JNO15mz5V9P+oC6FJZy2xwtcFwEvXe4U4C+qtnjP8NHIPfXQm7LY9z7RK$$01$$null$$1$$1
+LICENSE$$2$$
+uk1Z/tQ5+1gVcNU9pyukyiiXGBE/lmbzJ783Ai8C7ss7dik7w11R69EnV0ChCGyV1q0+cSz8Xr27
+I/yIdvR3pEc/jgo4792UtUdTBdxECMLgAw9et1LJmh/A+5S2kxAu36ojgREVbaNpNYgQNk3vxGXE
+1cZszH7jDLHcpXA0aQGhYEdm47OivxEy0BRJgWu38trPW37ALmlqS6Knfjf7AMv7Tx/cK98qFrtL
+R6zgeYAMoz4vYlvxTzP0rWme6oIeSP4Hi91EYDmM4U2NOGT91BLvs+fnkL2wMleQo1uNsYxC2ahf
+RRMlYYSuPz710o4nBH2U6aTkXc73I9U=$$01$$null$$1$$1
+LICENSE$$3$$ydmBtButvldjXxCpgWPRKzSXGT6+5VdXIYReXFWDY8hDK8awj/viKmkhOcqTilwu5nSyDG/Z9VOi
+ogISkjj876NEx83sWyuwiUA1hNZ5U680ZcoU0lU0WMZoRdz1nlldbrB0+y4XLZ9VYqn1up9vUBj9
+5WKAozOjScTUsXGJ/tqHNia0gOd0mLmr84TYxROcPvHF8aF9UwV14ijLhQpLwlUkWcw8KBshMGKS
+bZ1xdrc=$$02$$null$$1$$1
+PARAM_TEMPLATE$$forward_test$$-data_port=8012 -open_port=5000 -open_ip=::LOCAL_IP -bridge_type=1 -net_log_port=25012$$null$$null$$1$$1
+PARAM_TEMPLATE$$relay_test1$$-server_id=::SERVER_ID -db_thread_cnt=1 -db_type=NDC30 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1237 -ra_thread_cnt=10 -tot_save_point=100 -force_discon=1 -badcmd_loadtype=TEMPLATE -badcmd_mode=DB -tnt_log_level=0 -net_log_port=21237 -linger_opt=1 -FTP_PASV=1 -insert_insert=1 -conn_type=BYPASS,FTP,FTP_ACTV,FTP_PASV,HTTP,SSH,TELNET,WINTERM $$null$$null$$1$$1
+WORK_RESULT_KIND$$6$$현재 패스워드 입력 스크립트 매핑 필요$$null$$null$$1$$1
+CONNECTION_LIMIT$$CHECK_TYPE$$DB$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1242$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1242 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21242 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1243$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1243 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21243 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+DEV_LOG_SETUP_VAL$$1$$로그 정책 설정 기본 값$$null$$로그 정책 설정 기본 값 설정 (접속 후 Full-Time)$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1244$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1244 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21244 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1245$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1245 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21245 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1250$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1250 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21250 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1246$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1246 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21246 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1241$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1241 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21241 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1247$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1247 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21247 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1248$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1248 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21248 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1249$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1249 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21249 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1214$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1214 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21214 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1215$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1215 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21215 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+DEV_LOG_SETUP_TP$$1$$접속 후 Full-Time$$null$$접속 후 Full-Time$$1$$1
+DEV_LOG_SETUP_TP$$2$$접속 후 제한 시간$$null$$접속 후 제한 시간$$1$$1
+DEV_LOG_SETUP_TP$$3$$이벤트 발생 시 마다$$null$$이벤트 발생 시 마다$$1$$1
+DEV_LOG_SETUP_TP$$4$$이벤트 발생 후 제한 시간$$null$$이벤트 발생 후 제한 시간$$1$$1
+DEV_LOG_SETUP_TP$$5$$로그 기록 안함$$null$$로그 기록 안함$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5022$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5022 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5022$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5023$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5023 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5023$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5024$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5024 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5024$$1$$1
+TIM_EVENT_KIND$$18$$장비 접속 시작$$SYSTEM$$일회성 패스워드 정책 사용 - 장비 접속 시작시 패스워드 변경$$7$$1
+TIM_EVENT_KIND$$19$$장비 접속 종료$$SYSTEM$$일회성 패스워드 정책 사용 - 장비 접속 종료시 패스워드 변경$$7$$1
+PARAM_TEMPLATE$$RELAY_NEW_1218$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1218 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21218 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1219$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1219 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21219 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1220$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1220 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21220 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1221$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1221 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21221 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1222$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1222 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21222 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1223$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1223 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21223 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1224$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1224 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21224 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1225$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1225 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21225 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1226$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1226 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21226 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1227$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1227 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21227 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1228$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1228 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21228 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1229$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1229 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21229 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1230$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1230 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21230 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1231$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1231 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21231 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1232$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1232 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21232 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1233$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1233 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21233 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1234$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1234 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21234 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1235$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1235 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21235 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1236$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1236 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21236 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1237$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1237 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21237 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1238$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1238 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21238 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1239$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1239 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21239 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1251$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1251 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21251 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1252$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1252 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21252 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1253$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1253 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21253 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1254$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1254 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21254 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1255$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1255 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21255 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1256$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1256 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21256 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+OS_WARE$$SUSE$$SUSE$$null$$null$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5207$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5207 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5207$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5208$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5208 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5208$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5209$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5209 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5209$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5210$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5210 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5210$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5211$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5211 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5211$$1$$1
+OS_WARE$$Snode$$Snode$$null$$null$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5212$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5212 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5212$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5213$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5213 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5213$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5214$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5214 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5214$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5215$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5215 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5215$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5216$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5216 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5216$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5217$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5217 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5217$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5218$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5218 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5218$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5219$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5219 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5219$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5220$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5220 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5220$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5221$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5221 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5221$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5222$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5222 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5222$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5223$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5223 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5223$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5224$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5224 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5224$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5225$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5225 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5225$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5226$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5226 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5226$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5227$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5227 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5227$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5228$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5228 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5228$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5229$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5229 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5229$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5230$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5230 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5230$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5231$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5231 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5231$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5232$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5232 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5232$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5233$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5233 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5233$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5234$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5234 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5234$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5235$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5235 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5235$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5236$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5236 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5236$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5237$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5237 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5237$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5238$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5238 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5238$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5239$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5239 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5239$$1$$1
+PROTOCOL$$ALTIBASE$$1$$19$$DB접근제어_ALTIBASE$$8$$1
+PROTOCOL$$GREENPLUM$$1$$20$$DB접근제어_GREENPLUM$$8$$1
+PROTOCOL$$SYBASE$$1$$21$$DB접근제어_SYBASE$$8$$1
+PROTOCOL$$MYSQL$$1$$22$$DB접근제어_MYSQL$$8$$1
+PARAM_TEMPLATE$$RELAY_NEW_1257$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1257 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21257 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1258$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1258 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21258 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1259$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1259 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21259 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1260$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1260 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21260 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1261$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1261 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21261 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+MODULE_VERSION$$HIFIVe_CLIUI.exe$$5.0.9.3$$1$$hifive$$1$$1
+TIM_POLLFAIL_ALARM$$ALARM_YN$$1$$알림 발송 여부$$null$$1$$1
+ACCT_WORK_ID$$VIEW_ADD$$View 권한 추가$$248$$null$$7$$1
+ACCT_WORK_ID$$VIEW_DEL$$View 권한 삭제$$249$$null$$7$$1
+ACCT_WORK_ID$$VIEW_MODIFY$$View 권한 수정$$null$$null$$7$$1
+ACCT_WORK_ID$$OBJECT_ADD$$Object 권한 추가$$250$$null$$7$$1
+ACCT_WORK_ID$$OBJECT_DEL$$Object 권한 삭제$$251$$null$$7$$1
+ACCT_WORK_ID$$OBJECT_MODIFY$$Object 권한 수정$$null$$null$$7$$1
+SCRIPT_KIND$$248$$View 권한 추가$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$249$$View 권한 삭제$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$250$$Object 권한 추가$$TIM_DATABASE$$null$$7$$1
+SCRIPT_KIND$$251$$Object 권한 삭제$$TIM_DATABASE$$null$$7$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5240$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5240 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5240$$1$$1
+TIM_ILLEGAL_ALARM$$ALARM_YN$$1$$알림 발송 여부$$null$$1$$1
+CONNECT_TYPE$$HTTP_8080$$HTTP$$8080$$접속 장비 종류 (HTTP_8080)$$1$$1
+CONNECT_TYPE$$HTTP_9000$$HTTP$$9000$$접속 장비 종류 (HTTP_9000)$$1$$1
+CONNECT_TYPE$$HTTP_9050$$HTTP$$9050$$접속 장비 종류 (HTTP_9050)$$1$$1
+CONNECT_TYPE$$HTTP_9090$$HTTP$$9090$$접속 장비 종류 (HTTP_9090)$$1$$1
+CONNECT_TYPE$$MSSQL$$MSSQL$$1433$$MSSQL 1433$$1$$0
+CONNECT_TYPE$$MSSQL_11433$$MSSQL$$11433$$접속 장비 종류 (MSSQL_11433)$$1$$1
+CONNECT_TYPE$$MSSQL_12295$$MSSQL$$12295$$접속 장비 종류 (MSSQL_12295)$$1$$1
+CONNECT_TYPE$$MSSQL_12296$$MSSQL$$12296$$접속 장비 종류 (MSSQL_12296)$$1$$1
+CONNECT_TYPE$$MSSQL_12297$$MSSQL$$12297$$접속 장비 종류 (MSSQL_12297)$$1$$1
+CONNECT_TYPE$$MSSQL_1433$$MSSQL$$1433$$접속 장비 종류 (MSSQL_1433)$$1$$1
+CONNECT_TYPE$$MSSQL_15406$$MSSQL$$15406$$접속 장비 종류 (MSSQL_15406)$$1$$1
+CONNECT_TYPE$$MSSQL_15407$$MSSQL$$15407$$접속 장비 종류 (MSSQL_15407)$$1$$1
+CONNECT_TYPE$$MSSQL_15408$$MSSQL$$15408$$접속 장비 종류 (MSSQL_15408)$$1$$1
+CONNECT_TYPE$$MSSQL_15409$$MSSQL$$15409$$접속 장비 종류 (MSSQL_15409)$$1$$1
+CONNECT_TYPE$$MSSQL_15410$$MSSQL$$15410$$접속 장비 종류 (MSSQL_15410)$$1$$1
+CONNECT_TYPE$$MSSQL_15411$$MSSQL$$15411$$접속 장비 종류 (MSSQL_15411)$$1$$1
+CONNECT_TYPE$$MSSQL_15412$$MSSQL$$15412$$접속 장비 종류 (MSSQL_15412)$$1$$1
+CONNECT_TYPE$$MSSQL_16301$$MSSQL$$16301$$접속 장비 종류 (MSSQL_16301)$$1$$1
+CONNECT_TYPE$$MSSQL_16302$$MSSQL$$16302$$접속 장비 종류 (MSSQL_16302)$$1$$1
+CONNECT_TYPE$$MSSQL_16303$$MSSQL$$16303$$접속 장비 종류 (MSSQL_16303)$$1$$1
+CONNECT_TYPE$$MSSQL_16304$$MSSQL$$16304$$접속 장비 종류 (MSSQL_16304)$$1$$1
+CONNECT_TYPE$$MSSQL_16305$$MSSQL$$16305$$접속 장비 종류 (MSSQL_16305)$$1$$1
+CONNECT_TYPE$$MSSQL_16306$$MSSQL$$16306$$접속 장비 종류 (MSSQL_16306)$$1$$1
+CONNECT_TYPE$$MSSQL_16307$$MSSQL$$16307$$접속 장비 종류 (MSSQL_16307)$$1$$1
+CONNECT_TYPE$$MSSQL_16308$$MSSQL$$16308$$접속 장비 종류 (MSSQL_16308)$$1$$1
+CONNECT_TYPE$$MSSQL_16309$$MSSQL$$16309$$접속 장비 종류 (MSSQL_16309)$$1$$1
+CONNECT_TYPE$$MSSQL_16310$$MSSQL$$16310$$접속 장비 종류 (MSSQL_16310)$$1$$1
+CONNECT_TYPE$$MSSQL_16311$$MSSQL$$16311$$접속 장비 종류 (MSSQL_16311)$$1$$1
+CONNECT_TYPE$$MSSQL_16401$$MSSQL$$16401$$접속 장비 종류 (MSSQL_16401)$$1$$1
+CONNECT_TYPE$$MSSQL_16402$$MSSQL$$16402$$접속 장비 종류 (MSSQL_16402)$$1$$1
+CONNECT_TYPE$$MSSQL_16403$$MSSQL$$16403$$접속 장비 종류 (MSSQL_16403)$$1$$1
+CONNECT_TYPE$$MSSQL_16404$$MSSQL$$16404$$접속 장비 종류 (MSSQL_16404)$$1$$1
+CONNECT_TYPE$$MSSQL_16405$$MSSQL$$16405$$접속 장비 종류 (MSSQL_16405)$$1$$1
+CONNECT_TYPE$$MSSQL_16406$$MSSQL$$16406$$접속 장비 종류 (MSSQL_16406)$$1$$1
+CONNECT_TYPE$$MSSQL_16407$$MSSQL$$16407$$접속 장비 종류 (MSSQL_16407)$$1$$1
+CONNECT_TYPE$$MSSQL_16408$$MSSQL$$16408$$접속 장비 종류 (MSSQL_16408)$$1$$1
+CONNECT_TYPE$$MSSQL_16409$$MSSQL$$16409$$접속 장비 종류 (MSSQL_16409)$$1$$1
+CONNECT_TYPE$$MSSQL_16410$$MSSQL$$16410$$접속 장비 종류 (MSSQL_16410)$$1$$1
+CONNECT_TYPE$$MSSQL_16411$$MSSQL$$16411$$접속 장비 종류 (MSSQL_16411)$$1$$1
+CONNECT_TYPE$$MSSQL_17301$$MSSQL$$17301$$접속 장비 종류 (MSSQL_17301)$$1$$1
+CONNECT_TYPE$$MSSQL_17302$$MSSQL$$17302$$접속 장비 종류 (MSSQL_17302)$$1$$1
+CONNECT_TYPE$$MSSQL_17303$$MSSQL$$17303$$접속 장비 종류 (MSSQL_17303)$$1$$1
+CONNECT_TYPE$$MSSQL_17304$$MSSQL$$17304$$접속 장비 종류 (MSSQL_17304)$$1$$1
+CONNECT_TYPE$$MSSQL_17305$$MSSQL$$17305$$접속 장비 종류 (MSSQL_17305)$$1$$1
+CONNECT_TYPE$$MSSQL_17306$$MSSQL$$17306$$접속 장비 종류 (MSSQL_17306)$$1$$1
+CONNECT_TYPE$$MSSQL_17307$$MSSQL$$17307$$접속 장비 종류 (MSSQL_17307)$$1$$1
+TIM_DB2$$TIM_DB2$$DB2$$null$$null$$7$$1
+TIM_GREENPLUM$$TIM_POSTGRE8.4$$PostgreSQL 8.4$$null$$null$$7$$1
+ALIAS_CODE_KIND$$TIM_DB2$$DB2$$1$$null$$0$$1
+ALIAS_CODE_KIND$$TIM_INFORMIX$$INFORMIX$$1$$null$$0$$1
+TIM_INFORMIX$$TIM_INFORMIX$$INFORMIX$$null$$null$$7$$1
+TIM_MYSQL$$TIM_MYSQL5.0$$MySQL 5.0$$null$$null$$7$$1
+TIM_MSSQL$$TIM_MSSQL2000$$MS-SQL2000$$null$$null$$7$$1
+TIM_MSSQL$$TIM_MSSQL2014$$MS-SQL2014$$null$$null$$7$$1
+TIM_ALTIBASE$$TIM_ALTIBASE3.5$$Altibase 3.5$$null$$null$$7$$1
+TIM_ALTIBASE$$TIM_ALTIBASE4.3$$Altibase 4.3$$null$$null$$7$$1
+TIM_DB_KIND$$TIM_INFORMIX$$INFORMIX$$10$$null$$7$$0
+ALIAS_CODE_KIND$$TIM_TERA$$TERA$$1$$null$$0$$1
+TIM_DB_KIND$$TIM_TERA$$TERA$$11$$null$$7$$0
+TIM_TERA$$TIM_TERA$$TERA$$null$$null$$7$$1
+WORK_RESULT_KIND$$14$$ROOT 로그인에 실패 하였습니다.$$null$$SU 로그인 실패 메세지$$1$$1
+WORK_RESULT_KIND$$15$$보안위배(PWD 없이 Switching 완료)$$null$$SU 로그인 실패 메세지$$1$$1
+WORK_RESULT_KIND$$16$$로그인계정 패스워드 기간 만료$$null$$null$$1$$1
+WORK_RESULT_KIND$$17$$ROOT계정 패스워드 기간 만료$$null$$null$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5241$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5241 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5241$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5242$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5242 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5242$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5243$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5243 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5243$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5244$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5244 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5244$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5245$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5245 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5245$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5246$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5246 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5246$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5247$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5247 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5247$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5248$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5248 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5248$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5249$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5249 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5249$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5250$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5250 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5250$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5251$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5251 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5251$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5252$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5252 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5252$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5253$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5253 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5253$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5254$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5254 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5254$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5255$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5255 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5255$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5256$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5256 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5256$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5257$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5257 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5257$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5258$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5258 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5258$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5259$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5259 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5259$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5260$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5260 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5260$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5261$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5261 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5261$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5201$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5201 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5022$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5202$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5202 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5023$$1$$1
+PARAM_TEMPLATE$$SFTP_RELAY_5203$$-server_id=::SERVER_ID -open_ip=::LOCAL_IP -open_port=5203 -nac_ip=::NAC_IP -conn_type=SFTP$$null$$SFTP/FTP 통합 RelayServer_5024$$1$$1
+MODULE_VERSION$$FilezillaSetup.exe$$1.0.0.1$$1$$Filezilla Portable 설치 | ktacs때문에 1.0.0.0에서 1.0.0.1로 올림$$1$$1
+CONNECT_TYPE$$MSSQL_17311$$MSSQL$$17311$$접속 장비 종류 (MSSQL_17311)$$1$$1
+CONNECT_TYPE$$SFTP_2121$$SFTP$$2121$$접속 장비 종류(SFTP_2121)$$1$$1
+CONNECT_TYPE$$SFTP_222$$SFTP$$222$$접속 장비 종류 (SFTP_222)$$1$$1
+CONNECT_TYPE$$MSSQL_17314$$MSSQL$$17314$$접속 장비 종류 (MSSQL_17314)$$1$$1
+CONNECT_TYPE$$MSSQL_17315$$MSSQL$$17315$$접속 장비 종류 (MSSQL_17315)$$1$$1
+CONNECT_TYPE$$MSSQL_21433$$MSSQL$$21433$$null$$1$$0
+CONNECT_TYPE$$MYSQL$$MSSQL$$3306$$MYSQL$$1$$0
+CONNECT_TYPE$$MYSQL_3306$$MYSQL$$3306$$접속 장비 종류 (MYSQL_3306)$$1$$1
+CONNECT_TYPE$$ORACLE$$ORACLE$$1521$$db-i 연동 테스트$$1$$0
+CONNECT_TYPE$$ORACLE_1111$$ORACLE$$1111$$접속 장비 종류 (ORACLE_1111)$$1$$1
+CONNECT_TYPE$$ORACLE_1521$$ORACLE$$1521$$접속 장비 종류 (ORACLE_1521)$$1$$1
+CONNECT_TYPE$$ORACLE_1522$$ORACLE$$1522$$오라클 1522포트$$1$$0
+CONNECT_TYPE$$ORACLE_1523$$ORACLE$$1523$$접속 장비 종류 (ORACLE_1523)$$1$$1
+CONNECT_TYPE$$ORACLE_1524$$ORACLE$$1524$$접속 장비 종류 (ORACLE_1524)$$1$$1
+CONNECT_TYPE$$ORACLE_1525$$ORACLE$$1525$$접속 장비 종류 (ORACLE_1525)$$1$$1
+CONNECT_TYPE$$ORACLE_1526$$ORACLE$$1526$$접속 장비 종류 (ORACLE_1526)$$1$$1
+CONNECT_TYPE$$ORACLE_1527$$ORACLE$$1527$$접속 장비 종류 (ORACLE_1527)$$1$$1
+CONNECT_TYPE$$ORACLE_1530$$ORACLE$$1530$$접속 장비 종류 (ORACLE_1530)$$1$$1
+CONNECT_TYPE$$ORACLE_1531$$ORACLE$$1531$$접속 장비 종류 (ORACLE_1531)$$1$$1
+CONNECT_TYPE$$ORACLE_1540$$ORACLE$$1540$$접속 장비 종류 (ORACLE_1540)$$1$$1
+CONNECT_TYPE$$ORACLE_1541$$ORACLE$$1541$$접속 장비 종류 (ORACLE_1541)$$1$$1
+CONNECT_TYPE$$ORACLE_1550$$ORACLE$$1550$$접속 장비 종류 (ORACLE_1550)$$1$$1
+CONNECT_TYPE$$ORACLE_1551$$ORACLE$$1551$$접속 장비 종류 (ORACLE_1551)$$1$$1
+CONNECT_TYPE$$ORACLE_1552$$ORACLE$$1552$$접속 장비 종류 (ORACLE_1552)$$1$$1
+CONNECT_TYPE$$ORACLE_1560$$ORACLE$$1560$$접속 장비 종류 (ORACLE_1560)$$1$$1
+CONNECT_TYPE$$ORACLE_1570$$ORACLE$$1570$$접속 장비 종류 (ORACLE_1570)$$1$$1
+CONNECT_TYPE$$PPAS$$GREENPLUM$$5444$$null$$1$$0
+CONNECT_TYPE$$ppass$$MSSQL$$5435$$null$$1$$0
+CONNECT_TYPE$$SFTP$$SFTP$$22$$접속 장비 종류 (SFTP)$$1$$1
+CONNECT_TYPE$$SFTP_12121$$SFTP$$12121$$접속 장비 종류(SFTP_12121)$$1$$1
+CONNECT_TYPE$$SFTP_2022$$SFTP$$2022$$접속장비 종류(SFTP_2022)$$1$$1
+NETWORK_AREA$$TEST$$TEST$$null$$릴레이테스트용$$1$$1
+WORK_RESULT_KIND$$50$$수집실행 실패$$null$$null$$1$$1
+CONNECT_TYPE$$SFTP_7020$$SFTP$$7020$$접속 장비 종류 (SFTP_7020)$$1$$1
+CONNECT_TYPE$$SFTP_7021$$SFTP$$7021$$접속 장비 종류 (SFTP_7021)$$1$$1
+CONNECT_TYPE$$SFTP_7022$$SFTP$$7022$$접속 장비 종류 (SFTP_7022)$$1$$1
+CONNECT_TYPE$$SFTP_8785$$SFTP$$8785$$접속 장비 종류(SFTP_8785)$$1$$1
+CONNECT_TYPE$$SSH$$SSH$$22$$접속 장비 종류 (SSH)$$1$$1
+CONNECT_TYPE$$SSH_11800$$SSH$$11800$$접속 장비 종류 (SSH_11800)$$1$$1
+CONNECT_TYPE$$SSH_12121$$SSH$$12121$$접속 장비 종류(SSH_12121)$$1$$1
+CONNECT_TYPE$$SSH_2022$$SSH$$2022$$접속장비 종류(SSH_2022)$$1$$1
+CONNECT_TYPE$$SSH_2121$$SSH$$2121$$접속장비 종류(SSH_2121)$$1$$1
+CONNECT_TYPE$$SSH_222$$SSH$$222$$접속 장비 종류(SSH_222)$$1$$1
+CONNECT_TYPE$$SSH_3000$$SSH$$3000$$접속 장비 종류 (SSH_3000)$$1$$1
+CONNECT_TYPE$$SSH_50022$$SSH$$50022$$SSH 50022 포트$$1$$1
+CONNECT_TYPE$$SSH_7022$$SSH$$7022$$접속 장비 종류 (SSH_7022)$$1$$1
+CONNECT_TYPE$$SSH_7795$$SSH$$7795$$접속 장비 종류 (SSH_7795)$$1$$1
+CONNECT_TYPE$$SSH_8785$$SSH$$8785$$접속 장비 종류(SSH_8785)$$1$$1
+CONNECT_TYPE$$SYBASE_2638$$SYBASE$$2638$$접속 장비 종류 (SYBASE_2638)$$1$$1
+CONNECT_TYPE$$TELNET$$TELNET$$23$$접속 장비 종류(TELNET)$$1$$1
+CONNECT_TYPE$$TELNET_2142$$TELNET$$2142$$접속 장비 종류 (TELNET_2142)$$1$$1
+CONNECT_TYPE$$TELNET_3002$$TELNET$$3002$$접속 장비 종류 (TELNET_3002)$$1$$1
+CONNECT_TYPE$$TELNET_9906$$TELNET$$9906$$접속 장비 종류 (TELNET_9906)$$1$$1
+CONNECT_TYPE$$TEST2_SSH_101$$SSH$$101$$null$$1$$1
+CONNECT_TYPE$$TEST3_SSH_102$$SSH$$102$$null$$1$$1
+CONNECT_TYPE$$TEST_1001-1100$$SSH$$1001$$접속 장비 종류 (SSH_1001)$$1$$1
+CONNECT_TYPE$$TEST_1101-1200$$WINTERM$$1101$$접속 장비 종류 (Window Terminal_1101)$$1$$1
+CONNECT_TYPE$$TEST_SSH_100$$SSH$$100$$null$$1$$1
+CONNECT_TYPE$$TEST_SSH_101$$SSH$$101$$null$$1$$1
+CONNECT_TYPE$$TEST_SSH_102$$SSH$$102$$null$$1$$1
+CONNECT_TYPE$$TIMAGENT$$WINTERM$$6604$$TIMAgent$$1$$1
+CONNECT_TYPE$$VNC_22$$WINTERM$$22$$접속 장비 종류 (VNC_22)$$1$$0
+CONNECT_TYPE$$VNC_5901$$WINTERM$$5901$$접속 장비 종류 (VNC_5901)$$1$$0
+CONNECT_TYPE$$WINTERM$$WINTERM$$3389$$Window Terminal Service$$1$$1
+CONNECT_TYPE$$WINTERM_1688$$WINTERM$$1688$$접속 장비 종류(Window Terminal_1688)$$1$$1
+CONNECT_TYPE$$WINTERM_3000$$WINTERM$$3000$$접속 장비 종류 (Window Terminal_3000)$$1$$1
+CONNECT_TYPE$$WINTERM_3500$$WINTERM$$3500$$접속 장비 종류 (Window Terminal_3500)$$1$$1
+CONNECT_TYPE$$WINTERM_443$$WINTERM$$443$$접속 장비 종류 (Window Terminal_443)$$1$$1
+CONNECT_TYPE$$WINTERM_44389$$WINTERM$$44389$$접속 장비 종류 (Window Terminal_44389)$$1$$1
+CONNECT_TYPE$$WINTERM_4500$$WINTERM$$4500$$접속 장비 종류 (Window Terminal_4500)$$1$$1
+CONNECT_TYPE$$WINTERM_5900$$WINTERM$$5900$$접속 장비 종류 (Window Terminal_5900)$$1$$1
+CONNECT_TYPE$$WINTERM_65531$$WINTERM$$65531$$접속 장비 종류 (Window Terminal_65531)$$1$$1
+CONNECT_TYPE$$WINTERM_8080$$WINTERM$$8080$$접속 장비 종류 (Window Terminal_8080)$$1$$1
+CONNECT_TYPE$$WINTERM_8081$$WINTERM$$8081$$접속 장비 종류 (Window Terminal_8081)$$1$$1
+CONNECT_TYPE$$WINTERM_8899$$WINTERM$$8899$$접속 장비 종류 (Window Terminal_8899)$$1$$1
+CONNECT_TYPE$$WINTERM_9000$$WINTERM$$9000$$접속 장비 종류 (Window Terminal_9000)$$1$$1
+CONNECT_TYPE$$FTP_8021$$FTP$$8021$$접속 장비 종류 (FTP_8021)$$1$$1
+LOGIN_TYPE$$SUPER$$4$$null$$null$$1$$1
+LOGIN_TYPE$$ADMIN$$4$$null$$null$$1$$1
+LOGIN_TYPE$$USER$$2$$null$$null$$1$$1
+LOGIN_TYPE$$DEFAULT$$2$$null$$null$$1$$1
+LOGIN_TYPE$$OUTER$$2$$null$$null$$1$$1
+AUTH_ALIAS$$SUPER$$최고관리자$$null$$null$$1$$1
+AUTH_ALIAS$$ADMIN$$중간관리자$$null$$null$$1$$1
+AUTH_ALIAS$$USER$$운용자$$null$$null$$1$$1
+AUTH_ALIAS$$OUTER$$협력사$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1207$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1207 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21207 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1208$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1208 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21208 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1209$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1209 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21209 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1210$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1210 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21210 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1211$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1211 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21211 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1212$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1212 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21212 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1213$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1213 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21213 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1240$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1240 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21240 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1216$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1216 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21216 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+PARAM_TEMPLATE$$RELAY_NEW_1217$$-badcmd_loadtype=TEMPLATE -badcmd_mode=REQ_USER -db_thread_cnt=1 -db_type=NDC30 -force_discon=1 -forward_ip=::LOCAL_IP -forward_port=5000 -ini_path=::INI_PATH -language=::LANGUAGE -log_path=::LOG_PATH -nac_ip=::NAC_IP -nac_port=::NAC_PORT -ns_cmd=0 -open_ip=::LOCAL_IP -open_port=1217 -ra_thread_cnt=10 -server_id=::SERVER_ID -tnt_log_level=0 -tot_save_point=100 -linger_opt=1 -net_log_port=21217 -FTP_PASV=1 -ssh_char_debug=0 -insert_insert=1 -conn_type=BYPASS,HTTP,SSH,TELNET,WINTERM,FTP,SFTP$$null$$null$$1$$1
+ODNTMS_TP_CODE$$1$$상시$$null$$상시$$1$$1
+ODNTMS_TP_CODE$$2$$비상시$$null$$비상시$$1$$1
+ACCT_ID_CODE$$I$$Infra$$1$$계정 ID 코드 : Infra$$1$$1
+ACCT_ID_CODE$$A$$AP부서$$2$$계정 ID 코드 : AP부서$$1$$1
+ACCT_ID_CODE$$H$$협력사$$3$$계정 ID 코드 : 협력사$$1$$1
+EMERGENCY_TRANSITION_TARGET$$COUNT$$3$$null$$상시/비상시 사용자의 월 접속횟수 이하 카운트$$1$$1
+EMERGENCY_TRANSITION_TARGET$$DATE$$3$$null$$상시/비상시 사용자의 최근 접속일자의 이하 허용일자$$1$$1
+$$Log_End$$

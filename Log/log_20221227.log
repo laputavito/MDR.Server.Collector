@@ -1,0 +1,59 @@
+[2022-12-27 12:02:46] 배치 Thread 실행
+[2022-12-27 12:02:46] Collector Demon이 시작되었습니다...
+[2022-12-27 12:02:46] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-27 12:02:46] Data Parsing Start
+[2022-12-27 12:02:46] Data Insert Stop - Total Count : 4
+[2022-12-27 12:02:46] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-27 12:02:46] Data Parsing Start
+[2022-12-27 12:02:46] Data Insert Stop - Total Count : 7
+[2022-12-27 12:02:46] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-27 12:02:46] Data Parsing Start
+[2022-12-27 12:02:46] Data Insert Stop - Total Count : 4
+[2022-12-27 12:02:50] [ condition query ] detected_date > $$condition_value$$ [ condition value ] '2022-12-22 11:38:31.052000000'
+[2022-12-27 12:02:50] [ collect_query ] SELECT id, agent_agent_key, agent_name, conn_ip, department_full_patch, detected_date, detected_method, hash, local_detected_date, malware_id, name, `path`, treat_type FROM view_malware_log WHERE detected_date > '2022-12-22 11:38:31.052000000' ORDER BY detected_date
+[2022-12-27 12:02:50] Data Parsing Start
+[2022-12-27 12:02:50] Data Insert Stop - Total Count : 3
+[2022-12-27 12:02:50] [ condition query ] blocked_date > $$condition_value$$ [ condition value ] '2022-12-22 08:57:58.005000000'
+[2022-12-27 12:02:50] [ collect_query ] SELECT id, agent_agent_key, agent_name, blocked_date, blocked_program_path, conn_ip, department_full_path, now(), target_file_path FROM view_ransomware_block_log WHERE blocked_date > '2022-12-22 08:57:58.005000000' ORDER BY blocked_date
+[2022-12-27 12:02:50] Data Parsing Start
+[2022-12-27 12:02:50] Data Insert Stop - Total Count : 3
+[2022-12-27 12:02:53] [ condition query ] updateDate > substr($$condition_value$$,10) [ condition value ] '2022-12-22'
+[2022-12-27 12:02:53] [ collect_query ] SELECT UserId, UserName, deptName, computerName, ip, indexScore, updateDate, Item1, Item2, Item3, Item4, Item5, Item6, Item7, Item8, Item9, Item10, Item11, Item12, Item13, Item14, Item15 FROM vwlghuserresult_4 WHERE updateDate > substr('2022-12-22',10) ORDER BY updateDate
+[2022-12-27 12:02:53] Data Parsing Start
+[2022-12-27 12:02:53] Data Insert Stop - Total Count : 6
+[2022-12-27 12:02:56] [ condition query ] DETECTDATE > $$condition_value$$ [ condition value ] '2022-12-22 11:02:26'
+[2022-12-27 12:02:56] [ collect_query ] SELECT MEDIALOGID, REGDATE, DETECTDATE, ASSETID, ASSETCODE, WANIP, LANIP, ORGID, ORGNAME, EMPID, EMPNAME, ISINSIDECOMPANY, PCLOGINID, MEDIATYPE, LOGRESULT, FILENAME, FILESIZE, SORTTYPE, FULLORGNAME, NETBIOSNAME, ISIMAGEEXISTS FROM vw_media WHERE DETECTDATE > '2022-12-22 11:02:26' ORDER BY DETECTDATE
+[2022-12-27 12:02:56] Data Parsing Start
+[2022-12-27 12:02:56] Data Insert Stop - Total Count : 3
+[2022-12-27 12:02:56] [ condition query ] FILECOPYDATE > $$condition_value$$ [ condition value ] '2022-12-22 12:44:05'
+[2022-12-27 12:02:56] [ collect_query ] SELECT SNO, USEREMPID, ORGNAME, EMPNAME, FILENAME, FILESIZE, FILECOPYDATE, FILEPATH, NETBIOSNAME, LOCATION, ISBLOCK FROM vw_usbrwlog WHERE FILECOPYDATE > '2022-12-22 12:44:05' ORDER BY FILECOPYDATE
+[2022-12-27 12:02:56] Data Parsing Start
+[2022-12-27 12:02:56] Data Insert Stop - Total Count : 3
+[2022-12-27 12:02:59] Log data collect end.
+[2022-12-27 12:03:19] 배치 Thread 실행
+[2022-12-27 12:03:19] Collector Demon이 시작되었습니다...
+[2022-12-27 12:03:19] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-27 12:03:19] Data Parsing Start
+[2022-12-27 12:03:19] Data Insert Stop - Total Count : 4
+[2022-12-27 12:03:19] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-27 12:03:19] Data Parsing Start
+[2022-12-27 12:03:19] Data Insert Stop - Total Count : 7
+[2022-12-27 12:03:20] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-27 12:03:20] Data Parsing Start
+[2022-12-27 12:03:20] Data Insert Stop - Total Count : 4
+[2022-12-27 12:03:23] [ condition query ] detected_date > $$condition_value$$ [ condition value ] '2022-12-26 11:38:31.052000000'
+[2022-12-27 12:03:23] [ collect_query ] SELECT id, agent_agent_key, agent_name, conn_ip, department_full_patch, detected_date, detected_method, hash, local_detected_date, malware_id, name, `path`, treat_type FROM view_malware_log WHERE detected_date > '2022-12-26 11:38:31.052000000' ORDER BY detected_date
+[2022-12-27 12:03:23] [ view_malware_log ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2022-12-27 12:03:23] [ condition query ] blocked_date > $$condition_value$$ [ condition value ] '2022-12-26 08:57:58.005000000'
+[2022-12-27 12:03:23] [ collect_query ] SELECT id, agent_agent_key, agent_name, blocked_date, blocked_program_path, conn_ip, department_full_path, now(), target_file_path FROM view_ransomware_block_log WHERE blocked_date > '2022-12-26 08:57:58.005000000' ORDER BY blocked_date
+[2022-12-27 12:03:23] [ view_ransomware_block_log ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2022-12-27 12:03:26] [ condition query ] updateDate > substr($$condition_value$$,10) [ condition value ] '2022-12-26'
+[2022-12-27 12:03:26] [ collect_query ] SELECT UserId, UserName, deptName, computerName, ip, indexScore, updateDate, Item1, Item2, Item3, Item4, Item5, Item6, Item7, Item8, Item9, Item10, Item11, Item12, Item13, Item14, Item15 FROM vwlghuserresult_4 WHERE updateDate > substr('2022-12-26',10) ORDER BY updateDate
+[2022-12-27 12:03:26] [ vwlghuserresult_4 ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2022-12-27 12:03:29] [ condition query ] DETECTDATE > $$condition_value$$ [ condition value ] '2022-12-26 11:02:26'
+[2022-12-27 12:03:29] [ collect_query ] SELECT MEDIALOGID, REGDATE, DETECTDATE, ASSETID, ASSETCODE, WANIP, LANIP, ORGID, ORGNAME, EMPID, EMPNAME, ISINSIDECOMPANY, PCLOGINID, MEDIATYPE, LOGRESULT, FILENAME, FILESIZE, SORTTYPE, FULLORGNAME, NETBIOSNAME, ISIMAGEEXISTS FROM vw_media WHERE DETECTDATE > '2022-12-26 11:02:26' ORDER BY DETECTDATE
+[2022-12-27 12:03:29] [ vw_media ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2022-12-27 12:03:29] [ condition query ] FILECOPYDATE > $$condition_value$$ [ condition value ] '2022-12-26 12:44:05'
+[2022-12-27 12:03:29] [ collect_query ] SELECT SNO, USEREMPID, ORGNAME, EMPNAME, FILENAME, FILESIZE, FILECOPYDATE, FILEPATH, NETBIOSNAME, LOCATION, ISBLOCK FROM vw_usbrwlog WHERE FILECOPYDATE > '2022-12-26 12:44:05' ORDER BY FILECOPYDATE
+[2022-12-27 12:03:29] [ vw_usbrwlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2022-12-27 12:03:32] Log data collect end.

@@ -1,0 +1,73 @@
+[2022-07-13 11:01:57] 배치 Thread 실행
+[2022-07-13 11:01:57] Collector Demon이 시작되었습니다...
+[2022-07-13 11:02:11] 배치 Thread 실행
+[2022-07-13 11:02:11] Collector Demon이 시작되었습니다...
+[2022-07-13 11:02:33] com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:63)
+java.lang.Thread.run(Unknown Source)
+
+[2022-07-13 11:02:57] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:435)
+com.ibm.db2.jcc.t4.a0.a(a0.java:450)
+com.ibm.db2.jcc.t4.a0.<init>(a0.java:96)
+com.ibm.db2.jcc.t4.a.b(a.java:366)
+com.ibm.db2.jcc.t4.b.newAgent_(b.java:2164)
+com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:839)
+com.ibm.db2.jcc.am.Connection.<init>(Connection.java:784)
+com.ibm.db2.jcc.t4.b.<init>(b.java:350)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:81)
+java.lang.Thread.run(Unknown Source)
+
+[2022-07-13 11:03:03] 배치 Thread 실행
+[2022-07-13 11:03:03] Collector Demon이 시작되었습니다...
+[2022-07-13 11:03:21] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:435)
+com.ibm.db2.jcc.t4.a0.a(a0.java:450)
+com.ibm.db2.jcc.t4.a0.<init>(a0.java:96)
+com.ibm.db2.jcc.t4.a.b(a.java:366)
+com.ibm.db2.jcc.t4.b.newAgent_(b.java:2164)
+com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:839)
+com.ibm.db2.jcc.am.Connection.<init>(Connection.java:784)
+com.ibm.db2.jcc.t4.b.<init>(b.java:350)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:81)
+java.lang.Thread.run(Unknown Source)
+
+[2022-07-13 11:03:24] Log data collect end.
+[2022-07-13 11:03:52] java.lang.NumberFormatException: For input string: ""
+[2022-07-13 11:04:25] 배치 Thread 실행
+[2022-07-13 11:04:25] Collector Demon이 시작되었습니다...
+[2022-07-13 11:04:57] 배치 Thread 실행
+[2022-07-13 11:04:57] Collector Demon이 시작되었습니다...
+[2022-07-13 11:05:26] 배치 Thread 실행
+[2022-07-13 11:05:26] Collector Demon이 시작되었습니다...

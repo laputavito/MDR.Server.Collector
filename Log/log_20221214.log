@@ -1,0 +1,721 @@
+[2022-12-14 10:34:01] 배치 Thread 실행
+[2022-12-14 10:34:01] Collector Demon이 시작되었습니다...
+[2022-12-14 10:34:07] java.net.URLClassLoader.findClass(Unknown Source)
+java.lang.ClassLoader.loadClass(Unknown Source)
+sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+java.lang.ClassLoader.loadClass(Unknown Source)
+java.lang.Class.forName0(Native Method)
+java.lang.Class.forName(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:43)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:70)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 10:37:28] 배치 Thread 실행
+[2022-12-14 10:37:28] Collector Demon이 시작되었습니다...
+[2022-12-14 10:37:34] cubrid.jdbc.driver.CUBRIDDriver.connect(CUBRIDDriver.java:139)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:70)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 10:40:09] 배치 Thread 실행
+[2022-12-14 10:40:09] Collector Demon이 시작되었습니다...
+[2022-12-14 10:40:12] cubrid.jdbc.driver.CUBRIDDriver.connect(CUBRIDDriver.java:139)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorInsa.CollectorInsa(CollectorInsa.java:40)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:70)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 10:42:17] 배치 Thread 실행
+[2022-12-14 10:42:17] Collector Demon이 시작되었습니다...
+[2022-12-14 10:42:47] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM v_tgate_user
+[2022-12-14 10:43:29] 배치 Thread 실행
+[2022-12-14 10:43:29] Collector Demon이 시작되었습니다...
+[2022-12-14 10:43:46] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 10:44:09] Data Parsing Start
+[2022-12-14 11:24:19] 배치 Thread 실행
+[2022-12-14 11:24:19] Collector Demon이 시작되었습니다...
+[2022-12-14 11:24:23] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 15:43:27] 배치 Thread 실행
+[2022-12-14 15:43:27] Collector Demon이 시작되었습니다...
+[2022-12-14 15:43:35] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 15:43:39] Data Parsing Start
+[2022-12-14 15:43:49] CopyData Error : 오류: "public.org_user_1" 이름의 릴레이션(relation)이 없습니다
+[2022-12-14 15:45:40] 배치 Thread 실행
+[2022-12-14 15:45:40] Collector Demon이 시작되었습니다...
+[2022-12-14 15:45:45] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 15:45:50] Data Parsing Start
+[2022-12-14 15:45:52] CopyData Error : 오류: "public.org_user_1" 이름의 릴레이션(relation)이 없습니다
+[2022-12-14 15:46:10] 배치 Thread 실행
+[2022-12-14 15:46:10] Collector Demon이 시작되었습니다...
+[2022-12-14 15:47:58] 배치 Thread 실행
+[2022-12-14 15:47:58] Collector Demon이 시작되었습니다...
+[2022-12-14 15:48:00] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 15:48:00] Data Parsing Start
+[2022-12-14 15:48:06] Data Insert Stop - Total Count : 3
+[2022-12-14 15:48:31] org.postgresql.util.PSQLException: Multiple ResultSets were returned by the query.
+[2022-12-14 15:49:41] 배치 Thread 실행
+[2022-12-14 15:49:41] Collector Demon이 시작되었습니다...
+[2022-12-14 15:49:43] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 15:49:43] Data Parsing Start
+[2022-12-14 15:49:45] Data Insert Stop - Total Count : 3
+[2022-12-14 15:49:45] [ collect_query ] SELECT dprtid, pid, name, sort, sort, '1', now(), '1001' FROM v_tgate_dept WHERE ORG_ID <> '0'
+[2022-12-14 15:49:45] java.lang.NullPointerException
+[2022-12-14 15:49:51] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:435)
+com.ibm.db2.jcc.t4.a0.a(a0.java:450)
+com.ibm.db2.jcc.t4.a0.<init>(a0.java:96)
+com.ibm.db2.jcc.t4.a.b(a.java:366)
+com.ibm.db2.jcc.t4.b.newAgent_(b.java:2164)
+com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:839)
+com.ibm.db2.jcc.am.Connection.<init>(Connection.java:784)
+com.ibm.db2.jcc.t4.b.<init>(b.java:350)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:88)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 15:49:56] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:435)
+com.ibm.db2.jcc.t4.a0.a(a0.java:450)
+com.ibm.db2.jcc.t4.a0.<init>(a0.java:96)
+com.ibm.db2.jcc.t4.a.b(a.java:366)
+com.ibm.db2.jcc.t4.b.newAgent_(b.java:2164)
+com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:839)
+com.ibm.db2.jcc.am.Connection.<init>(Connection.java:784)
+com.ibm.db2.jcc.t4.b.<init>(b.java:350)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:88)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 15:49:59] Log data collect end.
+[2022-12-14 15:50:55] 배치 Thread 실행
+[2022-12-14 15:50:55] Collector Demon이 시작되었습니다...
+[2022-12-14 15:50:58] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 15:50:58] Data Parsing Start
+[2022-12-14 15:51:01] Data Insert Stop - Total Count : 3
+[2022-12-14 15:51:01] [ collect_query ] SELECT dprtid, pid, name, sort, sort, '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 15:51:01] Data Parsing Start
+[2022-12-14 15:51:44] 배치 Thread 실행
+[2022-12-14 15:51:44] Collector Demon이 시작되었습니다...
+[2022-12-14 15:51:44] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 15:51:44] Data Parsing Start
+[2022-12-14 15:51:50] Data Insert Stop - Total Count : 3
+[2022-12-14 15:51:50] [ collect_query ] SELECT dprtid, pid, name, sort, sort, '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 15:51:50] Data Parsing Start
+[2022-12-14 15:53:13] 배치 Thread 실행
+[2022-12-14 15:53:13] Collector Demon이 시작되었습니다...
+[2022-12-14 15:53:13] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 15:53:13] Data Parsing Start
+[2022-12-14 15:53:35] Data Insert Stop - Total Count : 3
+[2022-12-14 15:53:35] [ collect_query ] SELECT dprtid, pid, name, sort, sort, '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 15:53:35] Data Parsing Start
+[2022-12-14 15:53:40] CopyData Error : 오류: character varying(1) 자료형에 너무 긴 자료를 담으려고 합니다.
+  Where: org_group_1 복사, 1번째 줄, use_indc 열: "2022-12-14 15:53:35.481"
+[2022-12-14 15:58:26] 배치 Thread 실행
+[2022-12-14 15:58:26] Collector Demon이 시작되었습니다...
+[2022-12-14 15:58:27] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 15:58:27] Data Parsing Start
+[2022-12-14 15:58:29] Data Insert Stop - Total Count : 3
+[2022-12-14 15:58:29] [ collect_query ] SELECT dprtid, pid, name, '1', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 15:58:29] Data Parsing Start
+[2022-12-14 15:58:30] CopyData Error : 오류: character varying(1) 자료형에 너무 긴 자료를 담으려고 합니다.
+  Where: org_group_1 복사, 1번째 줄, use_indc 열: "2022-12-14 15:58:29.040"
+[2022-12-14 15:59:30] 배치 Thread 실행
+[2022-12-14 15:59:30] Collector Demon이 시작되었습니다...
+[2022-12-14 15:59:30] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 15:59:30] Data Parsing Start
+[2022-12-14 15:59:32] Data Insert Stop - Total Count : 3
+[2022-12-14 15:59:32] [ collect_query ] SELECT dprtid, pid, name, '1' as level, sort , '1' as use, now(), '1001' FROM vw_if_dprt
+[2022-12-14 15:59:32] java.lang.NullPointerException
+[2022-12-14 15:59:38] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:435)
+com.ibm.db2.jcc.t4.a0.a(a0.java:450)
+com.ibm.db2.jcc.t4.a0.<init>(a0.java:96)
+com.ibm.db2.jcc.t4.a.b(a.java:366)
+com.ibm.db2.jcc.t4.b.newAgent_(b.java:2164)
+com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:839)
+com.ibm.db2.jcc.am.Connection.<init>(Connection.java:784)
+com.ibm.db2.jcc.t4.b.<init>(b.java:350)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:88)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 15:59:43] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:435)
+com.ibm.db2.jcc.t4.a0.a(a0.java:450)
+com.ibm.db2.jcc.t4.a0.<init>(a0.java:96)
+com.ibm.db2.jcc.t4.a.b(a.java:366)
+com.ibm.db2.jcc.t4.b.newAgent_(b.java:2164)
+com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:839)
+com.ibm.db2.jcc.am.Connection.<init>(Connection.java:784)
+com.ibm.db2.jcc.t4.b.<init>(b.java:350)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:88)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 15:59:46] Log data collect end.
+[2022-12-14 16:00:15] 배치 Thread 실행
+[2022-12-14 16:00:15] Collector Demon이 시작되었습니다...
+[2022-12-14 16:00:15] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:00:15] Data Parsing Start
+[2022-12-14 16:00:17] Data Insert Stop - Total Count : 3
+[2022-12-14 16:00:17] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:00:17] Data Parsing Start
+[2022-12-14 16:08:00] 배치 Thread 실행
+[2022-12-14 16:08:00] Collector Demon이 시작되었습니다...
+[2022-12-14 16:08:00] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:08:00] Data Parsing Start
+[2022-12-14 16:08:03] Data Insert Stop - Total Count : 3
+[2022-12-14 16:08:34] 배치 Thread 실행
+[2022-12-14 16:08:34] Collector Demon이 시작되었습니다...
+[2022-12-14 16:08:34] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:08:34] Data Parsing Start
+[2022-12-14 16:08:35] Data Insert Stop - Total Count : 3
+[2022-12-14 16:09:49] 배치 Thread 실행
+[2022-12-14 16:09:49] Collector Demon이 시작되었습니다...
+[2022-12-14 16:09:49] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:09:49] Data Parsing Start
+[2022-12-14 16:09:54] Data Insert Stop - Total Count : 3
+[2022-12-14 16:10:32] 배치 Thread 실행
+[2022-12-14 16:10:32] Collector Demon이 시작되었습니다...
+[2022-12-14 16:10:33] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:10:33] Data Parsing Start
+[2022-12-14 16:10:34] Data Insert Stop - Total Count : 3
+[2022-12-14 16:10:34] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:10:34] Data Parsing Start
+[2022-12-14 16:10:35] Data Insert Stop - Total Count : 5
+[2022-12-14 16:10:56] org.postgresql.util.PSQLException: Multiple ResultSets were returned by the query.
+[2022-12-14 16:11:18] 배치 Thread 실행
+[2022-12-14 16:11:18] Collector Demon이 시작되었습니다...
+[2022-12-14 16:11:18] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:11:18] Data Parsing Start
+[2022-12-14 16:11:22] Data Insert Stop - Total Count : 3
+[2022-12-14 16:11:22] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:11:22] Data Parsing Start
+[2022-12-14 16:11:22] Data Insert Stop - Total Count : 5
+[2022-12-14 16:11:37] 배치 Thread 실행
+[2022-12-14 16:11:37] Collector Demon이 시작되었습니다...
+[2022-12-14 16:11:38] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:11:38] Data Parsing Start
+[2022-12-14 16:11:38] Data Insert Stop - Total Count : 3
+[2022-12-14 16:11:38] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:11:38] Data Parsing Start
+[2022-12-14 16:11:38] Data Insert Stop - Total Count : 5
+[2022-12-14 16:12:25] org.postgresql.util.PSQLException: Multiple ResultSets were returned by the query.
+[2022-12-14 16:12:30] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:435)
+com.ibm.db2.jcc.t4.a0.a(a0.java:450)
+com.ibm.db2.jcc.t4.a0.<init>(a0.java:96)
+com.ibm.db2.jcc.t4.a.b(a.java:366)
+com.ibm.db2.jcc.t4.b.newAgent_(b.java:2164)
+com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:839)
+com.ibm.db2.jcc.am.Connection.<init>(Connection.java:784)
+com.ibm.db2.jcc.t4.b.<init>(b.java:350)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:88)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 16:12:36] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:435)
+com.ibm.db2.jcc.t4.a0.a(a0.java:450)
+com.ibm.db2.jcc.t4.a0.<init>(a0.java:96)
+com.ibm.db2.jcc.t4.a.b(a.java:366)
+com.ibm.db2.jcc.t4.b.newAgent_(b.java:2164)
+com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:839)
+com.ibm.db2.jcc.am.Connection.<init>(Connection.java:784)
+com.ibm.db2.jcc.t4.b.<init>(b.java:350)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:88)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 16:12:39] Log data collect end.
+[2022-12-14 16:13:38] 배치 Thread 실행
+[2022-12-14 16:13:38] Collector Demon이 시작되었습니다...
+[2022-12-14 16:13:39] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:13:39] Data Parsing Start
+[2022-12-14 16:13:39] Data Insert Stop - Total Count : 3
+[2022-12-14 16:13:39] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:13:39] Data Parsing Start
+[2022-12-14 16:13:39] Data Insert Stop - Total Count : 5
+[2022-12-14 16:37:34] 배치 Thread 실행
+[2022-12-14 16:37:34] Collector Demon이 시작되었습니다...
+[2022-12-14 16:37:34] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:37:34] Data Parsing Start
+[2022-12-14 16:37:34] Data Insert Stop - Total Count : 3
+[2022-12-14 16:37:34] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:37:34] Data Parsing Start
+[2022-12-14 16:37:34] Data Insert Stop - Total Count : 6
+[2022-12-14 16:38:34] 배치 Thread 실행
+[2022-12-14 16:38:34] Collector Demon이 시작되었습니다...
+[2022-12-14 16:38:34] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:38:34] Data Parsing Start
+[2022-12-14 16:38:34] Data Insert Stop - Total Count : 3
+[2022-12-14 16:38:34] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:38:34] Data Parsing Start
+[2022-12-14 16:38:34] Data Insert Stop - Total Count : 6
+[2022-12-14 16:49:26] 배치 Thread 실행
+[2022-12-14 16:49:26] Collector Demon이 시작되었습니다...
+[2022-12-14 16:49:26] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:49:26] Data Parsing Start
+[2022-12-14 16:49:26] Data Insert Stop - Total Count : 3
+[2022-12-14 16:49:26] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:49:26] Data Parsing Start
+[2022-12-14 16:49:26] Data Insert Stop - Total Count : 6
+[2022-12-14 16:49:26] [ collect_query ] select login_id, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 16:49:26] Data Parsing Start
+[2022-12-14 16:49:26] CopyData Error : 오류: "rgdt_date" 칼럼의 자료가 빠졌음
+  Where: user_mstr_1 복사, 1번째 줄: ""test100"|"mac"|"test100@msit.go.kr"|"2014-06-23 00:00:00.000"|"2022-12-14 16:49:26.705""
+[2022-12-14 16:49:26] Data Insert Stop - Total Count : 3
+[2022-12-14 16:52:33] 배치 Thread 실행
+[2022-12-14 16:52:33] Collector Demon이 시작되었습니다...
+[2022-12-14 16:52:34] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:52:34] Data Parsing Start
+[2022-12-14 16:52:34] Data Insert Stop - Total Count : 3
+[2022-12-14 16:52:34] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:52:34] Data Parsing Start
+[2022-12-14 16:52:34] Data Insert Stop - Total Count : 6
+[2022-12-14 16:52:34] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 16:52:34] Data Parsing Start
+[2022-12-14 16:52:34] Data Insert Stop - Total Count : 3
+[2022-12-14 16:54:20] 배치 Thread 실행
+[2022-12-14 16:54:20] Collector Demon이 시작되었습니다...
+[2022-12-14 16:54:20] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:54:20] Data Parsing Start
+[2022-12-14 16:54:21] Data Insert Stop - Total Count : 3
+[2022-12-14 16:54:21] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:54:21] Data Parsing Start
+[2022-12-14 16:54:21] Data Insert Stop - Total Count : 6
+[2022-12-14 16:54:21] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 16:54:21] Data Parsing Start
+[2022-12-14 16:54:21] Data Insert Stop - Total Count : 3
+[2022-12-14 16:56:06] 배치 Thread 실행
+[2022-12-14 16:56:06] Collector Demon이 시작되었습니다...
+[2022-12-14 16:56:07] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:56:07] Data Parsing Start
+[2022-12-14 16:56:07] Data Insert Stop - Total Count : 3
+[2022-12-14 16:56:07] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:56:07] Data Parsing Start
+[2022-12-14 16:56:07] Data Insert Stop - Total Count : 6
+[2022-12-14 16:56:07] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 16:56:07] Data Parsing Start
+[2022-12-14 16:56:07] Data Insert Stop - Total Count : 3
+[2022-12-14 16:58:13] 배치 Thread 실행
+[2022-12-14 16:58:13] Collector Demon이 시작되었습니다...
+[2022-12-14 16:58:13] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 16:58:13] Data Parsing Start
+[2022-12-14 16:58:13] Data Insert Stop - Total Count : 3
+[2022-12-14 16:58:13] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 16:58:13] Data Parsing Start
+[2022-12-14 16:58:13] Data Insert Stop - Total Count : 6
+[2022-12-14 16:58:13] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 16:58:13] Data Parsing Start
+[2022-12-14 16:58:13] Data Insert Stop - Total Count : 3
+[2022-12-14 17:00:10] 배치 Thread 실행
+[2022-12-14 17:00:10] Collector Demon이 시작되었습니다...
+[2022-12-14 17:00:10] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:00:10] Data Parsing Start
+[2022-12-14 17:00:10] Data Insert Stop - Total Count : 3
+[2022-12-14 17:00:10] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:00:10] Data Parsing Start
+[2022-12-14 17:00:10] Data Insert Stop - Total Count : 6
+[2022-12-14 17:00:10] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:00:10] Data Parsing Start
+[2022-12-14 17:00:10] Data Insert Stop - Total Count : 3
+[2022-12-14 17:00:48] 배치 Thread 실행
+[2022-12-14 17:00:48] Collector Demon이 시작되었습니다...
+[2022-12-14 17:00:48] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:00:48] Data Parsing Start
+[2022-12-14 17:00:48] Data Insert Stop - Total Count : 3
+[2022-12-14 17:00:48] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:00:48] Data Parsing Start
+[2022-12-14 17:00:48] Data Insert Stop - Total Count : 6
+[2022-12-14 17:00:48] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:00:48] Data Parsing Start
+[2022-12-14 17:00:48] Data Insert Stop - Total Count : 3
+[2022-12-14 17:01:01] 배치 Thread 실행
+[2022-12-14 17:01:01] Collector Demon이 시작되었습니다...
+[2022-12-14 17:01:01] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:01:01] Data Parsing Start
+[2022-12-14 17:01:01] Data Insert Stop - Total Count : 3
+[2022-12-14 17:01:01] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:01:01] Data Parsing Start
+[2022-12-14 17:01:01] Data Insert Stop - Total Count : 6
+[2022-12-14 17:01:01] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:01:01] Data Parsing Start
+[2022-12-14 17:01:01] Data Insert Stop - Total Count : 3
+[2022-12-14 17:02:51] 배치 Thread 실행
+[2022-12-14 17:02:51] Collector Demon이 시작되었습니다...
+[2022-12-14 17:02:51] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:02:51] Data Parsing Start
+[2022-12-14 17:02:51] Data Insert Stop - Total Count : 3
+[2022-12-14 17:02:51] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:02:51] Data Parsing Start
+[2022-12-14 17:02:51] Data Insert Stop - Total Count : 6
+[2022-12-14 17:02:51] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:02:51] Data Parsing Start
+[2022-12-14 17:02:51] Data Insert Stop - Total Count : 3
+[2022-12-14 17:03:05] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:435)
+com.ibm.db2.jcc.t4.a0.a(a0.java:450)
+com.ibm.db2.jcc.t4.a0.<init>(a0.java:96)
+com.ibm.db2.jcc.t4.a.b(a.java:366)
+com.ibm.db2.jcc.t4.b.newAgent_(b.java:2164)
+com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:839)
+com.ibm.db2.jcc.am.Connection.<init>(Connection.java:784)
+com.ibm.db2.jcc.t4.b.<init>(b.java:350)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:88)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 17:03:11] com.ibm.db2.jcc.am.b7.a(b7.java:338)
+com.ibm.db2.jcc.am.b7.a(b7.java:435)
+com.ibm.db2.jcc.t4.a0.a(a0.java:450)
+com.ibm.db2.jcc.t4.a0.<init>(a0.java:96)
+com.ibm.db2.jcc.t4.a.b(a.java:366)
+com.ibm.db2.jcc.t4.b.newAgent_(b.java:2164)
+com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:839)
+com.ibm.db2.jcc.am.Connection.<init>(Connection.java:784)
+com.ibm.db2.jcc.t4.b.<init>(b.java:350)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:200)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:471)
+com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:113)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+mdr.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+mdr.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+mdr.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+mdr.server.collecotr.main.CollectorProc.CollectorProc(CollectorProc.java:45)
+mdr.server.collecotr.main.CollectorMultiDemon.run(CollectorMultiDemon.java:88)
+java.lang.Thread.run(Unknown Source)
+
+[2022-12-14 17:03:14] Log data collect end.
+[2022-12-14 17:03:53] 배치 Thread 실행
+[2022-12-14 17:04:22] 배치 Thread 실행
+[2022-12-14 17:04:22] Collector Demon이 시작되었습니다...
+[2022-12-14 17:04:23] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:04:23] Data Parsing Start
+[2022-12-14 17:04:23] Data Insert Stop - Total Count : 3
+[2022-12-14 17:04:23] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:04:23] Data Parsing Start
+[2022-12-14 17:04:23] Data Insert Stop - Total Count : 6
+[2022-12-14 17:04:23] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:04:23] Data Parsing Start
+[2022-12-14 17:04:23] Data Insert Stop - Total Count : 3
+[2022-12-14 17:04:29] Log data collect end.
+[2022-12-14 17:05:39] 배치 Thread 실행
+[2022-12-14 17:05:39] Collector Demon이 시작되었습니다...
+[2022-12-14 17:05:39] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:05:39] Data Parsing Start
+[2022-12-14 17:05:39] Data Insert Stop - Total Count : 3
+[2022-12-14 17:05:39] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:05:39] Data Parsing Start
+[2022-12-14 17:05:39] Data Insert Stop - Total Count : 6
+[2022-12-14 17:05:39] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:05:39] Data Parsing Start
+[2022-12-14 17:05:39] Data Insert Stop - Total Count : 3
+[2022-12-14 17:05:42] Log data collect end.
+[2022-12-14 17:06:59] 배치 Thread 실행
+[2022-12-14 17:06:59] Collector Demon이 시작되었습니다...
+[2022-12-14 17:06:59] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:06:59] Data Parsing Start
+[2022-12-14 17:06:59] Data Insert Stop - Total Count : 3
+[2022-12-14 17:06:59] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:06:59] Data Parsing Start
+[2022-12-14 17:06:59] Data Insert Stop - Total Count : 6
+[2022-12-14 17:06:59] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:06:59] Data Parsing Start
+[2022-12-14 17:06:59] Data Insert Stop - Total Count : 3
+[2022-12-14 17:07:41] 배치 Thread 실행
+[2022-12-14 17:07:41] Collector Demon이 시작되었습니다...
+[2022-12-14 17:07:42] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:07:42] Data Parsing Start
+[2022-12-14 17:07:42] Data Insert Stop - Total Count : 3
+[2022-12-14 17:07:42] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:07:42] Data Parsing Start
+[2022-12-14 17:07:42] Data Insert Stop - Total Count : 6
+[2022-12-14 17:07:42] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:07:42] Data Parsing Start
+[2022-12-14 17:07:42] Data Insert Stop - Total Count : 3
+[2022-12-14 17:09:13] 배치 Thread 실행
+[2022-12-14 17:09:13] Collector Demon이 시작되었습니다...
+[2022-12-14 17:09:13] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:09:13] Data Parsing Start
+[2022-12-14 17:09:13] Data Insert Stop - Total Count : 3
+[2022-12-14 17:09:13] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:09:13] Data Parsing Start
+[2022-12-14 17:09:13] Data Insert Stop - Total Count : 6
+[2022-12-14 17:09:13] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:09:13] Data Parsing Start
+[2022-12-14 17:09:13] Data Insert Stop - Total Count : 3
+[2022-12-14 17:09:45] 배치 Thread 실행
+[2022-12-14 17:09:45] Collector Demon이 시작되었습니다...
+[2022-12-14 17:09:46] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:09:46] Data Parsing Start
+[2022-12-14 17:09:46] Data Insert Stop - Total Count : 3
+[2022-12-14 17:09:46] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:09:46] Data Parsing Start
+[2022-12-14 17:09:46] Data Insert Stop - Total Count : 6
+[2022-12-14 17:09:46] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:09:46] Data Parsing Start
+[2022-12-14 17:09:46] Data Insert Stop - Total Count : 3
+[2022-12-14 17:10:01] 배치 Thread 실행
+[2022-12-14 17:10:01] Collector Demon이 시작되었습니다...
+[2022-12-14 17:10:02] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:10:02] Data Parsing Start
+[2022-12-14 17:10:02] Data Insert Stop - Total Count : 3
+[2022-12-14 17:10:02] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:10:02] Data Parsing Start
+[2022-12-14 17:10:02] Data Insert Stop - Total Count : 6
+[2022-12-14 17:10:02] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:10:02] Data Parsing Start
+[2022-12-14 17:10:02] Data Insert Stop - Total Count : 3
+[2022-12-14 17:10:27] 배치 Thread 실행
+[2022-12-14 17:10:27] Collector Demon이 시작되었습니다...
+[2022-12-14 17:10:27] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:10:27] Data Parsing Start
+[2022-12-14 17:10:27] Data Insert Stop - Total Count : 3
+[2022-12-14 17:10:27] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:10:27] Data Parsing Start
+[2022-12-14 17:10:27] Data Insert Stop - Total Count : 6
+[2022-12-14 17:10:27] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:10:27] Data Parsing Start
+[2022-12-14 17:10:27] Data Insert Stop - Total Count : 3
+[2022-12-14 17:10:49] Log data collect end.
+[2022-12-14 17:14:05] 배치 Thread 실행
+[2022-12-14 17:14:05] Collector Demon이 시작되었습니다...
+[2022-12-14 17:14:05] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:14:05] Data Parsing Start
+[2022-12-14 17:14:05] Data Insert Stop - Total Count : 3
+[2022-12-14 17:14:05] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:14:05] Data Parsing Start
+[2022-12-14 17:14:05] Data Insert Stop - Total Count : 6
+[2022-12-14 17:14:05] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:14:05] Data Parsing Start
+[2022-12-14 17:14:05] Data Insert Stop - Total Count : 3
+[2022-12-14 17:14:08] Log data collect end.
+[2022-12-14 17:14:31] 배치 Thread 실행
+[2022-12-14 17:14:31] Collector Demon이 시작되었습니다...
+[2022-12-14 17:14:32] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:14:32] Data Parsing Start
+[2022-12-14 17:14:32] Data Insert Stop - Total Count : 3
+[2022-12-14 17:14:32] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:14:32] Data Parsing Start
+[2022-12-14 17:14:32] Data Insert Stop - Total Count : 6
+[2022-12-14 17:14:32] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:14:32] Data Parsing Start
+[2022-12-14 17:14:32] Data Insert Stop - Total Count : 3
+[2022-12-14 17:16:07] 배치 Thread 실행
+[2022-12-14 17:16:07] Collector Demon이 시작되었습니다...
+[2022-12-14 17:16:07] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:16:07] Data Parsing Start
+[2022-12-14 17:16:07] Data Insert Stop - Total Count : 3
+[2022-12-14 17:16:07] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:16:07] Data Parsing Start
+[2022-12-14 17:16:07] Data Insert Stop - Total Count : 6
+[2022-12-14 17:16:07] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:16:07] Data Parsing Start
+[2022-12-14 17:16:07] Data Insert Stop - Total Count : 3
+[2022-12-14 17:17:45] 배치 Thread 실행
+[2022-12-14 17:17:45] Collector Demon이 시작되었습니다...
+[2022-12-14 17:17:45] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:17:45] Data Parsing Start
+[2022-12-14 17:17:45] Data Insert Stop - Total Count : 3
+[2022-12-14 17:17:45] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:17:45] Data Parsing Start
+[2022-12-14 17:17:45] Data Insert Stop - Total Count : 6
+[2022-12-14 17:17:45] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:17:45] Data Parsing Start
+[2022-12-14 17:17:45] Data Insert Stop - Total Count : 3
+[2022-12-14 17:18:49] 배치 Thread 실행
+[2022-12-14 17:18:49] Collector Demon이 시작되었습니다...
+[2022-12-14 17:18:49] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:18:49] Data Parsing Start
+[2022-12-14 17:18:49] Data Insert Stop - Total Count : 3
+[2022-12-14 17:18:49] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:18:49] Data Parsing Start
+[2022-12-14 17:18:49] Data Insert Stop - Total Count : 6
+[2022-12-14 17:18:49] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:18:49] Data Parsing Start
+[2022-12-14 17:18:49] Data Insert Stop - Total Count : 3
+[2022-12-14 17:18:52] org.postgresql.util.PSQLException: Cannot commit when autoCommit is enabled.
+[2022-12-14 17:18:55] Log data collect end.
+[2022-12-14 17:19:55] 배치 Thread 실행
+[2022-12-14 17:19:55] Collector Demon이 시작되었습니다...
+[2022-12-14 17:19:55] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:19:55] Data Parsing Start
+[2022-12-14 17:19:55] Data Insert Stop - Total Count : 3
+[2022-12-14 17:19:55] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:19:55] Data Parsing Start
+[2022-12-14 17:19:55] Data Insert Stop - Total Count : 6
+[2022-12-14 17:19:55] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:19:55] Data Parsing Start
+[2022-12-14 17:19:55] Data Insert Stop - Total Count : 3
+[2022-12-14 17:22:05] 배치 Thread 실행
+[2022-12-14 17:22:05] Collector Demon이 시작되었습니다...
+[2022-12-14 17:22:05] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:22:05] Data Parsing Start
+[2022-12-14 17:22:05] Data Insert Stop - Total Count : 3
+[2022-12-14 17:22:05] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:22:05] Data Parsing Start
+[2022-12-14 17:22:05] Data Insert Stop - Total Count : 6
+[2022-12-14 17:22:05] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:22:05] Data Parsing Start
+[2022-12-14 17:22:05] Data Insert Stop - Total Count : 3
+[2022-12-14 17:22:43] Log data collect end.
+[2022-12-14 17:23:56] 배치 Thread 실행
+[2022-12-14 17:23:56] Collector Demon이 시작되었습니다...
+[2022-12-14 17:23:56] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:23:56] Data Parsing Start
+[2022-12-14 17:23:56] Data Insert Stop - Total Count : 3
+[2022-12-14 17:23:56] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:23:56] Data Parsing Start
+[2022-12-14 17:23:56] Data Insert Stop - Total Count : 6
+[2022-12-14 17:23:56] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:23:56] Data Parsing Start
+[2022-12-14 17:23:56] Data Insert Stop - Total Count : 3
+[2022-12-14 17:24:03] Log data collect end.
+[2022-12-14 17:24:32] 배치 Thread 실행
+[2022-12-14 17:24:32] Collector Demon이 시작되었습니다...
+[2022-12-14 17:24:33] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:24:33] Data Parsing Start
+[2022-12-14 17:24:33] Data Insert Stop - Total Count : 3
+[2022-12-14 17:24:33] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:24:33] Data Parsing Start
+[2022-12-14 17:24:33] Data Insert Stop - Total Count : 6
+[2022-12-14 17:24:33] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:24:33] Data Parsing Start
+[2022-12-14 17:24:33] Data Insert Stop - Total Count : 3
+[2022-12-14 17:29:03] 배치 Thread 실행
+[2022-12-14 17:29:03] Collector Demon이 시작되었습니다...
+[2022-12-14 17:29:04] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:29:04] Data Parsing Start
+[2022-12-14 17:29:04] Data Insert Stop - Total Count : 3
+[2022-12-14 17:29:04] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:29:04] Data Parsing Start
+[2022-12-14 17:29:04] Data Insert Stop - Total Count : 6
+[2022-12-14 17:29:04] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:29:04] Data Parsing Start
+[2022-12-14 17:29:04] Data Insert Stop - Total Count : 3
+[2022-12-14 17:29:21] Log data collect end.
+[2022-12-14 17:30:46] 배치 Thread 실행
+[2022-12-14 17:30:46] Collector Demon이 시작되었습니다...
+[2022-12-14 17:31:01] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:31:01] Data Parsing Start
+[2022-12-14 17:31:01] Data Insert Stop - Total Count : 3
+[2022-12-14 17:31:01] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:31:01] Data Parsing Start
+[2022-12-14 17:31:01] Data Insert Stop - Total Count : 6
+[2022-12-14 17:31:01] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:31:01] Data Parsing Start
+[2022-12-14 17:31:01] Data Insert Stop - Total Count : 3
+[2022-12-14 17:31:58] Log data collect end.
+[2022-12-14 17:43:41] 배치 Thread 실행
+[2022-12-14 17:43:41] Collector Demon이 시작되었습니다...
+[2022-12-14 17:43:46] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:43:46] Data Parsing Start
+[2022-12-14 17:43:46] Data Insert Stop - Total Count : 3
+[2022-12-14 17:43:46] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:43:46] Data Parsing Start
+[2022-12-14 17:43:46] Data Insert Stop - Total Count : 6
+[2022-12-14 17:43:46] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:43:46] Data Parsing Start
+[2022-12-14 17:43:46] Data Insert Stop - Total Count : 3
+[2022-12-14 17:45:49] 배치 Thread 실행
+[2022-12-14 17:45:49] Collector Demon이 시작되었습니다...
+[2022-12-14 17:45:49] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:45:49] Data Parsing Start
+[2022-12-14 17:45:49] Data Insert Stop - Total Count : 3
+[2022-12-14 17:45:49] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:45:49] Data Parsing Start
+[2022-12-14 17:45:49] Data Insert Stop - Total Count : 6
+[2022-12-14 17:45:49] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:45:49] Data Parsing Start
+[2022-12-14 17:45:49] Data Insert Stop - Total Count : 3
+[2022-12-14 17:47:25] Log data collect end.
+[2022-12-14 17:49:16] 배치 Thread 실행
+[2022-12-14 17:49:16] Collector Demon이 시작되었습니다...
+[2022-12-14 17:49:16] [ collect_query ] select login_id, name, login_pawd, dprtid, user_disp, e_mail, now(), '1001', status FROM vw_if_user
+[2022-12-14 17:49:16] Data Parsing Start
+[2022-12-14 17:49:16] Data Insert Stop - Total Count : 3
+[2022-12-14 17:49:16] [ collect_query ] SELECT dprtid, pid, name, 'level', sort , '1', now(), '1001' FROM vw_if_dprt
+[2022-12-14 17:49:16] Data Parsing Start
+[2022-12-14 17:49:16] Data Insert Stop - Total Count : 6
+[2022-12-14 17:49:16] [ collect_query ] select login_id as user_ip, 'mac', login_id, e_mail, frst_inst, now() FROM vw_if_user
+[2022-12-14 17:49:16] Data Parsing Start
+[2022-12-14 17:49:16] Data Insert Stop - Total Count : 3
+[2022-12-14 17:49:19] Log data collect end.

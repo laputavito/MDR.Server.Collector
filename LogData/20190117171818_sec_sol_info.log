@@ -1,0 +1,7 @@
+$$Log_Begin$$
+sol_id$$sol_desc$$rgdt_date$$updt_date$$sol_table$$use_indc
+DLP$$DLP$$2017-09-06 16:01:38.15552$$2017-09-06 16:01:38.15552$$dlp_vcontentsoutflowlog,dlp_vuserinfoassetdevice,dlp_vwindowsapplicationlog$$t
+DRM$$DRM$$2017-09-06 16:04:02.309592$$2017-09-06 16:04:02.309592$$pdrm_dslog_info,pdrm_vsdlog_info$$t
+PI$$개인정보보유검출$$2018-01-15 00:00:00$$2018-01-15 00:00:00$$pi_incidentsdiscover$$t
+STG$$접근제어$$2018-02-02 16:36:03.957144$$2018-02-02 16:36:03.957144$$stg_tnt20,stg_nad_user30$$t
+$$Log_End$$

@@ -1,0 +1,36 @@
+[2021-07-06 12:48:37] 배치 Thread 실행
+[2021-07-06 12:48:37] Collector Demon이 시작되었습니다...
+[2021-07-06 12:48:38] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-06 12:48:38] Data Parsing Start
+[2021-07-06 12:48:38] Data Insert Stop - Total Count : 3
+[2021-07-06 12:48:38] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-06 12:48:38] Data Parsing Start
+[2021-07-06 12:48:38] Data Insert Stop - Total Count : 6
+[2021-07-06 12:48:38] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-06 12:48:38] Data Parsing Start
+[2021-07-06 12:48:38] Data Insert Stop - Total Count : 3
+[2021-07-06 12:48:41] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-06 12:48:41] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-06 12:48:41] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-06 12:48:44] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-06 12:48:44] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-06 12:48:44] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-06 12:48:47] Log data collect end.
+[2021-07-06 13:55:55] 배치 Thread 실행
+[2021-07-06 13:55:55] Collector Demon이 시작되었습니다...
+[2021-07-06 13:55:56] [ collect_query ] select LOGIN_ID, NAME, LOGIN_PW, ORG_ID, ORG_NAME, EMAIL, now(), '1001', '1' FROM v_tgate_user
+[2021-07-06 13:55:56] Data Parsing Start
+[2021-07-06 13:55:56] Data Insert Stop - Total Count : 3
+[2021-07-06 13:55:56] [ collect_query ] SELECT ORG_ID, ORG_PID, ORG_NAME, ORG_FULLNM, DISP_ORDR, '1', now(), '1001' FROM v_tgate_dept
+[2021-07-06 13:55:56] Data Parsing Start
+[2021-07-06 13:55:56] Data Insert Stop - Total Count : 6
+[2021-07-06 13:55:56] [ collect_query ] SELECT IP_ADDRESS, MAC_ADDRESS, LOGIN_ID, (select EMAIL FROM v_tgate_user as t_user where t_user.login_id = t_device.login_id) as EMAIL, cast(LAST_LOGIN_DT as datetime), now() FROM v_tgate_device as t_device
+[2021-07-06 13:55:56] Data Parsing Start
+[2021-07-06 13:55:56] Data Insert Stop - Total Count : 3
+[2021-07-06 13:55:59] [ condition query ] lastupdatetime > $$condition_value$$ [ condition value ] '2021-06-13 14:22:06'
+[2021-07-06 13:55:59] [ collect_query ] select ipaddr,macaddr,empno,yearmonth,week,lastupdatetime,synctime,grade,totalcnt,safecnt,vulncnt,failcnt,reserved01,reserved02,reserved03,reserved04,reserved05,reserved06,reserved07,reserved08,reserved09,reserved10,i000001,i000002,i000003,i000004,i000005,i000006,i000007,i000008,i000009,i000010,i000011,i000012,i000013,i000014,i000015,i000016,i000017,i000018,i000019,i000020,i000021,i000022,i000023,i000024,i000025,i000026,i000027,i000028,i000029,i000030,i000031,i000032,i000033,i000034,i000035,i000036,i000037,i000038,i000039,i000040,i000041,i000042,i000043,i000044,i000045,i000046,i000047,i000048,i000049,i000050,i000051 from avwmypccustom WHERE lastupdatetime > '2021-06-13 14:22:06' ORDER BY lastupdatetime
+[2021-07-06 13:55:59] [ avwmypccustom ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-06 13:56:02] [ condition query ] clienttime > $$condition_value$$ [ condition value ] '2021-06-13 18:04:26'
+[2021-07-06 13:56:02] [ collect_query ] select logid,nodeserial,nodeguid,name,path,status,scantype,owner,access,infector,clienttime,clientipaddr,clientcomputername,clientloginid,clientusername,clientdepartment,servertime,synctime,empno from v3_avwv3virusalertlog WHERE clienttime > '2021-06-13 18:04:26' ORDER BY clienttime
+[2021-07-06 13:56:02] [ v3_avwv3virusalertlog ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2021-07-06 13:56:05] Log data collect end.

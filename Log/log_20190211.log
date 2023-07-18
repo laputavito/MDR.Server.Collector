@@ -1,0 +1,43 @@
+[2019-02-11 18:32:29] 배치 Thread 실행
+[2019-02-11 18:32:29] Collector Demon이 시작되었습니다...
+[2019-02-11 18:32:30] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-22 19:29:28.947'
+[2019-02-11 18:32:30] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-01-22 19:29:28.947' ORDER BY log_time
+[2019-02-11 18:32:30] [ vsdlog_info ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-11 18:32:30] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-22 19:01:16.01'
+[2019-02-11 18:32:30] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-01-22 19:01:16.01' ORDER BY log_time
+[2019-02-11 18:32:30] [ dslog_info ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-11 18:33:21] 배치 Thread 실행
+[2019-02-11 18:33:21] Collector Demon이 시작되었습니다...
+[2019-02-11 18:33:22] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-22 19:29:28.947'
+[2019-02-11 18:33:22] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-01-22 19:29:28.947' ORDER BY log_time
+[2019-02-11 18:33:22] [ vsdlog_info ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-11 18:33:22] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-22 19:01:16.01'
+[2019-02-11 18:33:22] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-01-22 19:01:16.01' ORDER BY log_time
+[2019-02-11 18:33:22] Data Parsing Start
+[2019-02-11 18:33:22] org.postgresql.util.PSQLException: ERROR: column "mdr_empno" of relation "pdrm_dslog_info" does not exist
+[2019-02-11 18:33:22] Data Insert Stop - Total Count : 1000
+[2019-02-11 18:33:59] 배치 Thread 실행
+[2019-02-11 18:33:59] Collector Demon이 시작되었습니다...
+[2019-02-11 18:34:00] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-22 19:29:28.947'
+[2019-02-11 18:34:00] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-01-22 19:29:28.947' ORDER BY log_time
+[2019-02-11 18:34:00] [ vsdlog_info ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-11 18:34:00] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-22 19:01:16.01'
+[2019-02-11 18:34:00] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-01-22 19:01:16.01' ORDER BY log_time
+[2019-02-11 18:34:00] Data Parsing Start
+[2019-02-11 18:34:01] org.postgresql.util.PSQLException: ERROR: column "slmd_empno" of relation "pdrm_dslog_info" does not exist
+[2019-02-11 18:34:01] Data Insert Stop - Total Count : 1000
+[2019-02-11 18:34:26] 배치 Thread 실행
+[2019-02-11 18:34:26] Collector Demon이 시작되었습니다...
+[2019-02-11 18:34:27] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-22 19:29:28.947'
+[2019-02-11 18:34:27] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,group_name,duty_name,targetuser_id,targetuser_name,targetgroup_name,targetduty_name,guid,readedit_auth,print_auth,printmark_auth,workvalid_time,tele_num,e_mail,company,work_name,target_path,work_guid,checkout_reason,sourcefile_name,destinationfile_name,group_path,document_size,other_matters1,other_matters2,other_matters3,printmark_time,server_name,server_ipaddress,checkout_action,client_ipaddress,offline_log,server_id,image_guid,image_admin,targetserver_id,targetimage_guid,pc_id,securitydrive_type,createdevice_type,log_data from vsdlog_info WHERE log_time > '2019-01-22 19:29:28.947' ORDER BY log_time
+[2019-02-11 18:34:27] [ vsdlog_info ] Log 수집 데이터 없음..... 파일생성 및 전송 미처리...
+[2019-02-11 18:34:27] [ condition query ] log_time > $$condition_value$$ [ condition value ] '2019-01-22 19:01:16.01'
+[2019-02-11 18:34:27] [ collect_query ] select log_time,log_idx,logtype_id,user_id,user_name,user_group,user_duty,pc_id,pc_ip,pc_mac,file_name,print_mark,printtextfile_name,printimagefile_name,reason,receiver_mail,somfile_pw,before_auth,after_auth,sourcefile_name,createuser_id,create_time,docviewer_list,doc_auth,process_name,group_path,category_name,work_name,doc_type,doc_grade,other_matters,print_count,offline_log,intranet_log,linksystem_name,usergroup_path,userserver_id,usercompany_name,docserver_id,doccompany_name,doc_uid from dslog_info WHERE log_time > '2019-01-22 19:01:16.01' ORDER BY log_time
+[2019-02-11 18:34:27] Data Parsing Start
+[2019-02-11 18:34:28] Data Insert Stop - Total Count : 1000
+[2019-02-11 18:59:16] 배치 Thread 실행
+[2019-02-11 18:59:16] Collector Demon이 시작되었습니다...
+[2019-02-11 18:59:17] [ condition query ] inspectendtime > $$condition_value$$ [ condition value ] '2019-02-10'
+[2019-02-11 18:59:17] [ collect_query ] select userid,username,filename,durationdays,filepath,inspectendtime,encryptfiletype,agentip,computername,resident_no,foregin_no,account_no,credit_no,phone_no,mobile_no from incidentsdiscover WHERE inspectendtime > '2019-02-10' ORDER BY inspectendtime
+[2019-02-11 18:59:17] Data Parsing Start
+[2019-02-11 18:59:17] Data Insert Stop - Total Count : 1000
